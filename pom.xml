@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.io7m.primogenitor</groupId>
+    <artifactId>com.io7m.primogenitor.full</artifactId>
+    <version>9.0.0-beta0003</version>
+  </parent>
+
+  <groupId>org.thepalaceproject.opds2</groupId>
+  <artifactId>org.thepalaceproject.opds2</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+  <name>org.thepalaceproject.opds2</name>
+  <description>OPDS 2.0 Parser</description>
+  <url>https://www.io7m.com/software/opds2</url>
+
+  <modules>
+    <module>org.thepalaceproject.opds2.core</module>
+    <module>org.thepalaceproject.opds2.tests</module>
+  </modules>
+
+  <properties>
+    <!-- Configuration. -->
+    <io7m.api.previousVersion>1.0.0-SNAPSHOT</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
+    <checkstyle.skip>true</checkstyle.skip>
+    <mdep.analyze.skip>true</mdep.analyze.skip>
+
+    <!-- Dependencies. -->
+    <com.fasterxml.jackson.version>2.19.2</com.fasterxml.jackson.version>
+    <jqwik.version>1.9.3</jqwik.version>
+    <kotlin.version>2.2.0</kotlin.version>
+    <one.irradia.mime.version>1.1.1</one.irradia.mime.version>
+    <org.junit.version>5.13.4</org.junit.version>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>ISC</name>
+      <url>https://www.io7m.com/license/isc.txt</url>
+    </license>
+  </licenses>
+
+  <inceptionYear>2025</inceptionYear>
+
+  <scm>
+    <url>https://www.github.com/io7m/opds2</url>
+    <connection>scm:git:https://www.github.com/io7m/opds2</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m/opds2</developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>io7m</id>
+      <name>io7m</name>
+      <email>code@io7m.com</email>
+      <url>https://www.io7m.com</url>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <url>https://www.github.com/io7m/opds2/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+
+  <distributionManagement>
+    <site>
+      <id>io7m.com</id>
+      <name>io7m.com</name>
+      <url>https://www.io7m.com/software/opds2</url>
+    </site>
+    <snapshotRepository>
+      <id>central</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://www.github.com/io7m/opds2/actions</url>
+  </ciManagement>
+
+  <prerequisites>
+    <maven>3.0.4</maven>
+  </prerequisites>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.osgi</groupId>
+        <artifactId>org.osgi.annotation.bundle</artifactId>
+        <version>2.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.osgi</groupId>
+        <artifactId>org.osgi.annotation.versioning</artifactId>
+        <version>1.1.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-stdlib</artifactId>
+        <version>${kotlin.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>${com.fasterxml.jackson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${com.fasterxml.jackson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.module</groupId>
+        <artifactId>jackson-module-kotlin</artifactId>
+        <version>${com.fasterxml.jackson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>one.irradia.mime</groupId>
+        <artifactId>one.irradia.mime.api</artifactId>
+        <version>${one.irradia.mime.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>one.irradia.mime</groupId>
+        <artifactId>one.irradia.mime.vanilla</artifactId>
+        <version>${one.irradia.mime.version}</version>
+      </dependency>
+
+      <!-- Logging -->
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>2.0.17</version>
+      </dependency>
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.5.18</version>
+      </dependency>
+
+      <!-- Test suite -->
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${org.junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>net.jqwik</groupId>
+        <artifactId>jqwik-engine</artifactId>
+        <version>${jqwik.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.jqwik</groupId>
+        <artifactId>jqwik-api</artifactId>
+        <version>${jqwik.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>kotlin-maven-plugin</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+          <version>${kotlin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+      <!-- Generate a site -->
+      <plugin>
+        <groupId>com.io7m.minisite</groupId>
+        <artifactId>com.io7m.minisite.maven_plugin</artifactId>
+        <inherited>false</inherited>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

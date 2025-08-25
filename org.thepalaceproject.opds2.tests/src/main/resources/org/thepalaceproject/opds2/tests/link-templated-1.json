@@ -1,0 +1,5 @@
+{
+  "href": "http://www.example.com/{x}",
+  "templated": true,
+  "type": "text/plain"
+}
