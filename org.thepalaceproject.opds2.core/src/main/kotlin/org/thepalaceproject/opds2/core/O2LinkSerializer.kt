@@ -3,6 +3,7 @@ package org.thepalaceproject.opds2.core
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
+import one.irradia.mime.api.MIMEType
 
 class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
   override fun serialize(
@@ -22,19 +23,7 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
           generator.writeString(text)
         }
         value.type?.let { type ->
-          val text = StringBuilder()
-          text.append(type.toString())
-          if (type.parameters.isNotEmpty()) {
-            text.append(';')
-            for ((k, v) in type.parameters) {
-              text.append(k)
-              text.append('=')
-              text.append(v)
-              text.append(';')
-            }
-          }
-          generator.writeFieldName("type")
-          generator.writeString(text.toString())
+          this.writeType(type, generator)
         }
         value.relation?.let { text ->
           generator.writeFieldName("rel")
@@ -61,19 +50,7 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
           generator.writeString(text)
         }
         value.type?.let { type ->
-          val text = StringBuilder()
-          text.append(type.toString())
-          if (type.parameters.isNotEmpty()) {
-            text.append(';')
-            for ((k, v) in type.parameters) {
-              text.append(k)
-              text.append('=')
-              text.append(v)
-              text.append(';')
-            }
-          }
-          generator.writeFieldName("type")
-          generator.writeString(text.toString())
+          this.writeType(type, generator)
         }
         value.relation?.let { text ->
           generator.writeFieldName("rel")
@@ -87,5 +64,24 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
         generator.writeEndObject()
       }
     }
+  }
+
+  private fun writeType(
+    type : MIMEType,
+    generator : JsonGenerator
+  ) {
+    val text = StringBuilder()
+    text.append(type.toString())
+    if (type.parameters.isNotEmpty()) {
+      text.append(';')
+      for ((k, v) in type.parameters) {
+        text.append(k)
+        text.append('=')
+        text.append(v)
+        text.append(';')
+      }
+    }
+    generator.writeFieldName("type")
+    generator.writeString(text.toString())
   }
 }
