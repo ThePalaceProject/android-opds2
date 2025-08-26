@@ -2,15 +2,15 @@ package org.thepalaceproject.opds2.core
 
 import com.fasterxml.jackson.annotation.JsonProperty
 
-data class O2Availability(
+data class O2IndirectAcquisitionTree(
   @JsonProperty(
-    value = "state",
+    value = "type",
     required = true
   )
-  val state : String,
+  val type : String,
 
   @JsonProperty(
-    value = "indirectAcquisition"
+    value = "child"
   )
-  val indirectAcquisitionTree : O2IndirectAcquisitionTree? = null
+  val children: List<O2IndirectAcquisitionTree> = listOf()
 ) : O2Element()
