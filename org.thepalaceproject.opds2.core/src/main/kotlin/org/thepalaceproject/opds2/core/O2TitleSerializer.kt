@@ -10,6 +10,6 @@ class O2TitleSerializer : StdSerializer<O2Title>(O2Title::class.java) {
     generator : JsonGenerator,
     serializers : SerializerProvider
   ) {
-    TODO("Not yet implemented")
+    generator.writeString(value.title)
   }
 }

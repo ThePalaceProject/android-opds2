@@ -35,6 +35,8 @@ class O2FeedTest {
     assertEquals(0, feed.catalogs.size)
     assertEquals(14, feed.links.size)
     assertEquals(217, feed.publications.size)
+
+    this.roundTrip(feed)
   }
 
   @Test
@@ -48,11 +50,43 @@ class O2FeedTest {
     assertEquals(708, feed.catalogs.size)
     assertEquals(4, feed.links.size)
     assertEquals(0, feed.publications.size)
+
+    this.roundTrip(feed)
+  }
+
+  private fun roundTrip(
+    feed : O2Feed
+  ) {
+    val serializedText =
+      this.mapper.writerWithDefaultPrettyPrinter()
+        .writeValueAsString(feed)
+    val rereadObject =
+      this.mapper.readValue(
+        serializedText,
+        O2Feed::class.java
+      )
+
+    for ((c0, c1) in feed.catalogs.zip(rereadObject.catalogs)) {
+      assertEquals(c0.metadata, c1.metadata)
+      for ((l0, l1) in c0.links.zip(c1.links)) {
+        assertEquals(l0, l1)
+      }
+      assertEquals(c0.links, c1.links)
+      assertEquals(c0.images, c1.images)
+      assertEquals(c0, c1)
+    }
+
+    assertEquals(feed.catalogs, rereadObject.catalogs)
+    assertEquals(feed.publications, rereadObject.publications)
+    assertEquals(feed.links, rereadObject.links)
+    assertEquals(feed.metadata, rereadObject.metadata)
+    assertEquals(feed.navigation, rereadObject.navigation)
+    assertEquals(feed, rereadObject)
   }
 
   private fun resource(
     name : String
-  ): InputStream {
+  ) : InputStream {
     val path =
       "/org/thepalaceproject/opds2/tests/$name"
     val stream =

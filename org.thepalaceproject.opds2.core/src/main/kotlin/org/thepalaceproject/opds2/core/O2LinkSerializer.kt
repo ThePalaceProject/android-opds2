@@ -10,6 +10,82 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
     generator : JsonGenerator,
     serializers : SerializerProvider
   ) {
-    TODO("Not yet implemented")
+    when (value) {
+      is O2LinkBasic     -> {
+        generator.writeStartObject()
+
+        generator.writeFieldName("href")
+        generator.writeString(value.href.toString())
+
+        value.title?.let { text ->
+          generator.writeFieldName("title")
+          generator.writeString(text)
+        }
+        value.type?.let { type ->
+          val text = StringBuilder()
+          text.append(type.toString())
+          if (type.parameters.isNotEmpty()) {
+            text.append(';')
+            for ((k, v) in type.parameters) {
+              text.append(k)
+              text.append('=')
+              text.append(v)
+              text.append(';')
+            }
+          }
+          generator.writeFieldName("type")
+          generator.writeString(text.toString())
+        }
+        value.relation?.let { text ->
+          generator.writeFieldName("rel")
+          generator.writeString(text)
+        }
+        value.properties?.let { properties ->
+          generator.writeFieldName("properties")
+          generator.writeObject(properties)
+        }
+
+        generator.writeEndObject()
+      }
+      is O2LinkTemplated -> {
+        generator.writeStartObject()
+
+        generator.writeFieldName("href")
+        generator.writeString(value.href)
+
+        generator.writeFieldName("templated")
+        generator.writeBoolean(true)
+
+        value.title?.let { text ->
+          generator.writeFieldName("title")
+          generator.writeString(text)
+        }
+        value.type?.let { type ->
+          val text = StringBuilder()
+          text.append(type.toString())
+          if (type.parameters.isNotEmpty()) {
+            text.append(';')
+            for ((k, v) in type.parameters) {
+              text.append(k)
+              text.append('=')
+              text.append(v)
+              text.append(';')
+            }
+          }
+          generator.writeFieldName("type")
+          generator.writeString(text.toString())
+        }
+        value.relation?.let { text ->
+          generator.writeFieldName("rel")
+          generator.writeString(text)
+        }
+        value.properties?.let { properties ->
+          generator.writeFieldName("properties")
+          generator.writeObject(properties)
+        }
+
+        generator.writeEndObject()
+      }
+    }
   }
 }
