@@ -27,9 +27,10 @@
 
   <properties>
     <!-- Configuration. -->
-    <io7m.api.previousVersion>1.0.0-SNAPSHOT</io7m.api.previousVersion>
-    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
     <checkstyle.skip>true</checkstyle.skip>
+    <io7m.api.previousVersion>1.0.0-SNAPSHOT</io7m.api.previousVersion>
+    <io7m.java.requiredSDKBuildVersion>[17,25)</io7m.java.requiredSDKBuildVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
     <mdep.analyze.skip>true</mdep.analyze.skip>
 
     <!-- Dependencies. -->
