@@ -1,18 +1,17 @@
 package org.thepalaceproject.opds2.core
 
-import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 
 /**
- * An OPDS 2.0 publication section.
+ * The OPDS 2.0 catalog section.
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class O2Publication @JsonCreator constructor(
+data class O2Catalog(
 
   /**
-   * The metadata.
+   * The catalog metadata.
    */
 
   @JsonProperty(
@@ -22,7 +21,7 @@ data class O2Publication @JsonCreator constructor(
   val metadata : O2Metadata,
 
   /**
-   * The set of links.
+   * The set of catalog links.
    */
 
   @JsonProperty(

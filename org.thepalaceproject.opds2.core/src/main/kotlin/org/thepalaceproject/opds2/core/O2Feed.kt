@@ -39,11 +39,20 @@ data class O2Feed @JsonCreator constructor(
   val links : List<O2Link> = listOf(),
 
   /**
-   * The feed links
+   * The feed publications
    */
 
   @JsonProperty(
     value = "publications"
   )
-  val publications : List<O2Publication> = listOf()
+  val publications : List<O2Publication> = listOf(),
+
+  /**
+   * The feed catalogs
+   */
+
+  @JsonProperty(
+    value = "catalogs"
+  )
+  val catalogs : List<O2Catalog> = listOf()
 ) : O2Element()

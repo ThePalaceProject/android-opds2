@@ -7,6 +7,8 @@ import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
 import one.irradia.mime.api.MIMEType
 import java.net.URI
+import java.net.URISyntaxException
+
 
 class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
 
@@ -36,11 +38,48 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
         relation = raw.relation
       )
     } else {
-      O2LinkBasic(
-        href = URI.create(raw.href),
-        type = raw.type,
-        relation = raw.relation
-      )
+      val input = raw.href
+
+      try {
+        return O2LinkBasic(
+          href = URI(raw.href),
+          type = raw.type,
+          relation = raw.relation
+        )
+      } catch (_ : URISyntaxException) {
+        val colon : Int =
+          input.indexOf(':')
+        if (colon <= 0) {
+          throw URISyntaxException(input, "Missing scheme")
+        }
+
+        val scheme =
+          input.take(colon)
+        val sspAndFrag =
+          input.substring(colon + 1)
+        val hash =
+          sspAndFrag.indexOf('#')
+
+        val schemeSpecific =
+          if (hash >= 0) {
+            sspAndFrag.take(hash)
+          } else {
+            sspAndFrag
+          }
+
+        val frag =
+          if (hash >= 0) {
+            sspAndFrag.substring(hash + 1)
+          } else {
+            null
+          }
+
+        return O2LinkBasic(
+          href = URI(scheme, schemeSpecific, frag),
+          type = raw.type,
+          relation = raw.relation
+        )
+      }
     }
   }
 }
