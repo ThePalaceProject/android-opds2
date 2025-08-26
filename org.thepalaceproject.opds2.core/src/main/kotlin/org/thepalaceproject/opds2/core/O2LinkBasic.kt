@@ -11,5 +11,6 @@ data class O2LinkBasic(
   val href : URI,
 
   override val type : MIMEType? = null,
-  override val relations : List<String> = listOf()
+  override val relation : String? = null,
+  override val title : String? = null
 ) : O2Link()

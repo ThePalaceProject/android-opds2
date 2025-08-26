@@ -36,6 +36,11 @@
     </dependency>
 
     <dependency>
+      <groupId>com.io7m.dixmont</groupId>
+      <artifactId>com.io7m.dixmont.core</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
     </dependency>

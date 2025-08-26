@@ -5,5 +5,6 @@ import one.irradia.mime.api.MIMEType
 data class O2LinkTemplated(
   val href : String,
   override val type : MIMEType? = null,
-  override val relations : List<String> = listOf()
+  override val relation : String? = null,
+  override val title : String? = null
 ) : O2Link()

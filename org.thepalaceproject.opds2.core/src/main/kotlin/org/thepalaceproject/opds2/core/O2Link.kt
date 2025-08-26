@@ -11,8 +11,14 @@ sealed class O2Link : O2Element() {
   abstract val type : MIMEType?
 
   /**
-   * The declared link relations, if any.
+   * The declared link relation, if any.
    */
 
-  abstract val relations : List<String>
+  abstract val relation : String?
+
+  /**
+   * The declared link title, if any.
+   */
+
+  abstract val title : String?
 }
