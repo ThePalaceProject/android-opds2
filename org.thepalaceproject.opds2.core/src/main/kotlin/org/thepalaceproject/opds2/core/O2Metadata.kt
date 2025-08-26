@@ -9,6 +9,15 @@ import java.time.OffsetDateTime
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class O2Metadata @JsonCreator constructor(
   /**
+   * The type of the publication.
+   */
+
+  @JsonProperty(
+    value = "@type"
+  )
+  val type : String? = null,
+
+  /**
    * The unique identifier for the publication.
    */
 
@@ -25,6 +34,24 @@ data class O2Metadata @JsonCreator constructor(
     value = "title"
   )
   val title : O2Title,
+
+  /**
+   * The description of the publication.
+   */
+
+  @JsonProperty(
+    value = "description"
+  )
+  val description : String = "",
+
+  /**
+   * The duration of the publication.
+   */
+
+  @JsonProperty(
+    value = "duration"
+  )
+  val duration : Double = 0.0,
 
   /**
    * The subtitle of the publication.
@@ -60,7 +87,34 @@ data class O2Metadata @JsonCreator constructor(
   @JsonProperty(
     value = "languages"
   )
-  val languagesNullable : List<String> = listOf(),
+  val languages : List<String> = listOf(),
+
+  /**
+   * The subjects that apply to the publication.
+   */
+
+  @JsonProperty(
+    value = "subjects"
+  )
+  val subjects : List<O2Subject> = listOf(),
+
+  /**
+   * The author of the publication.
+   */
+
+  @JsonProperty(
+    value = "author"
+  )
+  val author : O2Author? = null,
+
+  /**
+   * The narrator of the publication.
+   */
+
+  @JsonProperty(
+    value = "narrator"
+  )
+  val narrator : O2Narrator? = null,
 
   /**
    * The text value used to sort the publication.

@@ -12,5 +12,6 @@ data class O2LinkBasic(
 
   override val type : MIMEType? = null,
   override val relation : String? = null,
-  override val title : String? = null
+  override val title : String? = null,
+  override val properties: O2LinkProperties?
 ) : O2Link()

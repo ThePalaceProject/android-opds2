@@ -21,4 +21,10 @@ sealed class O2Link : O2Element() {
    */
 
   abstract val title : String?
+
+  /**
+   * The declared link properties, if any
+   */
+
+  abstract val properties: O2LinkProperties?
 }

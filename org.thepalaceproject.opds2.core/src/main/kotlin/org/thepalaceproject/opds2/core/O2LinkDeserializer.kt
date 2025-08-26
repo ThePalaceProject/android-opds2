@@ -23,7 +23,9 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
     @JsonProperty(value = "rel")
     val relation : String = "",
     @JsonProperty(value = "title")
-    val title : String = ""
+    val title : String = "",
+    @JsonProperty(value = "properties")
+    val properties: O2LinkProperties?
   )
 
   override fun deserialize(
@@ -35,7 +37,8 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
       O2LinkTemplated(
         href = raw.href,
         type = raw.type,
-        relation = raw.relation
+        relation = raw.relation,
+        properties = raw.properties
       )
     } else {
       val input = raw.href
@@ -44,7 +47,8 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
         return O2LinkBasic(
           href = URI(raw.href),
           type = raw.type,
-          relation = raw.relation
+          relation = raw.relation,
+          properties = raw.properties
         )
       } catch (_ : URISyntaxException) {
         val colon : Int =
@@ -77,7 +81,8 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
         return O2LinkBasic(
           href = URI(scheme, schemeSpecific, frag),
           type = raw.type,
-          relation = raw.relation
+          relation = raw.relation,
+          properties = raw.properties
         )
       }
     }
