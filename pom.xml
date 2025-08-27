@@ -11,18 +11,18 @@
     <version>9.0.0-beta0003</version>
   </parent>
 
-  <groupId>org.thepalaceproject.opds2</groupId>
-  <artifactId>org.thepalaceproject.opds2</artifactId>
+  <groupId>org.thepalaceproject.webpub</groupId>
+  <artifactId>org.thepalaceproject.webpub</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
-  <name>org.thepalaceproject.opds2</name>
+  <name>org.thepalaceproject.webpub</name>
   <description>OPDS 2.0 Parser</description>
-  <url>https://www.io7m.com/software/opds2</url>
+  <url>https://www.github.com/ThePalaceProject/android-webpub</url>
 
   <modules>
-    <module>org.thepalaceproject.opds2.core</module>
-    <module>org.thepalaceproject.opds2.tests</module>
+    <module>org.thepalaceproject.webpub.core</module>
+    <module>org.thepalaceproject.webpub.tests</module>
   </modules>
 
   <properties>
@@ -52,9 +52,9 @@
   <inceptionYear>2025</inceptionYear>
 
   <scm>
-    <url>https://www.github.com/ThePalaceProject/android-opds2</url>
-    <connection>scm:git:https://www.github.com/ThePalaceProject/android-opds2</connection>
-    <developerConnection>scm:git:https://www.github.com/ThePalaceProject/android-opds2</developerConnection>
+    <url>https://www.github.com/ThePalaceProject/android-webpub</url>
+    <connection>scm:git:https://www.github.com/ThePalaceProject/android-webpub</connection>
+    <developerConnection>scm:git:https://www.github.com/ThePalaceProject/android-webpub</developerConnection>
   </scm>
 
   <developers>
@@ -80,7 +80,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://www.github.com/ThePalaceProject/android-opds2/actions</url>
+    <url>https://www.github.com/ThePalaceProject/android-webpub/actions</url>
   </ciManagement>
 
   <prerequisites>
