@@ -40,6 +40,33 @@ data class WPMPublication @JsonCreator constructor(
   val links : List<WPMLink> = listOf(),
 
   /**
+   * The reading order.
+   */
+
+  @JsonProperty(
+    value = "readingOrder"
+  )
+  val readingOrder : List<WPMLink> = listOf(),
+
+  /**
+   * The resources.
+   */
+
+  @JsonProperty(
+    value = "resources"
+  )
+  val resources : List<WPMLink> = listOf(),
+
+  /**
+   * The table of contents.
+   */
+
+  @JsonProperty(
+    value = "toc"
+  )
+  val toc : List<WPMLink> = listOf(),
+
+  /**
    * The set of image links.
    */
 
