@@ -68,6 +68,15 @@ data class WPMMetadata @JsonCreator constructor(
   val altIdentifier : URI?,
 
   /**
+   * The accessibility metadata.
+   */
+
+  @JsonProperty(
+    value = "accessibility"
+  )
+  val accessibility : WPMAccessibility?,
+
+  /**
    * The time the publication was last modified.
    */
 
