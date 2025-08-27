@@ -20,7 +20,7 @@ class O2OffsetDateTimeDeserializer :
 
       else                   -> {
         context.handleUnexpectedToken(
-          O2Title::class.java,
+          OffsetDateTime::class.java,
           currentToken,
           parser,
           "Expected a string."

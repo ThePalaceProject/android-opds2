@@ -21,24 +21,56 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
     @JsonProperty(value = "templated")
     val templated : Boolean = false,
     @JsonProperty(value = "rel")
-    val relation : String = "",
+    val relation : List<String> = listOf(),
     @JsonProperty(value = "title")
     val title : String = "",
     @JsonProperty(value = "properties")
-    val properties: O2LinkProperties?
+    val properties : O2LinkProperties?,
+    @JsonProperty(value = "height")
+    val height : Int? = null,
+    @JsonProperty(value = "width")
+    val width : Int? = null,
+    @JsonProperty(value = "size")
+    val size : Int? = null,
+    @JsonProperty(value = "bitrate")
+    val bitrate : Number? = null,
+    @JsonProperty(value = "duration")
+    val duration : Number? = null,
+    @JsonProperty(value = "alternate")
+    val alternate : List<O2LinkRaw> = listOf(),
+    @JsonProperty(value = "children")
+    val children : List<O2LinkRaw> = listOf(),
   )
 
   override fun deserialize(
     parser : JsonParser,
     context : DeserializationContext
   ) : O2Link {
-    val raw = context.readValue(parser, O2LinkRaw::class.java)
+    return this.transformRawLink(
+      context.readValue<O2LinkRaw>(
+        parser,
+        O2LinkRaw::class.java
+      )
+    )
+  }
+
+  private fun transformRawLink(
+    raw : O2LinkRaw
+  ) : O2Link {
     return if (raw.templated) {
       O2LinkTemplated(
         href = raw.href,
         type = raw.type,
         relation = raw.relation,
-        properties = raw.properties
+        properties = raw.properties,
+        title = raw.title,
+        height = raw.height,
+        width = raw.width,
+        size = raw.size,
+        bitrate = raw.bitrate,
+        duration = raw.duration,
+        alternate = raw.alternate.map(this::transformRawLink),
+        children = raw.children.map(this::transformRawLink),
       )
     } else {
       val input = raw.href
@@ -48,7 +80,15 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
           href = URI(raw.href),
           type = raw.type,
           relation = raw.relation,
-          properties = raw.properties
+          properties = raw.properties,
+          title = raw.title,
+          height = raw.height,
+          width = raw.width,
+          size = raw.size,
+          bitrate = raw.bitrate,
+          duration = raw.duration,
+          alternate = raw.alternate.map(this::transformRawLink),
+          children = raw.children.map(this::transformRawLink),
         )
       } catch (_ : URISyntaxException) {
         val colon : Int =
@@ -82,7 +122,15 @@ class O2LinkDeserializer : StdDeserializer<O2Link>(O2Link::class.java) {
           href = URI(scheme, schemeSpecific, frag),
           type = raw.type,
           relation = raw.relation,
-          properties = raw.properties
+          properties = raw.properties,
+          title = raw.title,
+          height = raw.height,
+          width = raw.width,
+          size = raw.size,
+          bitrate = raw.bitrate,
+          duration = raw.duration,
+          alternate = raw.alternate.map(this::transformRawLink),
+          children = raw.children.map(this::transformRawLink),
         )
       }
     }

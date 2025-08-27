@@ -5,20 +5,35 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import java.net.URI
 
 /**
- * @see "https://github.com/readium/webpub-manifest/blob/master/schema/link.schema.json"
  * @see "https://github.com/readium/webpub-manifest/blob/master/schema/extensions/encryption/properties.schema.json"
- * @see "https://github.com/readium/webpub-manifest/blob/master/schema/extensions/epub/properties.schema.json"
  */
 
+@O2Extension
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class O2LinkProperties(
+data class O2Encrypted(
   @JsonProperty(
-    value = "availability"
+    value = "algorithm",
+    required = true
   )
-  val availability : O2Availability?,
+  val algorithm : URI,
 
   @JsonProperty(
-    value = "encrypted"
+    value = "compression"
   )
-  val encrypted : O2Encrypted?
+  val compression : String?,
+
+  @JsonProperty(
+    value = "originalLength"
+  )
+  val originalLength : Int?,
+
+  @JsonProperty(
+    value = "profile"
+  )
+  val profile : URI?,
+
+  @JsonProperty(
+    value = "scheme"
+  )
+  val scheme : URI?
 ) : O2Element()

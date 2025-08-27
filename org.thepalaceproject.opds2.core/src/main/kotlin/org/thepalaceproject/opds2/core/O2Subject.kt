@@ -1,8 +1,10 @@
 package org.thepalaceproject.opds2.core
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.net.URI
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 data class O2Subject(
   @JsonProperty(
     value = "scheme"

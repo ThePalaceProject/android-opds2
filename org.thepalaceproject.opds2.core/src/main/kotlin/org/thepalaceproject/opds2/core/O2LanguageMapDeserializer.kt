@@ -5,23 +5,23 @@ import com.fasterxml.jackson.core.JsonToken
 import com.fasterxml.jackson.databind.DeserializationContext
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer
 
-class O2TitleDeserializer : StdDeserializer<O2Title>(O2Title::class.java) {
+class O2LanguageMapDeserializer : StdDeserializer<O2LanguageMap>(O2LanguageMap::class.java) {
   override fun deserialize(
     parser : JsonParser,
     context : DeserializationContext
-  ) : O2Title {
+  ) : O2LanguageMap {
     return when (val currentToken = parser.currentToken()) {
       JsonToken.START_OBJECT -> {
         TODO("Not yet implemented")
       }
 
       JsonToken.VALUE_STRING -> {
-        O2Title(title = parser.text)
+        O2LanguageMap.Scalar(value = parser.text)
       }
 
       else                   -> {
         context.handleUnexpectedToken(
-          O2Title::class.java,
+          O2LanguageMap::class.java,
           currentToken,
           parser,
           "Expected a string or an object."

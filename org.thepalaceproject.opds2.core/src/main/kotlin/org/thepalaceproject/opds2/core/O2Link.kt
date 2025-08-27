@@ -2,6 +2,10 @@ package org.thepalaceproject.opds2.core
 
 import one.irradia.mime.api.MIMEType
 
+/**
+ * @see "https://github.com/readium/webpub-manifest/blob/master/schema/link.schema.json"
+ */
+
 sealed class O2Link : O2Element() {
 
   /**
@@ -14,7 +18,7 @@ sealed class O2Link : O2Element() {
    * The declared link relation, if any.
    */
 
-  abstract val relation : String?
+  abstract val relation : List<String>
 
   /**
    * The declared link title, if any.
@@ -27,4 +31,46 @@ sealed class O2Link : O2Element() {
    */
 
   abstract val properties: O2LinkProperties?
+
+  /**
+   * Height of the linked resource in pixels.
+   */
+
+  abstract val height: Int?
+
+  /**
+   * Width of the linked resource in pixels.
+   */
+
+  abstract val width: Int?
+
+  /**
+   * Original size of the resource in bytes, prior to any use of encryption or compression in an archive.
+   */
+
+  abstract val size: Int?
+
+  /**
+   * Bitrate of the linked resource in kbps.
+   */
+
+  abstract val bitrate: Number?
+
+  /**
+   * Length of the linked resource in seconds.
+   */
+
+  abstract val duration: Number?
+
+  /**
+   * Alternate resources for the linked resource
+   */
+
+  abstract val alternate: List<O2Link>
+
+  /**
+   * Resources that are children of the linked resource, in the context of a given collection role
+   */
+
+  abstract val children: List<O2Link>
 }

@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
  * The OPDS 2.0 catalog section.
  */
 
+@O2Extension
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class O2Catalog(
 

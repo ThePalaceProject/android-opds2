@@ -25,10 +25,15 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
         value.type?.let { type ->
           this.writeType(type, generator)
         }
-        value.relation?.let { text ->
+
+        if (value.relation.size == 1) {
           generator.writeFieldName("rel")
-          generator.writeString(text)
+          generator.writeString(value.relation[0])
+        } else if (value.relation.size > 1) {
+          generator.writeFieldName("rel")
+          generator.writeArray(value.relation.toTypedArray(), 0, value.relation.size)
         }
+
         value.properties?.let { properties ->
           generator.writeFieldName("properties")
           generator.writeObject(properties)
@@ -52,10 +57,15 @@ class O2LinkSerializer : StdSerializer<O2Link>(O2Link::class.java) {
         value.type?.let { type ->
           this.writeType(type, generator)
         }
-        value.relation?.let { text ->
+
+        if (value.relation.size == 1) {
           generator.writeFieldName("rel")
-          generator.writeString(text)
+          generator.writeString(value.relation[0])
+        } else if (value.relation.size > 1) {
+          generator.writeFieldName("rel")
+          generator.writeArray(value.relation.toTypedArray(), 0, value.relation.size)
         }
+
         value.properties?.let { properties ->
           generator.writeFieldName("properties")
           generator.writeObject(properties)

@@ -3,16 +3,19 @@ package org.thepalaceproject.opds2.core
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 
+/**
+ * @see "https://github.com/readium/webpub-manifest/blob/master/schema/metadata.schema.json"
+ */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class O2IndirectAcquisitionTree(
+data class O2BelongsTo(
   @JsonProperty(
-    value = "type",
-    required = true
+    value = "collection"
   )
-  val type : String,
+  val collection : O2Contributor?,
 
   @JsonProperty(
-    value = "child"
+    value = "series"
   )
-  val children: List<O2IndirectAcquisitionTree> = listOf()
-) : O2Element()
+  val series : O2Contributor?,
+)
