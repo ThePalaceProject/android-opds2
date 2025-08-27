@@ -5,11 +5,20 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 
 /**
- * An OPDS 2.0 publication section.
+ * A WebPub publication.
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class WPMPublication @JsonCreator constructor(
+
+  /**
+   * The context.
+   */
+
+  @JsonProperty(
+    value = "@context"
+  )
+  val context : Set<String> = setOf(),
 
   /**
    * The metadata.

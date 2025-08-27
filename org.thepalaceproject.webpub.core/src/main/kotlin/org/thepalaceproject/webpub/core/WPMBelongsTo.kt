@@ -12,10 +12,10 @@ data class WPMBelongsTo(
   @JsonProperty(
     value = "collection"
   )
-  val collection : WPMContributor?,
+  val collection : WPMContributorOrString?,
 
   @JsonProperty(
     value = "series"
   )
-  val series : WPMContributor?,
+  val series : WPMContributorOrString?,
 )

@@ -9,19 +9,33 @@ data class WPMSubject(
   @JsonProperty(
     value = "scheme"
   )
-  val scheme : URI,
+  val scheme : URI?,
 
   @JsonProperty(
-    value = "name"
+    value = "name",
+    required = true
   )
   val name : String,
 
   @JsonProperty(
     value = "sortAs"
   )
-  val sortAs: String
-) : WPMElement(), Comparable<WPMSubject> {
+  val sortAs: String?,
+
+  @JsonProperty(
+    value = "code"
+  )
+  val code: String?,
+
+  @JsonProperty(
+    value = "links"
+  )
+  val links: List<WPMLink> = listOf()
+
+) : WPMSubjectOrString(), Comparable<WPMSubject> {
   override fun compareTo(other : WPMSubject) : Int {
-    return this.sortAs.compareTo(other.sortAs)
+    val s0 = this.sortAs ?: this.name
+    val s1 = other.sortAs ?: other.name
+    return s0.compareTo(s1)
   }
 }

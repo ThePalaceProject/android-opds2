@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.ser.std.StdSerializer
 import one.irradia.mime.api.MIMEType
+import java.math.BigInteger
 
 class WPMLinkSerializer : StdSerializer<WPMLink>(WPMLink::class.java) {
   override fun serialize(
@@ -18,27 +19,7 @@ class WPMLinkSerializer : StdSerializer<WPMLink>(WPMLink::class.java) {
         generator.writeFieldName("href")
         generator.writeString(value.href.toString())
 
-        value.title?.let { text ->
-          generator.writeFieldName("title")
-          generator.writeString(text)
-        }
-        value.type?.let { type ->
-          this.writeType(type, generator)
-        }
-
-        if (value.relation.size == 1) {
-          generator.writeFieldName("rel")
-          generator.writeString(value.relation[0])
-        } else if (value.relation.size > 1) {
-          generator.writeFieldName("rel")
-          generator.writeArray(value.relation.toTypedArray(), 0, value.relation.size)
-        }
-
-        value.properties?.let { properties ->
-          generator.writeFieldName("properties")
-          generator.writeObject(properties)
-        }
-
+        this.writeProperties(value, generator)
         generator.writeEndObject()
       }
       is WPMLinkTemplated -> {
@@ -50,29 +31,56 @@ class WPMLinkSerializer : StdSerializer<WPMLink>(WPMLink::class.java) {
         generator.writeFieldName("templated")
         generator.writeBoolean(true)
 
-        value.title?.let { text ->
-          generator.writeFieldName("title")
-          generator.writeString(text)
-        }
-        value.type?.let { type ->
-          this.writeType(type, generator)
-        }
-
-        if (value.relation.size == 1) {
-          generator.writeFieldName("rel")
-          generator.writeString(value.relation[0])
-        } else if (value.relation.size > 1) {
-          generator.writeFieldName("rel")
-          generator.writeArray(value.relation.toTypedArray(), 0, value.relation.size)
-        }
-
-        value.properties?.let { properties ->
-          generator.writeFieldName("properties")
-          generator.writeObject(properties)
-        }
-
+        this.writeProperties(value, generator)
         generator.writeEndObject()
       }
+    }
+  }
+
+  private fun writeProperties(
+    value : WPMLink,
+    generator : JsonGenerator
+  ) {
+    value.title?.let { text ->
+      generator.writeFieldName("title")
+      generator.writeString(text)
+    }
+    value.type?.let { type ->
+      this.writeType(type, generator)
+    }
+
+    value.width?.let { n ->
+      generator.writeFieldName("width")
+      generator.writeNumber(n)
+    }
+    value.height?.let { n ->
+      generator.writeFieldName("height")
+      generator.writeNumber(n)
+    }
+    value.bitrate?.let { n ->
+      generator.writeFieldName("bitrate")
+      if (n is Int || n is Long || n is BigInteger) {
+        generator.writeNumber(n.toLong())
+      } else {
+        generator.writeNumber(n.toDouble())
+      }
+    }
+
+    if (value.relation.size == 1) {
+      generator.writeFieldName("rel")
+      generator.writeString(value.relation[0])
+    } else if (value.relation.size > 1) {
+      generator.writeFieldName("rel")
+      generator.writeArray(
+        value.relation.toTypedArray(),
+        0,
+        value.relation.size
+      )
+    }
+
+    value.properties?.let { properties ->
+      generator.writeFieldName("properties")
+      generator.writeObject(properties)
     }
   }
 

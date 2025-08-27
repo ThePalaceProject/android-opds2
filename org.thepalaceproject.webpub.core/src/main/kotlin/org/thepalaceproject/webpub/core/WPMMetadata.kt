@@ -110,7 +110,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "author"
   )
-  val author : WPMContributor? = null,
+  val author : List<WPMContributorOrString> = listOf(),
 
   /**
    * The translator of the publication.
@@ -119,7 +119,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "translator"
   )
-  val translator : WPMContributor? = null,
+  val translator : List<WPMContributorOrString> = listOf(),
 
   /**
    * The editor of the publication.
@@ -128,7 +128,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "editor"
   )
-  val editor : WPMContributor? = null,
+  val editor : List<WPMContributorOrString> = listOf(),
 
   /**
    * The artist of the publication.
@@ -137,7 +137,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "artist"
   )
-  val artist : WPMContributor? = null,
+  val artist : List<WPMContributorOrString> = listOf(),
 
   /**
    * The illustrator of the publication.
@@ -146,7 +146,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "illustrator"
   )
-  val illustrator : WPMContributor? = null,
+  val illustrator : List<WPMContributorOrString> = listOf(),
 
   /**
    * The letterer of the publication.
@@ -155,7 +155,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "letterer"
   )
-  val letterer : WPMContributor? = null,
+  val letterer : List<WPMContributorOrString> = listOf(),
 
   /**
    * The penciler of the publication.
@@ -164,7 +164,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "penciler"
   )
-  val penciler : WPMContributor? = null,
+  val penciler : List<WPMContributorOrString> = listOf(),
 
   /**
    * The colorist of the publication.
@@ -173,7 +173,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "colorist"
   )
-  val colorist : WPMContributor? = null,
+  val colorist : List<WPMContributorOrString> = listOf(),
 
   /**
    * The inker of the publication.
@@ -182,7 +182,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "inker"
   )
-  val inker : WPMContributor? = null,
+  val inker : List<WPMContributorOrString> = listOf(),
 
   /**
    * The narrator of the publication.
@@ -191,7 +191,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "narrator"
   )
-  val narrator : WPMContributor? = null,
+  val narrator : List<WPMContributorOrString> = listOf(),
 
   /**
    * The contributor of the publication.
@@ -200,7 +200,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "contributor"
   )
-  val contributor : WPMContributor? = null,
+  val contributor : List<WPMContributorOrString> = listOf(),
 
   /**
    * The publisher of the publication.
@@ -209,7 +209,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "publisher"
   )
-  val publisher : WPMContributor? = null,
+  val publisher : List<WPMContributorOrString> = listOf(),
 
   /**
    * The imprint of the publication.
@@ -218,7 +218,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "imprint"
   )
-  val imprint : WPMContributor? = null,
+  val imprint : List<WPMContributorOrString> = listOf(),
 
   /**
    * The subjects that apply to the publication.
@@ -227,7 +227,7 @@ data class WPMMetadata @JsonCreator constructor(
   @JsonProperty(
     value = "subject"
   )
-  val subjects : List<WPMSubject> = listOf(),
+  val subjects : List<WPMSubjectOrString> = listOf(),
 
   /**
    * The layout of the publication.

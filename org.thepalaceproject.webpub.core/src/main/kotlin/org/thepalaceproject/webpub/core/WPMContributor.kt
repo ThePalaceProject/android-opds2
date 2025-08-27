@@ -11,10 +11,9 @@ import java.net.URI
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class WPMContributor(
   @JsonProperty(
-    value = "name",
-    required = true
+    value = "name"
   )
-  val name : String,
+  val name : String?,
 
   @JsonProperty(
     value = "identifier"
@@ -45,4 +44,4 @@ data class WPMContributor(
     value = "links"
   )
   val links: List<WPMLink> = listOf()
-) : WPMElement()
+) : WPMContributorOrString()
