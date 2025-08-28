@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "title": "Alberta"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/canada/alberta.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Calgary Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/calgarypubliclibrary/logo/57e02afb2357946bd817635d-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "http://calgarylibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "http://calgarylibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://calgarylibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Chinook Arch Regional Library System",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/chinookarchregionallibrarysystem/logo/57f2c88c76e5794d26279975-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://chinookarch.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://chinookarch.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://chinookarch.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Edmonton Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/edmontonpubliclibrary/logo/5478f2966d322e29e6241200-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://epl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+          {
+            "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+            "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://epl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Marigold Library System",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://www.cantookstation.com/assets/cdoc/logo-e98685d99cf96db07e13e6a9b0dad83e12d2eedf611058453b0d1995a73f5896.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://marigold.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://marigold.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://marigold.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Northern Lights Library System",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/northernlightslibrarysystem/logo/57f2c9cc23579450d4fca9a4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nlls.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nlls.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nlls.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Peace Library System",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/peacelibrarysystem/logo/57f2ca3176e5795b488bbf4c-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://peacelibrarysystem.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://peacelibrarysystem.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://peacelibrarysystem.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Parkland Regional Library System",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/parklandregionallibrary/logo/57f2c7ed76e5794d26279966-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://prl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://prl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://prl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Red Deer Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/reddeerpubliclibrary/logo/57f2ce8676e5796b005b813f-logo.png",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://rdpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://rdpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://rdpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Shortgrass Library System",
+        "country": "CA"
+      },
+      "links": [
+        {
+          "href": "https://shortgrass.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://shortgrass.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://shortgrass.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "St. Albert Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/stalbertpubliclibrary/logo/57f2cf1a76e5796b005b8159-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://sapl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://sapl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://sapl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Strathcona County Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/strathconacountylibrary/logo/57f2cb5b76e5790c2de9cc4d-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://sclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://sclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://sclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Wood Buffalo Regional Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/woodbuffaloregionallibrary/logo/57f2caef76e5794d262799a9-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://wbrl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://wbrl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://wbrl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Yellowhead Regional Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/yellowheadregionallibrary/logo/57f2beba23579427c2f71a68-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://yrl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://yrl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://yrl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

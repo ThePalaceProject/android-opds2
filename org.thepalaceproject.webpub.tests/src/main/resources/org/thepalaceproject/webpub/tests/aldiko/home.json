@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Libraries by country"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/home.json", "type": "application/opds+json"}
+  ],
+  
+  "navigation": [
+    {
+      "href": "https://libraries.aldiko.com/international.json", 
+      "title": "International", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/argentina.json", 
+      "title": "Argentina", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/belgique.json", 
+      "title": "Belgique", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada.json", 
+      "title": "Canada", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/france.json", 
+      "title": "France", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/italia.json", 
+      "title": "Italia", 
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/suisse.json", 
+      "title": "Suisse", 
+      "type": "application/opds+json"
+    }
+  ]
+}

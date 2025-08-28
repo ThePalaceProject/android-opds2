@@ -5,13 +5,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 
 /**
- * An OPDS 2.0 feed.
+ * A WebPub manifest.
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class WPMFeed @JsonCreator constructor(
+data class WPMManifest @JsonCreator constructor(
   /**
-   * The feed metadata.
+   * The metadata.
    */
 
   @JsonProperty(
@@ -27,10 +27,10 @@ data class WPMFeed @JsonCreator constructor(
   @JsonProperty(
     value = "navigation"
   )
-  val navigation : WPMNavigation?,
+  val navigation : List<WPMNavigation> = listOf(),
 
   /**
-   * The feed links
+   * The links
    */
 
   @JsonProperty(
@@ -39,7 +39,7 @@ data class WPMFeed @JsonCreator constructor(
   val links : List<WPMLink> = listOf(),
 
   /**
-   * The feed publications
+   * The publications
    */
 
   @JsonProperty(
@@ -48,7 +48,7 @@ data class WPMFeed @JsonCreator constructor(
   val publications : List<WPMPublication> = listOf(),
 
   /**
-   * The feed catalogs
+   * The catalogs
    */
 
   @JsonProperty(

@@ -1,0 +1,39 @@
+{
+    "metadata": {
+      "title": "Nova Scotia"
+    },
+    
+    "links": [
+      {"rel": "self", "href": "https://libraries.aldiko.com/countries/canada/novascotia.json", "type": "application/opds+json"}
+    ],
+    
+    "catalogs": [
+      {
+        "metadata": {
+          "title": "Centre Provincial de Ressources Pédagogiques",
+          "country": "CA"
+        },
+        "image": {
+          "href": "https://meki-production.s3.amazonaws.com/cdoc/centreprovincialderessourcespedagogiques/logo/5c51d85323579417dad52aae-logo.jpg",
+          "type": "image/png",
+          "rel": "http://opds-spec.org/image/thumbnail"
+        },
+        "links": [
+          {
+            "href": "https://cprp.cantookstation.com/v1/home.opds2",
+            "type": "application/opds+json",
+            "rel": "http://opds-spec.org/catalog"
+          },
+            {
+              "href": "https://cprp.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+          },
+          {
+            "href": "https://cprp.cantookstation.com/home",
+            "type": "text/html",
+            "rel": "alternate"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "title": "Yukon"
+  },
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://libraries.aldiko.com/countries/canada/yukon.json",
+      "type": "application/opds+json"
+    }
+  ],
+
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "École Émilie-Tremblay",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequenumeriqueecoleemilie_tremblay/logo/5ed8004723579410e976679b-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "http://emilietremblay.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "http://emilietremblay.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://emilietremblay.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "CSSC Mercier",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequenumeriquecsscmercier/logo/5ed7df3e2357945d75470d1f-logo.png",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://csscmercier.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://csscmercier.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://csscmercier.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "International"
+  },
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://libraries.aldiko.com/countries/belgique.json",
+      "type": "application/opds+json"
+    }
+  ],
+
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Instituto Cervantes"
+      },
+      "links": [
+        {
+          "href": "https://libroselectronicos.cervantes.es/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://libroselectronicos.cervantes.es/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://libroselectronicos.cervantes.es/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque des Amériques"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bida/bibliothequedesameriques/logo/52602c5c7017b672d800001a-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://emprunt.bibliothequedesameriques.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://emprunt.bibliothequedesameriques.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://emprunt.bibliothequedesameriques.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

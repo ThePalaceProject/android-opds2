@@ -1,0 +1,4068 @@
+{
+  "metadata": {
+    "title": "Québec"
+  },
+
+	"links": [{
+		"href": "https://libraries.aldiko.com/countries/canada/quebec.json",
+		"type": "application/opds+json",
+		"rel": "self"
+	}],
+
+	"catalogs": [
+    {
+  		"image": {
+  			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+  			"type": "image/png",
+  			"rel": "http://opds-spec.org/image/thumbnail"
+  		},
+  		"links": [{
+  			"href": "https://alma.pretnumerique.ca/v1/home.opds2",
+  			"type": "application/opds+json",
+  			"rel": "http://opds-spec.org/catalog"
+  		}, {
+  			"href": "https://alma.pretnumerique.ca/v1/sign_in.opds2",
+  			"type": "application/opds-authentication+json"
+  		}, {
+  			"href": "https://alma.pretnumerique.ca/home",
+  			"type": "text/html",
+  			"rel": "alternate"
+  		}],
+  		"metadata": {
+  			"title": "Alma",
+  			"country": "Canada"
+  		}
+	 }, 
+   {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://amos.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://amos.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://amos.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Amos",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://alice-lane.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://alice-lane.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://alice-lane.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Baie-Comeau (Alice-Lane)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://beaconsfield.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://beaconsfield.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://beaconsfield.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Beaconsfield",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://beauharnois.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://beauharnois.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://beauharnois.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Beauharnois",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://beloeil.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://beloeil.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://beloeil.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Beloeil",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cqlm.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cqlm.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cqlm.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibli \u0026 cie (Réseau BIBLIO du Centre du Québec Lanaudière et Mauricie)",
+			"country": "Canada"
+		}
+	}, 
+{
+ 		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/bida/bibliothequedesameriques/logo/52602c5c7017b672d800001a-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+      		"links": [{
+			"href": "https://emprunt.bibliothequedesameriques.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+    		}, {
+			"href": "https://emprunt.bibliothequedesameriques.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+          		"href": "https://emprunt.bibliothequedesameriques.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque des Amériques",
+			"country": "Canada"
+		}
+    	},
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://banq.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://banq.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://banq.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque et Archives nationales du Québec",
+			"country": "Canada"
+		}
+	},  
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://laval.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://laval.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://laval.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèques de Laval",
+			"country": "Canada"
+		}
+	}, 
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://blainville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://blainville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://blainville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Blainville",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bois-des-filion.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bois-des-filion.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bois-des-filion.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bois-des-Filion",
+			"country": "Canada"
+		}
+	},
+  {
+    "metadata": {
+      "title": "Collège de Bois-de-Boulogne",
+      "country": "Canada"
+    },
+    "image": {
+      "href": "https://meki-production.s3.amazonaws.com/pret/collegebois_de_boulogne/logo/5eb83b6436604471dc155e8d-logo.png",
+      "type": "image/png",
+      "rel": "http://opds-spec.org/image/thumbnail"
+    },
+    "links": [{
+      "href": "https://bdeb.pretnumerique.ca/v1/home.opds2",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/catalog"
+    }, {
+      "href": "https://bdeb.pretnumerique.ca/v1/sign_in.opds2",
+      "type": "application/opds-authentication+json"
+    }, {
+      "href": "https://bdeb.pretnumerique.ca/home",
+      "type": "text/html",
+      "rel": "alternate"
+    }]
+  }, 
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://boisbriand.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://boisbriand.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://boisbriand.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Boisbriand",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://montarville-boucher-delabruere.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://montarville-boucher-delabruere.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://montarville-boucher-delabruere.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Boucherville (Montarville-Boucher-De La Bruère)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bromont.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bromont.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bromont.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bromont",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://brossard.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://brossard.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://brossard.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Brossard (Georgette-Lepage)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://becancour.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://becancour.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://becancour.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bécancour",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://candiac.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://candiac.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://candiac.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Candiac",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cantley.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cantley.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cantley.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cantley",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/carrefourdelinformationetdusavoir/logo/64c931fa79cd2f0001db059f-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://enpq.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://enpq.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://enpq.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Carrefour de l'information et du savoir - ENPQ",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ccsi.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ccsi.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ccsi.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Centre collégial de soutien à l'intégration",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/collegelasalle/logo/5f21899f1cc99e7eb2a7630a-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://collegelasalle.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://collegelasalle.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://collegelasalle.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Centre de documentation - Collège LaSalle",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequecamille_laurindecharlemagne/logo/563376dc6d322e0f16920400-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://charlemagne.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://charlemagne.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://charlemagne.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Charlemagne (Camille-Laurin)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://chelsea.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://chelsea.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://chelsea.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Chelsea",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://chibougamau.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://chibougamau.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://chibougamau.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Chibougamau",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://chateauguay.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://chateauguay.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://chateauguay.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Châteauguay (Raymond-Laberge)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/collegeahuntsic/logo/5bf708fb3660445b96778ebb-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ahuntsic.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ahuntsic.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ahuntsic.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège Ahuntsic",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lionelgroulx.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lionelgroulx.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lionelgroulx.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège Lionel-Groulx",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://montmorency.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://montmorency.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://montmorency.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège Montmorency",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://collegemerici.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://collegemerici.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://collegemerici.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège Mérici",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://collegealma.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://collegealma.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://collegealma.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège d'Alma",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cmaisonneuve.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cmaisonneuve.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cmaisonneuve.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège de Maisonneuve (Bibliothèque Gabriel-Allard)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rosemont.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rosemont.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rosemont.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Collège de Rosemont",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequeduconservatoiredemusiqueetdartdramatiqueduquebec/logo/5d54d4b9235794595ed82644-logo.png",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cmadq.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cmadq.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cmadq.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du Conservatoire de musique et d'art dramatique du Québec",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://contrecoeur.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://contrecoeur.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://contrecoeur.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Contrecoeur",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://coteau-du-lac.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://coteau-du-lac.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://coteau-du-lac.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Coteau-du-Lac (Jules-Fournier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cowansville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cowansville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cowansville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cowansville (Gabrielle-Giroux-Bertrand)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepandre_laurendeau/logo/558d6dff6d312e5d610b0000-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepandrelaurendeau.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepandrelaurendeau.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepandrelaurendeau.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep André-Laurendeau",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepgerald_godin/logo/60db74cd23579424e929622a-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cgodin.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cgodin.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cgodin.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep Gérald-Godin",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cstjean.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cstjean.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cstjean.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep Saint-Jean-sur-Richelieu",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepchicoutimi.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepchicoutimi.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepchicoutimi.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Chicoutimi",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cll.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cll.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cll.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Lévis",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegep-riviere-du-loup.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegep-riviere-du-loup.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegep-riviere-du-loup.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Rivière-du-Loup",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepdesaint_hyacinthe/logo/5ede97bf36604479dfadc693-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepsth.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepsth.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepsth.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Saint-Hyacinthe",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepdesaint_laurent/logo/60da1ed643ead1724cb1ee39-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepsl.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepsl.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepsl.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Saint-Laurent",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepdesainte_foy/logo/5f3c225923579423021c7206-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://csfoy.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://csfoy.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://csfoy.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Sainte-Foy",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepshawinigan.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepshawinigan.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepshawinigan.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Shawinigan",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepsherbrooke.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepsherbrooke.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepsherbrooke.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Sherbrooke",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://soreltracy.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://soreltracy.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://soreltracy.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Sorel-Tracy",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepstfe.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepstfe.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepstfe.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de St-Félicien",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegeptr.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegeptr.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegeptr.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Trois-Rivières",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepvicto.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepvicto.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepvicto.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de Victoriaville",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepoutaouais.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepoutaouais.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepoutaouais.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de l'Outaouais",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepdelagaspesieetdesiles/logo/6092e004366044150c6ad131-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegepgim.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegepgim.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegepgim.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep de la Gaspésie et des Îles",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepduvieux_montreal/logo/5b3fa2a336604461d8f78502-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://vieuxmontreal.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://vieuxmontreal.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://vieuxmontreal.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep du Vieux Montréal",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/cegepregionaldelanaudiere/logo/5ede95481cc99e16d533ddc3-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cegep-lanaudiere.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cegep-lanaudiere.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cegep-lanaudiere.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Cégep régional de Lanaudière",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequeduchum/logo/5caf8dbc1cc99e297178e6ee-logo.png",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliothequeduchum.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliothequeduchum.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliothequeduchum.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CHUM",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://bibliocisssca.cantookstation.com/assets/cdoc/logo-2x-f225ffc86a2f24d845092c825220d433608ddebc914e4b2a091f436c20e9fd8c.png",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliocisssca.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliocisssca.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliocisssca.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CISSS de Chaudière-Appalaches",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequeducisssdelanaudiere/logo/5c2fc2922357946a3fed8d11-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliocissslanaudiere.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliocissslanaudiere.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliocissslanaudiere.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CISSS de Lanaudière",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/cisssdelamonteregie_centre/logo/5fc95efa36604456dfeea83d-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cisssmc.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cisssmc.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cisssmc.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CISSS de la Montérégie-Centre",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/volumesnumeriquesfrancophones__cantookstation/logo/5e962a782357943d2e060695-logo.png",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliothequecisssme.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliothequecisssme.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliothequecisssme.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CISSS de la Montérégie-Est",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequesducisssmonteregie_ouest/logo/67b87d7493728c230256a7aa-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliocisssmo.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliocisssmo.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliocisssmo.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Bibliothèque du CISSS de la Montérégie-Ouest",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://cote-saint-luc.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://cote-saint-luc.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://cote-saint-luc.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Côte Saint-Luc (Eleanor London)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://delson.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://delson.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://delson.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Delson",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://deux-montagnes.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://deux-montagnes.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://deux-montagnes.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Deux-Montagnes",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://dolbeau-mistassini.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://dolbeau-mistassini.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://dolbeau-mistassini.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Dolbeau-Mistassini",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://dollard-des-ormeaux.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://dollard-des-ormeaux.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://dollard-des-ormeaux.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Dollard-des-Ormeaux",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://donnacona.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://donnacona.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://donnacona.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Donnacona",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://dorval.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://dorval.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://dorval.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Dorval",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://drummondville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://drummondville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://drummondville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Drummondville",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://farnham.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://farnham.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://farnham.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Farnham",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://fermont.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://fermont.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://fermont.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Fermont",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://gatineau.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://gatineau.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://gatineau.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Gatineau",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://granby.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://granby.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://granby.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Granby (Paul-O.-Trépanier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/institutdetourismeetdhotellerieduquebec/logo/5eeb74101cc99e334f2dd2a4-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ithq.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ithq.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ithq.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Institut de tourisme et d'hôtellerie du Québec",
+			"country": "Canada"
+		}
+	},{
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rina-lasnier-joliette.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rina-lasnier-joliette.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rina-lasnier-joliette.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Joliette et Saint-Charles-Borromée (Rina-Lasnier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://kirkland.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://kirkland.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://kirkland.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Kirkland",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lancienne-lorette.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lancienne-lorette.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lancienne-lorette.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "L'Ancienne-Lorette (Marie-Victorin)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lassomption.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lassomption.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lassomption.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "L'Assomption (Christian-Roy)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://epiphanie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://epiphanie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://epiphanie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "L'Épiphanie (Françoise-Angers)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://guy-godin.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://guy-godin.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://guy-godin.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "L'Île-Perrot (Guy-Godin)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://laprairie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://laprairie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://laprairie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "La Prairie (Léo-Lecavalier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/biblio_la_tuque/logo/5047697fb265d41cf000001b-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://la-tuque.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://la-tuque.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://la-tuque.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "La Tuque (Annie-St-Arneault)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lac-megantic.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lac-megantic.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lac-megantic.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Lac Mégantic (Médiathèque municipale Nelly-Arcan)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lac-brome.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lac-brome.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lac-brome.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Lac-Brome (Pettes)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliotheque_jean-marc-belzile/logo/50042f95b265d427c400043b-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://jean-marc-belzile.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://jean-marc-belzile.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://jean-marc-belzile.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Lachute (Jean-Marc-Belzile)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/lanumeritheque/logo/5bc8bc8a3660447951ed0839-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lesalesien.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lesalesien.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lesalesien.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "La numérithèque (Le Salésien)",
+			"country": "Canada"
+		}
+	}, {
+                "metadata": {
+                        "title": "Collège Laval",
+                        "country": "Canada"
+                },
+                "links": [{
+                        "href": "https://bibliocollegelaval.cantookstation.com/v1/home.opds2",
+                        "type": "application/opds+json",
+                        "rel": "http://opds-spec.org/catalog"
+                }, {
+                        "href": "https://bibliocollegelaval.cantookstation.com/v1/sign_in.opds2",
+                        "type": "application/opds-authentication+json"
+                }, {
+                        "href": "https://bibliocollegelaval.cantookstation.com/home",
+                        "type": "text/html",
+                        "rel": "alternate"
+                }]
+        }, {
+		"metadata": {
+                        "title": "Lavaltrie",
+                        "country": "Canada"
+                 },
+                 "image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lavaltrie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lavaltrie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lavaltrie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}]
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://longueuil.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://longueuil.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://longueuil.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Longueuil",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lorraine.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lorraine.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lorraine.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Lorraine",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://louiseville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://louiseville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://louiseville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Louiseville (Jean-Paul-Plante)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://levis.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://levis.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://levis.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Lévis",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/reseaubibliodeslaurentides/logo/505a145db265d4703f000219-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://laurentides.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://laurentides.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://laurentides.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Ma BIBLIO à moi (Réseau BIBLIO des Laurentides)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://magog.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://magog.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://magog.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Magog (Memphrémagog)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://mascouche.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://mascouche.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://mascouche.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mascouche",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://matane.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://matane.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://matane.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Matane (Fonds de solidarité FTQ)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliomercier.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliomercier.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliomercier.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mercier",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://mirabel.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://mirabel.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://mirabel.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mirabel",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://mont-joli.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://mont-joli.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://mont-joli.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mont-Joli (Jean-Louis-Desrosiers)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://mont-laurier.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://mont-laurier.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://mont-laurier.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mont-Laurier",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reginald-jp-dawson.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reginald-jp-dawson.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reginald-jp-dawson.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mont-Royal (Reginald-J.-P.-Dawson)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://mont-saint-hilaire.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://mont-saint-hilaire.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://mont-saint-hilaire.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Mont-Saint-Hilaire (Armand-Cardinal)",
+			"country": "Canada"
+		}
+	}, 
+  {
+    "metadata": {
+      "title": "Montmagny",
+      "country": "Canada"
+    },
+    "image": {
+      "href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+      "type": "image/png",
+      "rel": "http://opds-spec.org/image/thumbnail"
+    },
+    "links": [{
+      "href": "https://montmagny.pretnumerique.ca/v1/home.opds2",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/catalog"
+    }, {
+      "href": "https://montmagny.pretnumerique.ca/v1/sign_in.opds2",
+      "type": "application/opds-authentication+json"
+    }, {
+      "href": "https://montmagny.pretnumerique.ca/home",
+      "type": "text/html",
+      "rel": "alternate"
+    }]
+  }, 
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://montreal.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://montreal.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://montreal.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Montréal",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://montreal-est.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://montreal-est.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://montreal-est.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Montréal-Est (Micheline-Gagnon)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/marieuguay/logo/4edfb87bb265d415dc000007-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://marieuguay.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://marieuguay.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://marieuguay.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Notre-Dame-de-l'Île-Perrot (Marie-Uguay)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://notre-dame-des-prairies.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://notre-dame-des-prairies.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://notre-dame-des-prairies.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Notre-Dame-des-Prairies",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedenotre-dame-du-mont-carmel/logo/52a75b8d0c0152557e00008e-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://nd-mont-carmel.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://nd-mont-carmel.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://nd-mont-carmel.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Notre-Dame-du-Mont-Carmel",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://nouveau-brunswick.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://nouveau-brunswick.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://nouveau-brunswick.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Nouveau-Brunswick",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://pincourt.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://pincourt.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://pincourt.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Pincourt",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://plessisville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://plessisville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://plessisville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Plessisville (Linette-Jutras-Laperle)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://pointe-claire.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://pointe-claire.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://pointe-claire.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Pointe-Claire",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://pont-rouge.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://pont-rouge.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://pont-rouge.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Pont-Rouge (Auguste-Honoré-Gosselin)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://port-cartier.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://port-cartier.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://port-cartier.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Port-Cartier",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://prevost.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://prevost.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://prevost.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Prévost",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://quebec.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://quebec.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://quebec.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Québec",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://repentigny.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://repentigny.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://repentigny.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Repentigny",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://lasarre.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://lasarre.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://lasarre.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Richelieu de La Sarre",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rigaud.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rigaud.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rigaud.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Rigaud",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rimouski.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rimouski.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rimouski.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Rimouski (Lisette-Morin)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://riviere-du-loup.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://riviere-du-loup.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://riviere-du-loup.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Rivière-du-Loup (Françoise-Bédard)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://roberval.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://roberval.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://roberval.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Roberval",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/rosemere_hemens/logo/503642c6b265d470ee0000db-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rosemere-hemens.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rosemere-hemens.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rosemere-hemens.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Rosemère (H.J. Hemens)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequemunicipalederouyn-noranda/logo/52000e497017b6c258000005-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rouyn-noranda.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rouyn-noranda.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rouyn-noranda.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Rouyn-Noranda",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://abitibi-temiscamingue-nord-du-quebec.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://abitibi-temiscamingue-nord-du-quebec.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://abitibi-temiscamingue-nord-du-quebec.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO Abitibi-Témiscamingue-Nord-du-Québec",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubibliobsl.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubibliobsl.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubibliobsl.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO Bas-Saint-Laurent",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubibliocnca.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubibliocnca.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubibliocnca.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO Capitale-Nationale-Chaudière-Appalaches",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubibliocn.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubibliocn.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubibliocn.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO Côte-Nord",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/reseaubibliosaguenay-lac-st-jean/logo/50b91c49b265d4500400031a-logo.gif",
+			"type": "image/gif",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saguenay-lac-st-jean.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saguenay-lac-st-jean.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saguenay-lac-st-jean.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO Saguenay-Lac-St-Jean",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/reseaubibliooutaouais/logo/52001ab00c01524599000003-logo.JPG",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubiblio-outaouais.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubiblio-outaouais.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubiblio-outaouais.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO de l'Outaouais",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/reseaubibliogaspesie-ile-de-la-madeleine/logo/52001a5d7017b6a659000004-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubibliogim.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubibliogim.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubibliogim.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO de la Gaspésie–Îles-de-la-Madeleine ",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/rbm/logo/4e5ff90fc2c22224d9000019-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://rbm.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://rbm.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://rbm.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO de la Montérégie",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/reseaubibliodelestrie/logo/51dd62cc0c0152d692000006-logo.JPG",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://reseaubiblioestrie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://reseaubiblioestrie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://reseaubiblioestrie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau BIBLIO de l’Estrie",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequespubliquesdethetford/logo/5b294eba36604438e7de8136-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://thetford.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://thetford.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://thetford.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau des bibliothèques publiques de Thetford",
+			"country": "Canada"
+		}
+	},  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/cdoc/reseaudesbibliothequesdducisssdelaval/logo/5fca56302357946dc84e13bc-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibliocissslaval.cantookstation.com/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibliocissslaval.cantookstation.com/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibliocissslaval.cantookstation.com/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Réseau des bibliothèques du CISSS de Laval",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequesdesaguenay/logo/51faaa097017b66604000020-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saguenay.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saguenay.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saguenay.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saguenay",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://st-amable.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://st-amable.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://st-amable.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Amable (Jacqueline-Gemme)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequealain-grandboissaint-augustin-de-desmaures/logo/52000f6d7017b6b47c000001-logo.JPG",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-augustin-de-desmaures.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-augustin-de-desmaures.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-augustin-de-desmaures.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Augustin-de-Desmaures (Alain-Grandbois)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-basile-le-grand.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-basile-le-grand.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-basile-le-grand.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Basile-le-Grand (Roland-LeBlanc)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedesaint-bruno-de-montarville/logo/50b90bcbb265d408c0000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-bruno-de-montarville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-bruno-de-montarville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-bruno-de-montarville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Bruno-de-Montarville",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedesaint-colomban/logo/5422d2996d312e7ea9540700-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-colomban.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-colomban.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-colomban.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Colomban",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-constant.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-constant.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-constant.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Constant",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-eustache.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-eustache.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-eustache.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Eustache",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-felicien.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-felicien.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-felicien.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Félicien",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-felix-de-valois.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-felix-de-valois.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-felix-de-valois.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Félix-de-Valois",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saintgeorges.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saintgeorges.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saintgeorges.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Georges ",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://maskoutaine.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://maskoutaine.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://maskoutaine.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Hyacinthe (Médiathèque maskoutaine)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-jacques.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-jacques.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-jacques.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Jacques (Marcel Dugas)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-jean-sur-richelieu.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-jean-sur-richelieu.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-jean-sur-richelieu.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Jean-sur-Richelieu",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-jerome.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-jerome.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-jerome.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Jérôme",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-lambert.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-lambert.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-lambert.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Lambert",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-lazare.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-lazare.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-lazare.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Lazare",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedesaint-philippe/logo/520014497017b68ac7000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-philippe.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-philippe.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-philippe.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Philippe",
+			"country": "Canada"
+		}
+	}, 
+  {
+    "metadata": {
+      "title": "Saint-Rémi",
+      "country": "Canada"
+    },
+    "image": {
+      "href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+      "type": "image/png",
+      "rel": "http://opds-spec.org/image/thumbnail"
+    },
+    "links": [{
+      "href": "https://saint-remi.pretnumerique.ca/v1/home.opds2",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/catalog"
+    }, {
+      "href": "https://saint-remi.pretnumerique.ca/v1/sign_in.opds2",
+      "type": "application/opds-authentication+json"
+    }, {
+      "href": "https://saint-remi.pretnumerique.ca/home",
+      "type": "text/html",
+      "rel": "alternate"
+    }]
+  },
+  {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://st-theodore.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://st-theodore.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://st-theodore.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Théodore d’Acton",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedesaint_zotique/logo/5669a03a6d322e2d23e20400-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://saint-zotique.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://saint-zotique.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://saint-zotique.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Saint-Zotique",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sainte-anne-des-monts.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sainte-anne-des-monts.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sainte-anne-des-monts.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Anne-des-Monts",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequemunicipaledesainte_anne_des_plaines/logo/5bfd78c6235794739ebfe4a8-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sainte-anne-des-plaines.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sainte-anne-des-plaines.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sainte-anne-des-plaines.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Anne-des-Plaines",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sainte-catherine.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sainte-catherine.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sainte-catherine.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Catherine",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ste-julie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ste-julie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ste-julie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Julie",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sainte-marie.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sainte-marie.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sainte-marie.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Marie (Honorius-Provost)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ste-marthe-sur-le-lac.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ste-marthe-sur-le-lac.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ste-marthe-sur-le-lac.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Marthe-sur-le-Lac",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequedesainte-therese/logo/520010720c0152a5e5000009-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sainte-therese.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sainte-therese.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sainte-therese.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sainte-Thérèse",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://biblio-armand-frappier.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://biblio-armand-frappier.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://biblio-armand-frappier.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Salaberry-de-Valleyfield (Armand-Frappier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequelouis-ange-santerredesept-iles/logo/520016d67017b63e3f000004-logo.jpg",
+			"type": "image/jpeg",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sept-iles.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sept-iles.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sept-iles.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sept-Îles (Louis-Ange-Santerre)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliothequesdeshawinigan/logo/533f0270636c2d1470ee0000-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://shawinigan.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://shawinigan.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://shawinigan.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Shawinigan",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sherbrooke.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sherbrooke.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sherbrooke.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sherbrooke",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://sorel-tracy.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://sorel-tracy.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://sorel-tracy.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Sorel-Tracy",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://terrebonne.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://terrebonne.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://terrebonne.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Terrebonne",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://bibli3r.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://bibli3r.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://bibli3r.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Trois-Rivières",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/universitedelaval/logo/5f99d5293660444b8d51a5ee-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ulaval.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ulaval.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ulaval.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Université Laval",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://uottawa.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://uottawa.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://uottawa.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Université d'Ottawa",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://udem.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://udem.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://udem.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Université de Montréal (Bibliothèques)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/universitedesaint_boniface/logo/5fb3eabc3660445f06cbdd58-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://ustboniface.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://ustboniface.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://ustboniface.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Université de Saint-Boniface",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://uqam.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://uqam.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://uqam.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Université du Québec à Montréal",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://valdor.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://valdor.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://valdor.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Val-d’Or",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://yvonne-l-bombardier.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://yvonne-l-bombardier.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://yvonne-l-bombardier.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Valcourt (Yvonne-L.-Bombardier)",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://jacques-lemoyne.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://jacques-lemoyne.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://jacques-lemoyne.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Varennes",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://vaudreuil-dorion.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://vaudreuil-dorion.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://vaudreuil-dorion.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Vaudreuil-Dorion",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://victoriaville.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://victoriaville.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://victoriaville.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Victoriaville",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://westmount.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://westmount.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://westmount.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Westmount",
+			"country": "Canada"
+		}
+	}, {
+		"image": {
+			"href": "https://meki-production.s3.amazonaws.com/pret/bibliopresto/logo/50b3b2d7530dfd4c55000001-logo.png",
+			"type": "image/png",
+			"rel": "http://opds-spec.org/image/thumbnail"
+		},
+		"links": [{
+			"href": "https://windsor.pretnumerique.ca/v1/home.opds2",
+			"type": "application/opds+json",
+			"rel": "http://opds-spec.org/catalog"
+		}, {
+			"href": "https://windsor.pretnumerique.ca/v1/sign_in.opds2",
+			"type": "application/opds-authentication+json"
+		}, {
+			"href": "https://windsor.pretnumerique.ca/home",
+			"type": "text/html",
+			"rel": "alternate"
+		}],
+		"metadata": {
+			"title": "Windsor (Patrick-Dignan)",
+			"country": "Canada"
+		}
+	}]
+}

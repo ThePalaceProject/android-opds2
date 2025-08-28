@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Argentina"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/argentina.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+        {
+      "metadata": {
+        "title": "Red de Bibliotecas Públicas de la Ciudad de Buenos Aires - Jorge Luis Borges",
+        "country": "AR"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/arge/reddebibliotecasdelaciudaddebuenosaires_jorgeluisborges/logo/66ba2aea5fa50d8ffb6c0700-logo.png",
+        "type": "image/png"
+      },
+      "links": [
+        {
+          "href": "https://bibliotecasba.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliotecasba.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliotecasba.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

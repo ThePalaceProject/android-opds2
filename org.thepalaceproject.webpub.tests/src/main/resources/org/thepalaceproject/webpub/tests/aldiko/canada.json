@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Canada"
+  },
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://libraries.aldiko.com/countries/canada.json",
+      "type": "application/opds+json"
+    }
+  ],
+
+  "navigation": [
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/alberta.json",
+      "title": "Alberta",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/britishcolumbia.json",
+      "title": "British Columbia",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/manitoba.json",
+      "title": "Manitoba",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/novascotia.json",
+      "title": "Nova Scotia",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/ontario.json",
+      "title": "Ontario",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/quebec.json",
+      "title": "Québec",
+      "type": "application/opds+json"
+    },
+    {
+      "href": "https://libraries.aldiko.com/countries/canada/yukon.json",
+      "title": "Yukon",
+      "type": "application/opds+json"
+    }
+  ]
+}

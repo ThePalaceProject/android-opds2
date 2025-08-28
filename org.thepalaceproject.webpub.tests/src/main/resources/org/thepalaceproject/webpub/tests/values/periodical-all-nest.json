@@ -1,0 +1,13 @@
+[
+  "Periodical",
+  "Periodical 2",
+  {
+    "name": "Periodical 3"
+  },
+  [
+    "Periodical 4",
+    {
+      "name": "Periodical 6"
+    }
+  ]
+]

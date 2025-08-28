@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Italia"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/italia.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Comune di Milano",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "http://milano.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Università degli Studi di Napoli Federico II (NA)",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "http://share.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Biblioteca Nazionale di Potenza (PZ)",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "https://bnpz.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Biblioteche di Roma (BR)",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "https://bibliotu.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Biblioteche Civiche Torinesi (TO)",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "http://bct.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Regione Toscana",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "http://toscana.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Biblioteche di Trieste",
+        "country": "ITA"
+      },
+      "links": [
+        {
+          "href": "http://bsts.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    }
+  ]
+}

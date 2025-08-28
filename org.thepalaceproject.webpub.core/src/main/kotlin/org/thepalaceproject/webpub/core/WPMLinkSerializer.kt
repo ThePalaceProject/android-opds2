@@ -59,11 +59,7 @@ class WPMLinkSerializer : StdSerializer<WPMLink>(WPMLink::class.java) {
     }
     value.bitrate?.let { n ->
       generator.writeFieldName("bitrate")
-      if (n is Int || n is Long || n is BigInteger) {
-        generator.writeNumber(n.toLong())
-      } else {
-        generator.writeNumber(n.toDouble())
-      }
+      WPMNumbers.writeNumber(generator, n)
     }
 
     if (value.relation.size == 1) {

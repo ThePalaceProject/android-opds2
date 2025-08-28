@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "Fulcrum OPDS Catalog"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://www.fulcrum.org/api/opds",
+      "type": "application/opds+json"
+    }
+  ],
+  "navigation": [
+    {
+      "title": "Amherst College Press",
+      "href": "https://www.fulcrum.org/api/opds/amherst",
+      "type": "application/opds+json"
+    },
+    {
+      "title": "Big Ten Open Books",
+      "href": "https://www.fulcrum.org/api/opds/bigten",
+      "type": "application/opds+json"
+    },
+    {
+      "title": "Lever Press",
+      "href": "https://www.fulcrum.org/api/opds/leverpress",
+      "type": "application/opds+json"
+    },
+    {
+      "title": "ACLS Humanities Ebook",
+      "href": "https://www.fulcrum.org/api/opds/heb",
+      "type": "application/opds+json"
+    },
+    {
+      "title": "University of Michigan Press Ebook Collection",
+      "href": "https://www.fulcrum.org/api/opds/umpebc",
+      "type": "application/opds+json"
+    },
+    {
+      "title": "University of Michigan Press Ebook Collection Open Access",
+      "href": "https://www.fulcrum.org/api/opds/umpebc_oa",
+      "type": "application/opds+json"
+    }
+  ]
+}

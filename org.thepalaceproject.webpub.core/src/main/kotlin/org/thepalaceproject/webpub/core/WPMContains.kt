@@ -8,44 +8,44 @@ import com.fasterxml.jackson.annotation.JsonProperty
  */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class WPMBelongsTo(
+data class WPMContains(
   @JsonProperty(
-    value = "collection"
+    value = "article"
   )
-  val collection : WPMCollection?,
+  val article : List<WPMArticle> = listOf(),
 
   @JsonProperty(
-    value = "journal"
+    value = "chapter"
   )
-  val journal : WPMPeriodical?,
+  val chapter : List<WPMChapter> = listOf(),
 
   @JsonProperty(
-    value = "magazine"
+    value = "episode"
   )
-  val magazine : WPMPeriodical?,
+  val episode : List<WPMEpisode> = listOf(),
 
   @JsonProperty(
-    value = "newspaper"
+    value = "issue"
   )
-  val newspaper : WPMPeriodical?,
+  val issue : List<WPMIssue> = listOf(),
 
   @JsonProperty(
     value = "season"
   )
-  val season : WPMSeason?,
+  val season : List<WPMSeason> = listOf(),
 
   @JsonProperty(
     value = "series"
   )
-  val series : WPMSeries?,
+  val series : List<WPMSeries> = listOf(),
 
   @JsonProperty(
     value = "storyArc"
   )
-  val storyArc : WPMStoryArc?,
+  val storyArc : List<WPMStoryArc> = listOf(),
 
   @JsonProperty(
     value = "volume"
   )
-  val volume : WPMVolume?,
+  val volume : List<WPMVolume> = listOf(),
 )

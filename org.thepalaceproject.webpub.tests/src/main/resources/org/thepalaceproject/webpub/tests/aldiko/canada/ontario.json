@@ -1,0 +1,1383 @@
+{
+  "metadata": {
+    "title": "Ontario"
+  },
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://libraries.aldiko.com/countries/canada/ontario.json",
+      "type": "application/opds+json"
+    }
+  ],
+
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Bibliothèque publique du canton Alfred-Plantagenet Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliqueducantonalfred_plantagenetpubliclibrary/logo/5f285ed236604427064e21d8-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://alfred-plantagenet.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://alfred-plantagenet.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://alfred-plantagenet.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Armstrong Township Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/armstrongtownshippubliclibrary/logo/6430213a1647fb000105e3dc-logo-2x.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://armstrong.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://armstrong.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://armstrong.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Arnprior Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/arnpriorpubliclibrary/logo/6157321843ead1751d0b1f33-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://arnpriorlibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://arnpriorlibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://arnpriorlibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Barrie Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/barriepubliclibrary/logo/5f28220e3660440eebaa651f-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://barrielibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://barrielibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://barrielibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Blue Mountains Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/thebluemountainspubliclibrary/logo/624b0a5df15d070001d86b74-logo-2x.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://thebluemountainslibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://thebluemountainslibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://thebluemountainslibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique du canton de Champlain Township Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliqueducantondechamplaintownshippubliclibrary/logo/5f2862c22357946d678b0847-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bc-cl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bc-cl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bc-cl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Casselman Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/servicedesbibliothequesontariolibraryservicegroup/logo/5f35606f3660446082d6c8bd-logo.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliocasselman.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliocasselman.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliocasselman.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Brantford Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/servicedesbibliothequesontariolibraryservicegroup/logo/5f35606f3660446082d6c8bd-logo.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://brantfordpubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://brantfordpubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://brantfordpubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Cité Collégiale",
+        "country": "CA"
+      },
+      "links": [
+        {
+          "href": "https://citecollegiale.cantookstation.com/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://citecollegiale.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://citecollegiale.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Clarence-Rockland Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedeclarence_rocklandclarence_rocklandpubliclibrary/logo/5f2851b61cc99e5b0f70b097-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bpcrpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bpcrpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bpcrpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Nipissing Ouest",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedenipissingouest/logo/5f2479682357940232b299db-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bpno.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bpno.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bpno.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Chapleau Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/servicedesbibliothequesontariolibraryservicegroup/logo/5f35606f3660446082d6c8bd-logo.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://chapleau.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://chapleau.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://chapleau.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Cornwall Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedecornwallcornwallpubliclibrary/logo/5f2833c51cc99e48a3b1e015-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cornwall.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cornwall.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cornwall.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Deep River Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/deepriverpubliclibrary/logo/5f2864d3366044344babb6cc-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://drpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://drpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://drpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ear Falls Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/earfallspubliclibrary/logo/663a4a882370f709d67a09bf-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://earfallspubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://earfallspubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://earfallspubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique East Ferris Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliqueeastferriseastferrispubliclibrary/logo/5f284fc936604406c0f12d72-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://efpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://efpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://efpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Englehart Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/englehartpubliclibrary/logo/67e573e4028638ae5a6ff37d-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://englehartpubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://englehartpubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://englehartpubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },    
+    {
+      "metadata": {
+        "title": "Fort Erie Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/forteriepubliclibrary/logo/67d42ea05d2676f90577fd9c-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://forteriepubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://forteriepubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://forteriepubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Grand Valley Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/grandvalleypubliclibrary/logo/66141140c976190001173a7e-logo-2x.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://grandvalleypubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://grandvalleypubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://grandvalleypubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Guelph Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/guelphpubliclibrary/logo/5f282a903660442556183194-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://gpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://gpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://gpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Gravenhurst Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/gravenhurstpubliclibrary/logo/65f1e07a5672ac0001b8fb9a-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://gravenhurstlibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://gravenhurstlibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://gravenhurstclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },      
+    {
+      "metadata": {
+        "title": "Greenstone Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/greenstonepubliclibrary/logo/604fa7ca36604432e6c40c63-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://greenstonepubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://greenstonepubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://greenstonepubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Hawkesbury Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedehawkesburypubliclibrary/logo/5f28677e1cc99e093203ca0f-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://hawkesbury.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://hawkesbury.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://hawkesbury.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Hamilton Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/hamiltonpubliclibrary/logo/5f2831fb36604435a0e9e48d-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://hpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://hpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://hpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Hearst Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedehearstpubliclibrary/logo/5f2868233660443a7620ddd2-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://hearst.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://hearst.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://hearst.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Innisfil IdeaLAB & Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/innisfilidealablibrary/logo/6423537b5935030001f66bbe-logo-2x.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://innisfilidealab.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://innisfilidealab.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://innisfilidealab.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Kapuskasing Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedekapuskasingpubliclibrary/logo/5f2869402357945d25d7c46c-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://kapuskasing.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://kapuskasing.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://kapuskasing.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Kenora Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/kenorapubliclibrary/logo/65f1e67e93449e00019680f1-logo-2x.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://kenorapubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://kenorapubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://kenorapubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Kingston Frontenac Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/kingstonfrontenacpubliclibrary/logo/622908604288b90001196831-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://kfpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://kfpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://kfpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "London Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/londonpubliclibrary/logo/60620c5e1cc99e47294c9577-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://lpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://lpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://lpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Marathon Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/marathonpubliclibrary/logo/624b04d60642210001f99f46-logo-2x.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://marathonlibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://marathonlibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://marathonlibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Markstay-Warren Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://https://meki-production.s3.amazonaws.com/cdoc/markstay_warrenpubliclibrary/logo/624b0e25bd2ca900015e8368-logo-2x.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://markstay-warren.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://markstay-warren.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://markstay-warren.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique Mattice – Val Côté Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/servicedesbibliothequesontariolibraryservicegroup/logo/5f35606f3660446082d6c8bd-logo.jpeg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://matticevalcote.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://matticevalcote.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://matticevalcote.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Mississippi Mills Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/mississippimillspubliclibrary/logo/5f286b852357940f5e8f5d5c-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://missmills.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://missmills.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://missmills.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique de Moonbeam Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedemoonbeampubliclibrary/logo/5f286c3c1cc99e1e9303c9f3-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://moonbeam.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://moonbeam.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://moonbeam.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque de la municipalité de la Nation | Nation Municipality Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequedelamunicipalitedelanationnationmunicipalitypubliclibrary/logo/5f286a3e3660443c0020ddf3-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nationmunbiblio.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nationmunbiblio.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nationmunbiblio.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Nipigon Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/nipigonpubliclibrary/logo/65f1d8b75672ac000156b3f9-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nipigonpubliclibrary.cantookstation.com//v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nipigonpubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nipigonpubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Norfolk County Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/norfolkcountypubliclibrary/logo/5f2825ae1cc99e1fdfb1e012-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ncpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ncpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ncpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique d'Ottawa",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedottawapubliclibrary/logo/5c4f2e8e36604402c61e60c6-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://opl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://opl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://opl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque du Parlement / Library of Parliament",
+        "country": "CA"
+      },
+      "links": [
+        {
+          "href": "https://lp-bp.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://lp-bp.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://lp-bp.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Perth and District Union Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/perthanddistrictunionpubliclibrary/logo/684967d0b530888bd501106b-logo-admin.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://perthunionpubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://perthunionpubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://perthunionpubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Powassan and District Union Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/powassananddistrictunionpubliclibrary/logo/604f9b78235794768f6ce1c0-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://powassanlibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://powassanlibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://powassanlibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Richmond Hill Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/richmondhillpubliclibrary/logo/5f2828de1cc99e242cb1e028-logo.PNG",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://rhpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://rhpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://rhpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique du canton de Russell | Township of Russell Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliqueducantonderusselltownshipofrussellpubliclibrary/logo/5f28354b3660444060e9e47e-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://russellbiblio.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://russellbiblio.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://russellbiblio.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "St. Marys Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/stmaryspubliclibrary/logo/65f1b5d31693500001c5a702-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://stmaryspubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://stmaryspubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://stmaryspubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },    
+    {
+      "metadata": {
+        "title": "Stormont, Dundas and Glengarry Public Library (SDG)",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/stormontdundasandglengarrypubliclibrary/logo/6063852b36604459036c072c-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://sdglibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://sdglibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://sdglibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque publique du Grand Sudbury | Greater Sudbury Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedugrandsudburygreatersudburypubliclibrary/logo/5f286675366044344babb6fb-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://sudburylibraries.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://sudburylibraries.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://sudburylibraries.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Toronto Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/torontopubliclib/logo/5c4f39ed3660441c0f2b36de-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://tpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://tpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://tpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Vaughan Public Libraries",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/vaughanpubliclibraries/logo/5f286fc61cc99e255203ca0d-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://vaughanpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://vaughanpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://vaughanpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Waterloo Public Libraries",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/waterloopubliclibrary/logo/5f2870643660445cbbc4e844-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://wpl.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://wpl.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://wpl.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }   
+      ]
+    },
+        {
+      "metadata": {
+        "title": "Wawa Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/wawapubliclibrary/logo/65f964c382e03c000155b4a4-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://wawapubliclibrary.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://wawapubliclibrary.cantookstation.com/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://wawapubliclibrary.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Belgique"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/belgique.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Istituto Italiano di Cultura di Bruxelles",
+        "country": "BEL"
+      },
+      "links": [
+        {
+          "href": "http://iicbruxelles.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lirtuel",
+        "country": "BEL"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/communautefrancaisedebelgique/logo/54c858196d312e05319e0400-logo.png",
+        "type": "image/png"
+      },
+      "links": [
+        {
+          "href": "https://www.lirtuel.be/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://www.lirtuel.be/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "http://www.lirtuel.be/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

@@ -273,4 +273,13 @@ data class WPMMetadata @JsonCreator constructor(
     value = "belongsTo"
   )
   val belongsTo : WPMBelongsTo?,
+
+  /**
+   * The objects contained within the publication.
+   */
+
+  @JsonProperty(
+    value = "contains"
+  )
+  val contains : WPMContains?,
 ) : WPMElement()

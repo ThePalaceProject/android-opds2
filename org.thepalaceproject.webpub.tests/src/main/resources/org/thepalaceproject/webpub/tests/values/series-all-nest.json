@@ -1,0 +1,13 @@
+[
+  "Series",
+  "Series 2",
+  {
+    "name": "Series 3"
+  },
+  [
+    "Series 4",
+    {
+      "name": "Series 6"
+    }
+  ]
+]

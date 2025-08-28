@@ -1,0 +1,3291 @@
+{
+  "metadata": {
+    "title": "Suisse"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/suisse.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Aarau - Stadtbibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/aarau_stadtbibliothek/logo/5e6a14a21cc99e170dfd3f32-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://stadtbibliothekaarau.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://stadtbibliothekaarau.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://stadtbibliothekaarau.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Aubonne - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/aubonne/logo/5ae0ed5023579463d6fd2da4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://aubonne.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://aubonne.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://aubonne.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ayent - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/ayent_bibliothequecommunale/logo/605dda861cc99e5b86991cb6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ayent.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ayent.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ayent.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Baden – Stadtbibliothek",
+        "country": "CH"
+      },
+      "links": [
+        {
+          "href": "https://baden.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://baden.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://baden.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Basel - GGG Stadtbibliothek Basel",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/basel_gggstadtbibliothekbasel/logo/5d8c7c373660440c3f0a4a70-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://stadtbibliothekbasel.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://stadtbibliothekbasel.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://stadtbibliothekbasel.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bassersdorf - Bibliothek Gemeinde",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bassersdorf/logo/5ae0ed5123579463d6fd2da6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bassersdorf.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bassersdorf.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bassersdorf.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Baulmes - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/baulmes/logo/5ae0ed5523579463d6fd2da8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://baulmes.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://baulmes.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://baulmes.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Belfaux - Bibliothèque régionale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/belfauxbibliothequeregionale/logo/5b3e59f13660441e4f516dbb-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://belfaux.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://belfaux.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://belfaux.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bern - Kornhausbibliotheken",
+        "country": "CH"
+      },
+      "links": [
+        {
+          "href": "https://kob.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://kob.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://kob.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bernex - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliobernex/logo/5ae0ed5523579463d6fd2daa-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliobernex.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliobernex.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliobernex.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bex - Bibliothèque scolaire et communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bex/logo/5ae0ed5623579463d6fd2dac-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bex.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bex.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bex.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliomedia - UKRAINE",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomedia_network/logo/5ada6108235794673bfdebb0-logo.png",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ukraine.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ukraine.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ukraine.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bienne - Bibliothèque de la Ville",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bielbienne/logo/5ae0ed5723579463d6fd2db0-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bielbienne.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bielbienne.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bielbienne.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Blonay – St-Légier - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/ma-e-bibliotheque/logo/5ae0ed5823579463d6fd2db2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ma-e-bibliotheque.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ma-e-bibliotheque.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ma-e-bibliotheque.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bourg-en-Lavaux - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bourg_en_lavaux_bibliothequecommunale/logo/5e7474cb1cc99e34b6a73a38-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bel.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bel.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bel.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Buchs - Bibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/buchs_bibliothek/logo/5ecfb1421cc99e7b4cbf2ea1-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://buchs.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://buchs.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://buchs.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bulle - Bibliothèque de l'EPAC",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bulle-epac/logo/5ae0ed5823579463d6fd2db4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bulle-epac.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bulle-epac.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bulle-epac.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bussigny - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomedia_network/logo/5ada6108235794673bfdebb0-logo.png",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bussigny.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bussigny.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bussigny.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Chardonne-Jongny - Bibliothèque intercommunale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/chardonne-jongny/logo/5ae0ed5923579463d6fd2db8-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://chardonne-jongny.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://chardonne-jongny.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://chardonne-jongny.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Chéserex - Bibliothèque communale ",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/cheserex/logo/5ae0ed5a23579463d6fd2dba-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cheserex.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cheserex.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cheserex.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Conches - CEDOC du CFP Social",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/conches_cedocdelesede_cfpso/logo/5fa42e7f1cc99e629c74a4d7-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cfpso.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cfpso.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cfpso.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Cossonay - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/cossonay/logo/5ae0ed5b23579463d6fd2dbc-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cossonay.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cossonay.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cossonay.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Crans-Montana - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/cransmontana/logo/5ae0ed5c23579463d6fd2dbe-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cransmontana.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cransmontana.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cransmontana.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Crissier - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/crissier/logo/5ae0ed5c23579463d6fd2dc0-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://crissier.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://crissier.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://crissier.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Daillens - Bibliothèque intercommunale de la Venoge",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequeintercommunaledelavenoge/logo/5aec9adf3660444143bdc44a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://daillens.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://daillens.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://daillens.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Delémont - Bibliobus de l'Université populaire jurassienne",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliobus-up/logo/5ae0ed5d23579463d6fd2dc2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliobus-up.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliobus-up.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliobus-up.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Delémont - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/delemont_bibliothequemunicipale/logo/5e8316431cc99e58c6c41f4b-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-delemont.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-delemont.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-delemont.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    { 
+      "metadata": {
+        "title": "ECG Madame de Staël - Centre de documentation du Collège",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/destael/logo/5ae0ed5923579463d6fd2db6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://destael.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://destael.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://destael.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ecublens - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bce-ecublens/logo/5ae0ed5e23579463d6fd2dc4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bce-ecublens.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bce-ecublens.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bce-ecublens.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Epalinges - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/epalinges_bibliotheque/logo/5d6528041cc99e068a33b07a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://epalinges.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://epalinges.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://epalinges.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Fleurier - Bibliothèque du Val-de-Travers",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/val-de-travers/logo/5ae0ed5e23579463d6fd2dc6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://val-de-travers.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://val-de-travers.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://val-de-travers.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Frauenfeld - Kantonsbibliothek Thurgau",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/kantonsbibliothekthurgaufrauenfeld/logo/5dfb553936604410d8659ba4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://thurgau.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://thurgau.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://thurgau.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Frauenfeld - Mediothek Kantonsschule",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomedia_network/logo/5ada6108235794673bfdebb0-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://frauenfeld.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://frauenfeld.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://frauenfeld.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    { 
+      "metadata": {
+        "title": "FReBOOKS - Bibliothèque cantonale et universitaire Fribourg",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/frebooks_bibliothequecantonaleetuniversitairefribourg/logo/5c081f3723579431fb45b816-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://frebooks.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://frebooks.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://frebooks.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Fribourg - Bibliothèque des Arts et Métiers",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliobamfr/logo/5ae0ed5f23579463d6fd2dc8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliobamfr.ebibliomedia.ch/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliobamfr.ebibliomedia.ch/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliobamfr.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Fribourg - Bibliothèque du Collège St-Michel",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliocsmifr/logo/5ae0ed6023579463d6fd2dcc-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliocsmifr.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliocsmifr.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliocsmifr.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Fribourg - Bibliothèque du Collège de Gambach",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliocgafr/logo/5ae0ed6023579463d6fd2dca-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliocgafr.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliocgafr.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliocgafr.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Fribourg - Bibliothèque-médiathèque du Collège Ste-Croix",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliocscfr/logo/5ae0ed6123579463d6fd2dce-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliocscfr.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliocscfr.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliocscfr.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - Bibliothèque de l'Ecole de culture générale Ella-Maillart",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/ecg-ella-maillart/logo/5ae0ed6123579463d6fd2dd0-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ecg-ella-maillart.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ecg-ella-maillart.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ecg-ella-maillart.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - Bibliothèque scolaire de l'Ecole Moser",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequescolairedelecolemoser/logo/5aec9be83660444166bdc405-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ecolemoser.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ecolemoser.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ecolemoser.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - Bibliothèques municipales de la Ville",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequesmunicipalesdelavilledegeneve/logo/5aec80a936604425ba5765ba-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bm-geneve.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bm-geneve.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bm-geneve.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC de l'Ecole de Commerce Nicolas-Bouvier",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_cedocdelecoledecommercenicolas_bouvier/logo/5eaac219235794395c22e4f8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ec-nicolas-bouvier.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ec-nicolas-bouvier.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ec-nicolas-bouvier.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC de l'Ecole de Culture Générale Jean-Piaget",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_cedocdelecoledeculturegeneralejean_piaget/logo/5f7f076a366044343277a35e-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cedoc-jean-piaget.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cedoc-jean-piaget.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cedoc-jean-piaget.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC des collèges Alice Rivaz et Calvin",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_cedocdescollegesalicerivazetcalvin/logo/5de661e61cc99e19d45c40d3-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://rivaz-calvin.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://rivaz-calvin.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://rivaz-calvin.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC du Collège et Ecole de commerce André-Chavanne",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_cedocducollegeetecoledecommerceandre_chavanne/logo/5e8ccb06366044541e9bb4f6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cec-andre-chavanne.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cec-andre-chavanne.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cec-andre-chavanne.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC du Collège et Ecole de commerce Émilie-Gourd",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_cedocducollegeetecoledecommerceemilie_gourd/logo/61e66a0c5027cc0001c0e264-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://emilie-gourd.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://emilie-gourd.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://emilie-gourd.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - CEDOC du Collège de Saussure",
+        "country": "CH"
+      },
+      "links": [
+        {
+          "href": "https://saussure.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://saussure.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://saussure.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Genève - Médiathèque de l’École de Commerce Raymond Uldry",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/geneve_mediathequedelecoledecommerceraymond_uldry/logo/6050adae1cc99e4c1ff2234d-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-raymond-uldry.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-raymond-uldry.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-raymond-uldry.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Gimel - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/gimel/logo/5ae0ed6223579463d6fd2dd2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://gimel.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://gimel.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://gimel.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Gland - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/gland/logo/5ae0ed6323579463d6fd2dd4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://gland.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://gland.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://gland.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Grandcour - Bibliothèque intercommunale La Passade",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/biblio-la-passade/logo/5ae0ed6423579463d6fd2dd6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-la-passade.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-la-passade.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-la-passade.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Grimisuat - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/grimisuat_bibliotheque/logo/605ddb642357940d0ef14ddb-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://grimisuat.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://grimisuat.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://grimisuat.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Grône - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/biblio-grone/logo/5ae0ed6423579463d6fd2dd8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Grône - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/biblio-grone/logo/5ae0ed6423579463d6fd2dd8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-grone.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Haute École Pédagogique - BEJUNE",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/hauteecolepedagogique_bejune/logo/5ffdc2831cc99e099d51ea6b-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://mediatheques-hepbejune.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://mediatheques-hepbejune.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://mediatheques-hepbejune.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },    
+    {
+      "metadata": {
+        "title": "Köniz - Könizer Bibliotheken",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/koenizerbibliotheken/logo/5ae0ed6523579463d6fd2dda-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://koenizerbibliotheken.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://koenizerbibliotheken.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://koenizerbibliotheken.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "La Chaux - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/la-chaux/logo/5ae0ed6623579463d6fd2ddc-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://la-chaux.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://la-chaux.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://la-chaux.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "La Chaux-de-Fonds - Bibliothèque de la Ville",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/la-chaux-de-fonds/logo/5ae0ed6723579463d6fd2dde-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://la-chaux-de-fonds.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://la-chaux-de-fonds.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://la-chaux-de-fonds.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "La Neuveville - Bibliothèque régionale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/laneuveville/logo/5ae0ed6823579463d6fd2de2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://laneuveville.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://laneuveville.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://laneuveville.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "La Tour-de-Peilz - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/la-tour-de-peilz/logo/5ae0ed6923579463d6fd2de4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://la-tour-de-peilz.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://la-tour-de-peilz.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://la-tour-de-peilz.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lancy - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliotheque-lancy/logo/5ae0ed6a23579463d6fd2de6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliotheque-lancy.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliotheque-lancy.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliotheque-lancy.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Langenthal - Regionalbibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/langenthal_regionalbibliothek/logo/5c13e08836604416bc710590-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://langenthal.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://langenthal.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://langenthal.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lausanne - Bibliothèque cantonale et universitaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/bibliothequecantonaleetuniversitairedelausanne/logo/54c04e126d322e4803fe0400-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bcu-lausanne.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bcu-lausanne.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bcu-lausanne.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lausanne - Bibliothèques de la Ville",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequesdelavilledelausanne/logo/5aec9b923660444143bdc462-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://lausanne.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://lausanne.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://lausanne.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lausanne - Fondation Bibliomedia Suisse",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomedia/logo/5446ae116d312e0bf7970100-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bm.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bm.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bm.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Le Châble - Bibliothèque de Bagnes",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliobagnes/logo/5ae0ed6b23579463d6fd2de8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliobagnes.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliobagnes.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliobagnes.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Le Locle - Bibliothèque de la Ville du Locle",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequedelavilledulocle/logo/5d14ef673660441bd6d2e91c-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bv-lelocle.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bv-lelocle.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bv-lelocle.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Le Locle - Médiathèque CIFOM-Ecole Technique",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/et-lelocle/logo/5ae0ed6b23579463d6fd2dea-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://et-lelocle.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://et-lelocle.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://et-lelocle.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Leytron - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/leytron/logo/5ae0ed6c23579463d6fd2dec-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://leytron.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://leytron.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://leytron.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Liestal - Kantonsbibliothek Baselland",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/kantonsbibliothekbaselland/logo/5d667d4b3660445dd0d6fa67-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bl.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bl.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bl.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Lutry - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/lutry/logo/5ae0ed6d23579463d6fd2dee-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://lutry.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://lutry.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://lutry.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Martigny-Combe - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomycombe/logo/5ae0ed6e23579463d6fd2df0-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliomycombe.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliomycombe.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliomycombe.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Meyrin - Bibliothèque Forum Meyrin",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/forum-meyrin/logo/5ae0ed6f23579463d6fd2df2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://forum-meyrin.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://forum-meyrin.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://forum-meyrin.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Montreux - Bibliothèque municipale de Montreux \u0026 Veytaux",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/montreux/logo/5ae0ed7023579463d6fd2df4-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://montreux.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://montreux.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://montreux.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Montricher - Bibliothèque villageoise",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/montricher/logo/5ae0ed7223579463d6fd2df6-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://montricher.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://montricher.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://montricher.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Morges - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/morges/logo/5ae0ed7323579463d6fd2df8-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://morges.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://morges.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://morges.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Moudon - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/moudon/logo/5ae0ed7323579463d6fd2dfa-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://moudon.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://moudon.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://moudon.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Moutier - Bibliothèque municipale et régionale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/moutier/logo/5ae0ed7423579463d6fd2dfc-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://moutier.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://moutier.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://moutier.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Nendaz - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/nendaz_bibliothequecommunaleetscolaire/logo/5d7b63773660446cf6d89c7f-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nendaz.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nendaz.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nendaz.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Neuchâtel - Bibliobus",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/neuchatel_bibliobus/logo/5e857dd92357944f098c6000-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliobus-ne.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliobus-ne.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliobus-ne.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Neuchâtel - Bibliothèque publique et universitaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/Bpu-neuchatel/logo/5ae0ed7723579463d6fd2e00-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bpu-neuchatel.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bpu-neuchatel.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bpu-neuchatel.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Neuchâtel - Médiathèque du Lycée Jean-Piaget",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/mediatheque-ljp/logo/5ae0ed7823579463d6fd2e02-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://mediatheque-ljp.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://mediatheque-ljp.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://mediatheque-ljp.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Nidau - Bibliothèque de langue française",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/nidau/logo/5ae0ed7923579463d6fd2e04-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nidau.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nidau.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nidau.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Nyon - Bibliothèque de Nyon Adultes",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/nyon/logo/5ae0ed7a23579463d6fd2e06-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://nyon.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://nyon.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://nyon.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Orbe - Bibliothèque publique et scolaire de la région d'Orbe",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/orbe/logo/5ae0ed7b23579463d6fd2e08-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://orbe.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://orbe.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://orbe.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Orsières - Bibliothèque municipale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/orsieres/logo/5ae0ed7b23579463d6fd2e0a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://orsieres.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://orsieres.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://orsieres.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Pampigny - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliomedia_network/logo/5ada6108235794673bfdebb0-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pampigny.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pampigny.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pampigny.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Payerne - Bibliothèque Derrière-La-Tour",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/payerne_bibliothequederriere_la_tour/logo/5eb3a5ba1cc99e5a7190e467-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://dlt.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://dlt.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://dlt.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Payerne - Bibliothèque du Gymnase intercantonal de la Broye",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/payerne_bibliothequedugymnaseintercantonaldelabroye/logo/5bc6fc8c3660440f999bb48d-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibliogyb.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliogyb.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliogyb.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Porrentruy - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/porrentruy_bibliothequemunicipale/logo/5e7376cb23579440efcfdb2d-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-porrentruy.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-porrentruy.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-porrentruy.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Porrentruy - Bibliothèque cantonale jurassienne",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/porrentruy_bibliothequecantonalejurassienne/logo/5e7cc0c4366044631827124a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bicj-porrentruy.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bicj-porrentruy.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bicj-porrentruy.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Porrentruy - Médiathèque du Lycée cantonal",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/porrentruy_mediathequedulyceecantonal/logo/5e85ce441cc99e0888ba502b-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://lamedia-porrentruy.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://lamedia-porrentruy.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://lamedia-porrentruy.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Pregny-Chambésy - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/pregny-chambesy/logo/5ae0ed7c23579463d6fd2e0c-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pregny-chambesy.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pregny-chambesy.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pregny-chambesy.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Prilly - Bibliothèque de la Ville",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/prilly/logo/5ae0ed7d23579463d6fd2e0e-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://prilly.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://prilly.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://prilly.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Pully - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/pully/logo/5ae0ed7e23579463d6fd2e10-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pully.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pully.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pully.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Péry - Bibliothèque de Péry-La Heutte",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/pery-laheutte/logo/5ae0ed7f23579463d6fd2e12-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pery-laheutte.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pery-laheutte.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pery-laheutte.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Riddes - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/riddes/logo/5ae0ed8023579463d6fd2e14-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://riddes.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://riddes.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://riddes.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Rolle - Bibliothèque intercommunale scolaire et publique",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/rolle/logo/5ae0ed8123579463d6fd2e16-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://rolle.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://rolle.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://rolle.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ruswil - Schul- und Gemeindebibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/rolle/logo/5ae0ed8123579463d6fd2e16-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ruswil.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ruswil.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ruswil.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },    
+    {
+      "metadata": {
+        "title": "Saint-Aubin - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/st-aubin/logo/5ae0ed8223579463d6fd2e18-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://st-aubin.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://st-aubin.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://st-aubin.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Saint-George - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/st-george/logo/5ae0ed8323579463d6fd2e1a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://st-george.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://st-george.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://st-george.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Saint-Imier - Bibliothèque régionale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/saint-imier/logo/5ae0ed8423579463d6fd2e1c-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://saint-imier.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://saint-imier.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://saint-imier.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Saint-Prex - Bibliothèque communale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/saint-prex/logo/5ae0ed8523579463d6fd2e1e-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://saint-prex.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://saint-prex.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://saint-prex.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Sainte-Croix - Bibliothèque publique",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/ste-croix/logo/5ae0ed8623579463d6fd2e20-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://ste-croix.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://ste-croix.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://ste-croix.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Savigny-Forel - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/savigny_forel_bibliotheque/logo/5ecd27dd3660440e8a7da923-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bsf.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bsf.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bsf.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Savièse - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/saviese_bibliothequecommunaleetscolaire/logo/5e7c5b9d1cc99e7ccdf426eb-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-saviese.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-saviese.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-saviese.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Saxon - Bibliothèque communale et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequecommunaleetscolairedesaxon/logo/5aec9b4b3660444154bdc417-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://saxon.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://saxon.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://saxon.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Schwarzenburg - Bibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothekshwarzenburg/logo/5b9945a736604401ccf6e004-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://schwarzenburg.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://schwarzenburg.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://schwarzenburg.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Sierre - Bibliothèque-Médiathèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/sierre/logo/5ae0ed8723579463d6fd2e22-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://sierre.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://sierre.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://sierre.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Tavannes - Bibliothèque régionale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/tavannes/logo/5ae0ed8823579463d6fd2e24-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://tavannes.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://tavannes.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://tavannes.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Thun - Stadtbibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/stadtbibliothekthun/logo/5b157c622357944d14e788ca-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://thun.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://thun.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://thun.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Tramelan - Centre interrégional de perfectionnement (CIP)",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/cip-tramelan/logo/5ae0ed8923579463d6fd2e26-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cip-tramelan.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cip-tramelan.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cip-tramelan.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Val d’Hérens – Bibliothèques",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bibliothequesduvaldherens/logo/5b157c20235794770d196e9e-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://valdherens.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://valdherens.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://valdherens.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {  
+      "metadata": {
+        "title": "Valais - Médiathèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/mediathequevalais/logo/549205196d312e6c93500200-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://mediatheque-valais.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://mediatheque-valais.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://mediatheque-valais.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Vernier - Bibliothèques municipales",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/vernier/logo/5ae0ed8923579463d6fd2e28-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://vernier.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://vernier.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://vernier.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Versoix - Bibliothèque du Boléro",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/bolero/logo/5ae0ed8a23579463d6fd2e2a-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bolero.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bolero.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bolero.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Vevey - Bibliothèque municipale",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/vevey/logo/5ae0ed8b23579463d6fd2e2c-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://vevey.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://vevey.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://vevey.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Vétroz-Magnot - Bibliothèque",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/vetroz_magnot_bibliotheque/logo/5e8ed39b235794122f78b6e2-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://biblio-vetroz.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://biblio-vetroz.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://biblio-vetroz.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Yverdon-les-Bains - Bibliothèque publique et scolaire",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/yverdon/logo/5ae0ed8e23579463d6fd2e30-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://yverdon.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://yverdon.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://yverdon.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Yverdon-les-Bains - Médiathèque du Centre professionnel du Nord Vaudois",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/yverdon_les_bains_mediathequeducentreprofessionneldunordvaudois/logo/5e7ca8e0366044330f65b373-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://cpnv.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://cpnv.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://cpnv.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Zug - Bibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/zug_bibliothek/logo/5c067637366044493439595d-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://zug.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://zug.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://zug.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Zürich - PBZ Pestalozzi-Bibliothek",
+        "country": "CH"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/bmed/pbzpestalozzi_bibliothekzuerich/logo/5d14e06b2357944bba23815d-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://zuerich-pbz.ebibliomedia.ch/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://zuerich-pbz.ebibliomedia.ch/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://zuerich-pbz.ebibliomedia.ch/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

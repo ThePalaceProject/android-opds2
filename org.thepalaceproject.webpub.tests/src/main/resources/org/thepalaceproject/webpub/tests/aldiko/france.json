@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "title": "France"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/france.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Bibliothèque départementale de l’Aisne",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://bibliotheque.aisne.com/recherche---catalogue?q=recherche---catalogue&mt=&f%5B0%5D=support%3Alivre%20numerique",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+
+      "metadata": {
+        "title": "Bibliothèque des Côtes d'Armor",
+        "country": "FRA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/bibliothequedescotesdarmor/logo/5df39b46366044492e2763aa-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bca.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bca.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bca.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque nationale de France",
+        "country": "FRA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/bibliothequenationaledefrance/logo/6307bd2c876d000001507594-logo-2x.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pret.bnf.fr/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pret.bnf.fr/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pret.bnf.fr/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Numothèque Grenoble-Alpes",
+        "country": "FRA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/grenoble/logo/52a6feb70c0152fa31000006-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://bibook.bm-grenoble.fr/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibook.bm-grenoble.fr/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibook.bm-grenoble.fr/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+
+      "metadata": {
+        "title": "Médiathèques du Haut-Rhin",
+        "country": "FR"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/mediathequesduhaut_rhin/logo/575ad02d2357945fe700001b-logo.jpg",
+        "type": "image/jpeg",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "http://mediathequesduhautrhin.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "http://mediathequesduhautrhin.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "http://mediathequesduhautrhin.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Istituto Italiano di Cultura di Parigi",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "http://iicparigi.medialibrary.it/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Médiathèque de Levallois",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://mediatheque.ville-levallois.fr/Default/livres.aspx",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Médiathèque Numérique de la Loire",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://mediatheque-numerique.loire.fr/Default/ebooks.aspx",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Médiathèque intercommunale de Montélimar",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://mediatheque.montelimar-agglo.fr/opac/catalog/search?allfields%5B%5D=&sort=sort_inventoryDate+desc&rows=12&specificField%5B%5D=hasNumericalItem%3A%22true%22&specificField%5B%5D=format%3A%22Texte%22&nb_rows=0",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Réseau des Médiathèques Montpellier3M",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://mediatheques.montpellier3m.fr/livres-numeriques.aspx",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Bibliothèque numérique de la ville de Paris",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://bibliotheques.paris.fr/numerique/",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Réseau des médiathèques Pau Béarn Pyrénées",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://mediatheques.agglo-pau.fr/numerique/lire/livre-numeriques/livre-numerique-recherche?s_1164[0]=n",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/catalog"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Les Médiathèques - Rennes Métropole",
+        "country": "FRA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/lesmediatheques_rennesmetropole/logo/578fea6376e5792ab90000a3-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://pnb.lesmediatheques-rennesmetropole.fr/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://pnb.lesmediatheques-rennesmetropole.fr/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://pnb.lesmediatheques-rennesmetropole.fr/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Réseau de la médiathèque intercommunale de Sélestat",
+        "country": "FRA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/gren/mediathequebibliothequesdeselestat/logo/571165ff6d322e13ec440000-logo.jpg",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://hoplabook.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://hoplabook.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://hoplabook.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Les bibliothèques de l'agglomération Tarbes Lourdes Pyrénées",
+        "country": "FRA"
+      },
+      "links": [
+        {
+          "href": "https://bibliotheques-tlp.cantookstation.eu/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+        {
+          "href": "https://bibliotheques-tlp.cantookstation.eu/v1/sign_in.opds2",
+          "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://bibliotheques-tlp.cantookstation.eu/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

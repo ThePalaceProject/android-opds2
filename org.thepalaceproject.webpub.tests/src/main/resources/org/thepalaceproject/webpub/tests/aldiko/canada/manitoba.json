@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Manitoba"
+  },
+  
+  "links": [
+    {"rel": "self", "href": "https://libraries.aldiko.com/countries/canada/manitoba.json", "type": "application/opds+json"}
+  ],
+  
+  "catalogs": [
+    {
+      "metadata": {
+        "title": "Winnipeg Public Library",
+        "country": "CA"
+      },
+      "image": {
+        "href": "https://meki-production.s3.amazonaws.com/cdoc/bibliothequepubliquedewinnipeg/logo/5e1cc3ea1cc99e309ac73e1c-logo.png",
+        "type": "image/png",
+        "rel": "http://opds-spec.org/image/thumbnail"
+      },
+      "links": [
+        {
+          "href": "https://winnipeg.cantookstation.com/v1/home.opds2",
+          "type": "application/opds+json",
+          "rel": "http://opds-spec.org/catalog"
+        },
+          {
+            "href": "https://winnipeg.cantookstation.com/v1/sign_in.opds2",
+            "type": "application/opds-authentication+json"
+        },
+        {
+          "href": "https://winnipeg.cantookstation.com/home",
+          "type": "text/html",
+          "rel": "alternate"
+        }
+      ]
+    }
+  ]
+}

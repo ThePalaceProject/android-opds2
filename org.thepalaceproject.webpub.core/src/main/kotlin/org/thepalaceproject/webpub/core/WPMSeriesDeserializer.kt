@@ -1,0 +1,83 @@
+package org.thepalaceproject.webpub.core
+
+import com.fasterxml.jackson.core.JsonParser
+import com.fasterxml.jackson.core.JsonToken
+import com.fasterxml.jackson.databind.DeserializationContext
+import com.fasterxml.jackson.databind.deser.std.StdDeserializer
+import java.time.OffsetDateTime
+
+class WPMSeriesDeserializer :
+  StdDeserializer<WPMSeries>(WPMSeries::class.java) {
+
+  override fun deserialize(
+    parser : JsonParser,
+    context : DeserializationContext
+  ) : WPMSeries {
+    return when (val currentToken = parser.currentToken()) {
+      JsonToken.VALUE_STRING   -> {
+        WPMSeries.WPMSeriesString(parser.text)
+      }
+      JsonToken.START_ARRAY        -> {
+        return this.consumeArray(parser, context)
+      }
+      JsonToken.START_OBJECT        -> {
+        context.readValue(parser, WPMSeries.WPMSeriesObject::class.java)
+      }
+
+      else                         -> {
+        this.errorUnexpectedToken(context, currentToken, parser)
+      }
+    }
+  }
+
+  private fun errorUnexpectedToken(
+    context : DeserializationContext,
+    currentToken : JsonToken?,
+    parser : JsonParser
+  ) : Nothing {
+    context.handleUnexpectedToken(
+      OffsetDateTime::class.java,
+      currentToken,
+      parser,
+      "Expected a string, an object, or an array (Received ${currentToken})."
+    )
+    throw IllegalStateException("Unreachable code")
+  }
+
+  private fun consumeArray(
+    parser : JsonParser,
+    context : DeserializationContext
+  ) : WPMSeries.WPMSeriesSet {
+    val results =
+      mutableListOf<WPMSeries>()
+
+    while (true) {
+      when (val currentToken = parser.nextToken()) {
+        JsonToken.START_OBJECT -> {
+          results.add(
+            context.readValue(
+              parser,
+              WPMSeries.WPMSeriesObject::class.java
+            )
+          )
+        }
+
+        JsonToken.VALUE_STRING -> {
+          results.add(WPMSeries.WPMSeriesString(parser.text))
+        }
+
+        JsonToken.START_ARRAY -> {
+          results.add(this.consumeArray(parser, context))
+        }
+
+        JsonToken.END_ARRAY    -> {
+          return WPMSeries.WPMSeriesSet(results.toList())
+        }
+
+        else                   -> {
+          this.errorUnexpectedToken(context, currentToken, parser)
+        }
+      }
+    }
+  }
+}
