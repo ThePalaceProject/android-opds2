@@ -841,6 +841,7 @@ class WPMParseTest {
       "igen.json",
       "null_link_type.json",
       "null_titles.json",
+      "oapen/TwentyThree_English_only.json",
       "ok_minimal_0.json",
       "ok_minimal_1.json",
       "open_access_0.json",

@@ -59,13 +59,13 @@ data class WPMMetadata @JsonCreator constructor(
   val identifier : URI?,
 
   /**
-   * The alternative identifier for the publication.
+   * The alternative identifier(s).
    */
 
   @JsonProperty(
     value = "altIdentifier"
   )
-  val altIdentifier : URI?,
+  val altIdentifier : List<String> = listOf(),
 
   /**
    * The accessibility metadata.

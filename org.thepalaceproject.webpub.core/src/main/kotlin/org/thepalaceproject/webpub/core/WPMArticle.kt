@@ -33,13 +33,13 @@ sealed class WPMArticle {
     val identifier : URI?,
 
     /**
-     * The alternative identifier for the article.
+     * The alternative identifier(s).
      */
 
     @JsonProperty(
       value = "altIdentifier"
     )
-    val altIdentifier : URI?,
+    val altIdentifier : List<String> = listOf(),
 
     /**
      * The text value used to sort the article.

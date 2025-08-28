@@ -29,8 +29,7 @@ class WPMChapterSerializer :
         gen.writeFieldName("identifier")
         gen.writeObject(value.identifier)
 
-        gen.writeFieldName("altIdentifier")
-        gen.writeObject(value.altIdentifier)
+        WPMArrays.writeArrayField(gen, "altIdentifier", value.altIdentifier)
 
         gen.writeFieldName("sortAs")
         gen.writeObject(value.sortAs)

@@ -28,10 +28,9 @@ class WPMContributorOrStringSerializer :
           gen.writeFieldName("identifier")
           gen.writeString(text.toString())
         }
-        value.altIdentifier?.let { text ->
-          gen.writeFieldName("altIdentifier")
-          gen.writeString(text.toString())
-        }
+
+        WPMArrays.writeArrayField(gen, "altIdentifier", value.altIdentifier)
+
         value.sortAs?.let { text ->
           gen.writeFieldName("sortAs")
           gen.writeString(text)

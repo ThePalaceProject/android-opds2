@@ -28,10 +28,14 @@ sealed class WPMVolume {
     )
     val identifier : URI?,
 
+    /**
+     * The alternative identifier(s).
+     */
+
     @JsonProperty(
       value = "altIdentifier"
     )
-    val altIdentifier : URI?,
+    val altIdentifier : List<String> = listOf(),
 
     @JsonProperty(
       value = "sortAs"
