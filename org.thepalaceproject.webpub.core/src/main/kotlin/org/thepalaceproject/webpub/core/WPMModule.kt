@@ -57,8 +57,6 @@ object WPMModule {
       .allowClass(WPMLinkProperties::class.java)
       .allowClass(WPMManifest::class.java)
       .allowClass(WPMMetadata::class.java)
-      .allowClass(WPMNavigation::class.java)
-      .allowClass(WPMNavigationLink::class.java)
       .allowClass(WPMPeriodical::class.java)
       .allowClass(WPMPeriodical.WPMPeriodicalObject::class.java)
       .allowClass(WPMPublication::class.java)

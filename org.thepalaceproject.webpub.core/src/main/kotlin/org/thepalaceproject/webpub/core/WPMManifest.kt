@@ -21,13 +21,13 @@ data class WPMManifest @JsonCreator constructor(
   val metadata : WPMMetadata,
 
   /**
-   * The navigation section, if any.
+   * The navigation links, if any.
    */
 
   @JsonProperty(
     value = "navigation"
   )
-  val navigation : List<WPMNavigation> = listOf(),
+  val navigation : List<WPMLink> = listOf(),
 
   /**
    * The links
