@@ -14,6 +14,7 @@ import org.thepalaceproject.webpub.core.WPMArticle
 import org.thepalaceproject.webpub.core.WPMChapter
 import org.thepalaceproject.webpub.core.WPMCollection
 import org.thepalaceproject.webpub.core.WPMEpisode
+import org.thepalaceproject.webpub.core.WPMFeed
 import org.thepalaceproject.webpub.core.WPMIssue
 import org.thepalaceproject.webpub.core.WPMManifest
 import org.thepalaceproject.webpub.core.WPMMappers
@@ -57,7 +58,7 @@ class WPMParseTest {
     assertEquals(14, feed.links.size)
     assertEquals(217, feed.publications.size)
 
-    this.roundTrip(feed)
+    this.roundTripManifest(feed)
   }
 
   @Test
@@ -72,7 +73,7 @@ class WPMParseTest {
     assertEquals(4, feed.links.size)
     assertEquals(0, feed.publications.size)
 
-    this.roundTrip(feed)
+    this.roundTripManifest(feed)
   }
 
   @Test
@@ -798,77 +799,98 @@ class WPMParseTest {
     assertEquals(value, rereadObject)
   }
 
+  private val testCases = listOf(
+    "aldiko/argentina.json",
+    "aldiko/belgique.json",
+    "aldiko/canada.json",
+    "aldiko/canada/alberta.json",
+    "aldiko/canada/britishcolumbia.json",
+    "aldiko/canada/epl_cantook_home.json",
+    "aldiko/canada/manitoba.json",
+    "aldiko/canada/novascotia.json",
+    "aldiko/canada/ontario.json",
+    "aldiko/canada/quebec.json",
+    "aldiko/canada/yukon.json",
+    "aldiko/france.json",
+    "aldiko/home.json",
+    "aldiko/international.json",
+    "aldiko/italia.json",
+    "aldiko/suisse.json",
+    "anna_karenina_toc.audiobook-manifest.json",
+    "bestnewhorror.audiobook-manifest.json",
+    "feedbooks_0.json",
+    "feedbooks_1.json",
+    "feedbooks_2.json",
+    "feedbooks_3.json",
+    "feedbooks_rights_no_end.json",
+    "feedbooks_rights_no_start.json",
+    "feedbooks_rights_ok.json",
+    "findaway-20201015.json",
+    "findaway.json",
+    "findaway_leading_0.json",
+    "flatland.audiobook-manifest.json",
+    "flatland_toc.audiobook-manifest.json",
+    "fulcrum/amherst",
+    "fulcrum/bigten",
+    "fulcrum/fulcrum.json",
+    "fulcrum/heb",
+    "fulcrum/leverpress",
+    "fulcrum/umpebc",
+    "fulcrum/umpebc_oa",
+    "groups-20250821.json",
+    "igen.json",
+    "null_link_type.json",
+    "null_titles.json",
+    "oapen/TwentyThree_English_only.json",
+    "ok_minimal_0.json",
+    "ok_minimal_1.json",
+    "open_access_0.json",
+    "random-game-audio-2.json",
+    "random-game-audio.json",
+    "rbdigital_large.json",
+    "registry-20250826.json",
+    "soundzter/soundzter-20250826.json",
+    "summerwives.audiobook-manifest.json",
+    "unlimitedlistens/0bdf082d-b0b0-4135-a11f-f92bda7cc51d",
+  )
+
   @TestFactory
-  fun testRoundTripMany() : Stream<DynamicTest> {
-    return Stream.of(
-      "aldiko/argentina.json",
-      "aldiko/belgique.json",
-      "aldiko/canada.json",
-      "aldiko/canada/alberta.json",
-      "aldiko/canada/britishcolumbia.json",
-      "aldiko/canada/manitoba.json",
-      "aldiko/canada/novascotia.json",
-      "aldiko/canada/ontario.json",
-      "aldiko/canada/quebec.json",
-      "aldiko/canada/yukon.json",
-      "aldiko/france.json",
-      "aldiko/home.json",
-      "aldiko/international.json",
-      "aldiko/italia.json",
-      "aldiko/suisse.json",
-      "anna_karenina_toc.audiobook-manifest.json",
-      "bestnewhorror.audiobook-manifest.json",
-      "feedbooks_0.json",
-      "feedbooks_1.json",
-      "feedbooks_2.json",
-      "feedbooks_3.json",
-      "feedbooks_rights_no_end.json",
-      "feedbooks_rights_no_start.json",
-      "feedbooks_rights_ok.json",
-      "findaway-20201015.json",
-      "findaway.json",
-      "findaway_leading_0.json",
-      "flatland.audiobook-manifest.json",
-      "flatland_toc.audiobook-manifest.json",
-      "fulcrum/amherst",
-      "fulcrum/bigten",
-      "fulcrum/fulcrum.json",
-      "fulcrum/heb",
-      "fulcrum/leverpress",
-      "fulcrum/umpebc",
-      "fulcrum/umpebc_oa",
-      "groups-20250821.json",
-      "igen.json",
-      "null_link_type.json",
-      "null_titles.json",
-      "oapen/TwentyThree_English_only.json",
-      "ok_minimal_0.json",
-      "ok_minimal_1.json",
-      "open_access_0.json",
-      "random-game-audio-2.json",
-      "random-game-audio.json",
-      "rbdigital_large.json",
-      "registry-20250826.json",
-      "soundzter/soundzter-20250826.json",
-      "summerwives.audiobook-manifest.json",
-      "unlimitedlistens/0bdf082d-b0b0-4135-a11f-f92bda7cc51d",
-    ).map { x -> roundTripDynamicTestOf(x) }
+  fun testRoundTripManifestMany() : Stream<DynamicTest> {
+    return this.testCases.stream().map { x -> this.roundTripDynamicTestManifestOf(x) }
   }
 
-  private fun roundTripDynamicTestOf(
+  @TestFactory
+  fun testRoundTripFeedMany() : Stream<DynamicTest> {
+    return this.testCases.stream().map { x -> this.roundTripDynamicTestFeedOf(x) }
+  }
+
+  private fun roundTripDynamicTestManifestOf(
     name : String
   ) : DynamicTest {
     return DynamicTest.dynamicTest("testRoundTrip_$name", {
-      this.roundTrip(
-        mapper.readValue(
-          resource(name),
+      this.roundTripManifest(
+        this.mapper.readValue(
+          this.resource(name),
           WPMManifest::class.java
         )
       )
     })
   }
 
-  private fun roundTrip(
+  private fun roundTripDynamicTestFeedOf(
+    name : String
+  ) : DynamicTest {
+    return DynamicTest.dynamicTest("testRoundTrip_$name", {
+      this.roundTripFeed(
+        this.mapper.readValue(
+          this.resource(name),
+          WPMFeed::class.java
+        )
+      )
+    })
+  }
+
+  private fun roundTripManifest(
     feed : WPMManifest
   ) {
     val serializedText =
@@ -881,7 +903,7 @@ class WPMParseTest {
       )
 
     for ((c0, c1) in feed.catalogs.zip(rereadObject.catalogs)) {
-      assertDataClassEquals(c0.metadata, c1.metadata)
+      this.assertDataClassEquals(c0.metadata, c1.metadata)
       for ((l0, l1) in c0.links.zip(c1.links)) {
         assertEquals(l0, l1)
       }
@@ -890,10 +912,43 @@ class WPMParseTest {
       assertEquals(c0, c1)
     }
 
-    assertDataClassEquals(feed.catalogs, rereadObject.catalogs)
-    assertDataClassEquals(feed.publications, rereadObject.publications)
-    assertDataClassEquals(feed.links, rereadObject.links)
-    assertDataClassEquals(feed.metadata, rereadObject.metadata)
+    this.assertDataClassEquals(feed.catalogs, rereadObject.catalogs)
+    this.assertDataClassEquals(feed.publications, rereadObject.publications)
+    this.assertDataClassEquals(feed.links, rereadObject.links)
+    this.assertDataClassEquals(feed.metadata, rereadObject.metadata)
+
+    assertEquals(feed.navigation, rereadObject.navigation)
+    assertEquals(feed, rereadObject)
+  }
+
+  private fun roundTripFeed(
+    feed : WPMFeed
+  ) {
+    val serializedText =
+      this.mapper.writerWithDefaultPrettyPrinter()
+        .writeValueAsString(feed)
+    val rereadObject =
+      this.mapper.readValue(
+        serializedText,
+        WPMFeed::class.java
+      )
+
+    for ((c0, c1) in feed.catalogs.zip(rereadObject.catalogs)) {
+      this.assertDataClassEquals(c0.metadata, c1.metadata)
+      for ((l0, l1) in c0.links.zip(c1.links)) {
+        assertEquals(l0, l1)
+      }
+      assertEquals(c0.links, c1.links)
+      assertEquals(c0.images, c1.images)
+      assertEquals(c0, c1)
+    }
+
+    this.assertDataClassEquals(feed.facets, rereadObject.facets)
+    this.assertDataClassEquals(feed.groups, rereadObject.groups)
+    this.assertDataClassEquals(feed.catalogs, rereadObject.catalogs)
+    this.assertDataClassEquals(feed.publications, rereadObject.publications)
+    this.assertDataClassEquals(feed.links, rereadObject.links)
+    this.assertDataClassEquals(feed.metadata, rereadObject.metadata)
 
     assertEquals(feed.navigation, rereadObject.navigation)
     assertEquals(feed, rereadObject)

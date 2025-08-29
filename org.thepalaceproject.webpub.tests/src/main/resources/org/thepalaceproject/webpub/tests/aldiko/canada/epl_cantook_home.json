@@ -1,0 +1,3579 @@
+{
+  "metadata": {
+    "title": "Edmonton Public Library"
+  },
+  "links": [
+    {
+      "type": "application/opds+json",
+      "rel": "self",
+      "href": "https://epl.cantookstation.com/v1/home.opds2"
+    },
+    {
+      "type": "application/opds+json",
+      "rel": "search",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2{?query}",
+      "templated": true
+    },
+    {
+      "type": "application/opds-profile+json",
+      "rel": "profile",
+      "href": "https://epl.cantookstation.com/v1/my_profile.opds2"
+    },
+    {
+      "title": "History",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/history",
+      "href": "https://epl.cantookstation.com/v1/my_profile/history.opds2"
+    },
+    {
+      "title": "Loans and holds",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/shelf",
+      "href": "https://epl.cantookstation.com/v1/my_profile/activity.opds2"
+    },
+    {
+      "title": "Reading list",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/wishlist",
+      "href": "https://epl.cantookstation.com/v1/my_profile/wishlist.opds2"
+    }
+  ],
+  "navigation": [
+    {
+      "type": "application/opds+json",
+      "title": "Ebooks",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=ebook"
+    },
+    {
+      "type": "application/opds+json",
+      "title": "Magazines",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=magazine"
+    },
+    {
+      "type": "application/opds+json",
+      "title": "Audiobooks",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=audio"
+    },
+    {
+      "type": "application/opds+json",
+      "title": "Featured selections",
+      "href": "https://epl.cantookstation.com/v1/bundles.opds2"
+    },
+    {
+      "type": "application/opds+json",
+      "title": "Categories",
+      "href": "https://epl.cantookstation.com/v1/categories.opds2"
+    }
+  ],
+  "groups": [
+    {
+      "metadata": {
+        "title": "Recent releases"
+      },
+      "links": [
+        {
+          "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&sort_by=issued_on_desc",
+          "rel": "self",
+          "type": "application/opds+json"
+        }
+      ],
+      "publications": [
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Skidded and Skunked",
+            "language": "en",
+            "identifier": "urn:isbn:9780228634829",
+            "modified": "2025-07-07T14:33:21.825Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "numberOfPages": 280,
+            "author": [
+              {
+                "name": "Dean L. Hovey",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Dean+L.+Hovey"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "Despite the grieving husband’s description of the event, Sergeant CJ Jensen isn't at all convinced that a farm fatality is really an accident. With the help of Pam Ryan, Floyd Swenson, and a neighbor who raises skunks, CJ’s investigation uncovers multiple mysteriesas she moves forward and puts down permanent roots in Pine County.Despite the grieving husband’s description of the event, Sergeant CJ Jensen isn't at all convinced that a farm fatality is really an accident. With the help of Pam Ryan, Floyd Swenson, and a neighbor who raises skunks, CJ’s investigation uncovers multiple mysteriesas she moves forward and puts down permanent roots in Pine County.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022020",
+                "name": "Police Procedural",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022020&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022040",
+                "name": "Women Sleuths",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cc9af6eb-0ae2-4939-7554-f3e016fdf400/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ced",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ced.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-57daeb4e-c970-45f4-8b1d-da16eb54d4c2-9780228634829-epub/loans_activation.opds2?_resource_id=6847799df367b3bf0abf9ced",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228634829/ada8f9eaaae6b44ae05dfea4fc9df70b_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Blood and Fire",
+            "language": "en",
+            "identifier": "urn:isbn:9781998489534",
+            "modified": "2025-06-27T14:47:52.349Z",
+            "published": "2025-05-14T00:00:00.000Z",
+            "numberOfPages": 172,
+            "author": [
+              {
+                "name": "Bill Slavin",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Bill+Slavin"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Renegade Arts Entertainment ",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Renegade+Arts+Entertainment+"
+                }
+              ]
+            },
+            "description": "<p>THE THRILLING CONCLUSION TO THE MULTI-AWARD WINNING MORDECAI CROW TRILOGY</p><p></p><p>We are taken back in time to see Crow’s ravaged world through the eyes of his mother, Raven. Snatching up the threads from the first two books, Raven’s story weaves a tale of blood and fire that leads to an action-packed climax played out on the embattled ramparts of Ironcast, throne of the merciless ruler of the Luddites, Lord Pyke.&nbsp;</p><p></p><p>Why has the crazed bandit chieftain Zeya delivered Crow into the hands of the Luddites? Will stalwart Podd, with the help of the Baker’s Dozen crew of misfits, succeed in finding his friend once again? And most importantly, will our hero Mordecai Crow finally unravel the secrets of his lost past?</p><p></p><p>Against the rumblings of war and intrigue, all will be made clear  In&nbsp;Blood and Fire, the thrilling conclusion to the Mordecai Crow Trilogy.</p><p></p><p>Praise for the trilogy:</p><p></p><p>'The post-apocalyptic adventure I didn’t know I needed. High-speed storytelling in a well-crafted book.’</p><p></p><p>Mike Donachie - Toronto Star</p><p></p><p>Secrets of Jarrow, book 1 in the Mordecai Crow trilogy is the Alberta Book Publishing mystery &amp; thriller Book of the year 2024, ABP 2024 Graphic Novel of the year, and the ABP 2024 Best illustrated Book.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": []
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e8c34258-a0a0-4d9d-2dc3-0337dc30b400/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/684884ae282904b3368f73ea",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/684884ae282904b3368f73ea.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-b6a776b6-ff04-438a-a12d-0464c8f9c795-9781998489534-pdf/loans_activation.opds2?_resource_id=684884ae282904b3368f73ea",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Home Fires Burn",
+            "language": "en",
+            "identifier": "urn:isbn:9781988754659",
+            "modified": "2025-06-27T14:47:51.451Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Anthony Bidulka",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Anthony+Bidulka"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Stonehouse Originals",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Stonehouse+Originals"
+                }
+              ]
+            },
+            "description": "From the author of Crime Writers of Canada Best Crime Novel, Going to Beautiful, comes the final book of the Merry Bell trilogy. When a celebrated philanthropist is found slumped against his car, frozen to death, PI Merry Bell is hired by his son, country music star Evan Whatley, to find out the truth behind what really happened on that desolate stretch of road. As Merry’s investigation uncovers old wounds that never healed, her own are revealed as she confronts her pre-transition past and questions the boundaries of family and friendship.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022040",
+                "name": "Women Sleuths",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/176fca25-856d-4712-89a0-913b2d65bd00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/683cd8ab24db7e301e935d0f",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/683cd8ab24db7e301e935d0f.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-5333e560-176c-4817-9a90-30085ff42c35-9781988754659-epub/loans_activation.opds2?_resource_id=683cd8ab24db7e301e935d0f",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781988754659/f40d952f0368488233bddd98ef6138ad_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Training Working Dogs to Track",
+            "language": "en",
+            "identifier": "urn:isbn:9781550599664",
+            "modified": "2025-07-07T14:33:21.919Z",
+            "published": "2025-06-06T00:00:00.000Z",
+            "numberOfPages": 156,
+            "author": [
+              {
+                "name": "Clifford Samson",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Clifford+Samson"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Dog Training Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Dog+Training+Press"
+                }
+              ]
+            },
+            "description": "<p><strong>A Step-by-Step Guide to Developing Superior Tracking Teams</strong></p>\n<p>For over 35 years, Clifford Samon has trained working dogs, including police and search-and-rescue K9s. In <i>Training Working Dogs to Track</i>, he shares his proven, five-level approach to tracking, used daily in his work with the Ontario Provincial Police. This systematic method builds drive and gradually develops skills, progressing from rural to urban environments. Designed to enhance both the dog’s ability and the handler’s expertise, it ensures peak performance without shortcuts.</p>\n<p>Whether for police, military, or rescue work, this guide is an essential resource for maximizing a dog’s tracking potential.</p>\n<p>Learn how to:</p>\n<ul>\n<li>Test a dog’s innate tracking ability to ensure they’re a good candidate for training.</li>\n<li>Develop skills beyond the standard Canadian K9 training programs to create an unstoppable tracking team.</li>\n<li>Equip your dog to track in a variety of challenging terrains, including concrete, bush, and snow.</li></ul>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBPOL014000",
+                "name": "Law Enforcement",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPOL014000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This is a complex textbook with figures, lists, and asides. It was designed to be compatible with most assistive technologies and reading platforms on the market today and is Global Certified Accessible. Note that not all technologies and platforms support all accessibility features. To give feedback on this book’s accessibility, please email contact@brusheducation.ca.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "highContrastDisplay",
+                "index",
+                "longDescription",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "textual",
+                  "visual"
+                ]
+              ],
+              "certification": {
+                "certifiedBy": "Benetech via eBOUND",
+                "credential": "https://bornaccessible.org/certification/gca-credential/"
+              }
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/054d05bd-f527-45e7-720a-fef87f39a300/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a759",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a759.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-727b4761-8fc0-45c9-91f8-1986c3eb1014-9781550599664-epub/loans_activation.opds2?_resource_id=684c8777733fdb2ce702a759",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781550599664/9fceebb4b77e4f16b6caea23ed7bffca_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "A Dark Death",
+            "language": "en",
+            "identifier": "urn:isbn:9781988754635",
+            "modified": "2025-06-27T14:47:51.415Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Alice Fitzpatrick",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alice+Fitzpatrick"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Stonehouse Originals",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Stonehouse+Originals"
+                }
+              ]
+            },
+            "description": "Kate Galway is looking forward to a quiet summer working on her latest novel at her home on Meredith Island.  For a place hardly anyone has heard of, her sleepy Welsh island is attracting a lot of visitors, including a conman posing as a psychic and group of archaeology students who believe they’ve unearthed evidence of a Roman temple.  Part-way through the dig, however, the students make an even more startling discovery: a body ritualistically laid out in their trench.  While intrigued by the murder, amateur sleuth Kate decides to leave this investigation to the professionals.  However, when she learns that both the island mechanic and her university friend’s son are prime suspects, she and hedonistic artist Siobhan Fitzgerald feel they have no choice but to get involved.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC019000",
+                "name": "Literary",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022040",
+                "name": "Women Sleuths",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e26a498d-f5f8-4c25-c18c-0134bc243900/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/683cd166a8ea4a02c71cfb22",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/683cd166a8ea4a02c71cfb22.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-471c257f-e7c9-4489-b89b-e01ada2be3a0-9781988754635-epub/loans_activation.opds2?_resource_id=683cd166a8ea4a02c71cfb22",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781988754635/547c5f4373fd09ef16b5943ff8fd87b2_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "A Story Can Be Told About Pain",
+            "language": "en",
+            "identifier": "urn:isbn:9781774391174",
+            "modified": "2025-06-27T14:47:51.522Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Lisa Martin",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lisa+Martin"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "NeWest Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=NeWest+Press"
+                }
+              ]
+            },
+            "description": "<p>When an accident upends their lives, fourteen-year-old&nbsp;<span>Shiloh and her mother Ruth must leave their idyllic home&nbsp;</span><span>to make a new life in the city. They find housing—through&nbsp;</span><span>an evangelical church operating out of a strip mall—that backs&nbsp;</span><span>onto the grounds of the abandoned Pacific Hospital for the Mind. Their&nbsp;</span><span>lives begin to intersect with their new neighbours—Raymond, a handyman&nbsp;</span><span>whose painful past is coming to a head; Dave, the disillusioned pastor&nbsp;</span><span>looking for a new wife; and Madeleine, a 90-year-old former nurse&nbsp;</span><span>who continues to make pilgrimages to the graves of the patients she once&nbsp;</span><span>cared for. As Shiloh becomes involved with an undercurrent of teenagers&nbsp;</span><span>who frequent the grounds of the ruined asylum, her rebellion and grief&nbsp;</span><span>push her towards choices she can never take back. With evocative, lyrical&nbsp;</span><span>prose, <i>A Story Can Be Told About Pain</i> is a profound meditation on loss&nbsp;</span><span>and survival, a novel that reminds us why we tell each other stories—to&nbsp;</span><span>revel in the beauty of language, to find solace, and to boldly confront the&nbsp;</span><span>truth in order to heal.</span></p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC044000",
+                "name": "Contemporary Women",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC044000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/549bdd73-b9f1-4057-c650-4fa909a20000/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/68112cb2a2a110abc37bdc04",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/68112cb2a2a110abc37bdc04.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-982cda66-2908-492d-945c-b33a8d4bcd12-9781774391174-epub/loans_activation.opds2?_resource_id=68112cb2a2a110abc37bdc04",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781774391174/f1425a9353488ed6907126166634e332_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Dancing Mary",
+            "language": "en",
+            "identifier": "urn:isbn:9780228635239",
+            "modified": "2025-07-07T14:33:21.271Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "numberOfPages": 174,
+            "author": [
+              {
+                "name": "Jay Lang-Young",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Jay+Lang-Young"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "In the shadows of British Columbia’s Comox Valley, a tragic history refuses to rest. Based on chilling true events, Dancing Mary unearths the long-buried story of a young K’ómoks First Nation woman—named Mary by early settlers—who was betrayed and murdered by the very man she once trusted. Her spirit, said to appear as a shimmering blue orb, haunted the area for decades. The last vivid encounter occurred in 1914, when a soldier cycling down Comox Road rode through the ghostly light and described another worldly cold that he would never forget. From that moment on, the legend of “Dancing Mary” was born—named for the spectral sway of her ghostly presence.In the shadows of British Columbia’s Comox Valley, a tragic history refuses to rest. Based on chilling true events, Dancing Mary unearths the long-buried story of a young K’ómoks First Nation woman—named Mary by early settlers—who was betrayed and murdered by the very man she once trusted. Her spirit, said to appear as a shimmering blue orb, haunted the area for decades. The last vivid encounter occurred in 1914, when a soldier cycling down Comox Road rode through the ghostly light and described another worldly cold that he would never forget. From that moment on, the legend of “Dancing Mary” was born—named for the spectral sway of her ghostly presence.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022060",
+                "name": "Historical",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022060&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC024000",
+                "name": "Occult & Supernatural",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC024000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5f45fda7-f313-4b14-c44e-64e05b7b3800/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c75",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c75.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-3e1b1490-770a-4a34-8fe8-05309d2b0671-9780228635239-epub/loans_activation.opds2?_resource_id=6847799cf367b3bf0abf9c75",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228635239/127998b8f800c174dc2571f80d267f13_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Boy Who Was Saved By Jazz",
+            "language": "en",
+            "identifier": "urn:isbn:9781774391112",
+            "modified": "2025-07-29T22:17:04.714Z",
+            "published": "2025-05-15T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Tom Bentley-Fisher",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tom+Bentley-Fisher"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "NeWest Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=NeWest+Press"
+                }
+              ]
+            },
+            "description": "Robert lost his father before he’d even been born, and was quickly abandoned by his young mother to be raised by his grandparents in small-town Saskatchewan. In another sense, though, Robert never lost his father, whose ghostly presence lingers in the young boy’s life over the years by means of spectral “advice letters” on how to be a man. When Robert finds an old pump organ in a derelict farmhouse, he discovers a deep love of and talent for performing music. He also begins to discover secrets from his past, including his grandfather’s Communist ties, and the familial cover-up of his father’s sudden death. Along the way, Robert embraces his budding bisexuality, discovers his Métis identity and harnesses the power of his wild imagination. Recalling the work of Jamie Fitzpatrick and Greg Rhyno, <i>The Boy Who Was Saved By Jazz</i> is a coming-of-age story and meditation on belonging.",
+            "subject": []
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a3773edc-f257-4b65-21bf-d38dcb3b6200/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6824df2ee6b1ac44a74c6df7",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6824df2ee6b1ac44a74c6df7.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-924c3a43-5ab1-4620-923e-dad5fb20eb97-9781774391112-epub/loans_activation.opds2?_resource_id=6824df2ee6b1ac44a74c6df7",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781774391112/2f2a0146bb9b2b77d4ce5738c1768362_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Road to Shiloh",
+            "language": "en",
+            "identifier": "urn:isbn:9781550599411",
+            "modified": "2025-07-07T14:33:21.859Z",
+            "published": "2025-06-09T00:00:00.000Z",
+            "numberOfPages": 368,
+            "author": [
+              {
+                "name": "Leander K. Lane",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Leander+K.+Lane"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Brush Education",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Brush+Education"
+                }
+              ]
+            },
+            "description": "<p><b>From Jim Crow to the Last Best West</b></p>\n<p>In 1910, twelve African American families from Oklahoma journeyed north to claim the promise of a better life in the Canadian West. Among them was Julius Caesar Lane, a former enslaved man whose legacy, and that of his family, is intertwined with the history of Saskatchewan’s first Black community. The settlement, anchored by Shiloh Baptist Church now a designated Provincial Heritage Property —near Maidstone, became a symbol of resilience, faith, and determination in the face of racial barriers.</p>\n<p>In this deeply personal and meticulously researched account, Leander K. Lane—descendant of Julius Caesar Lane—traces his ancestors’ steps through the tumultuous aftermath of slavery in the United States to Canada, documenting the challenges and successes they experienced in their new home.</p>\n<p>Drawing from oral histories, historical texts, and never-before-consulted archival documents, Lane vividly brings to life the untold story of the Shiloh community, from their origins in the American South to their enduring impact in Western Canada. This compelling narrative is both a heartfelt family memoir and a vital piece of Canadian history, shedding light on the rich heritage of Black prairie homesteaders and the indomitable spirit of the Shiloh People.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [],
+            "accessibility": {
+              "summary": "This book was designed to be compatible with most assistive technologies and reading platforms on the market today and is Global Certified Accessible (EPUB accessibility 1.1 and WCAG 2.2 AA). Blank pages have been removed. Note that not all technologies and platforms support all accessibility features. To give feedback on this book’s accessibility, please email contact@brusheducation.ca.",
+              "feature": [
+                "alternativeText",
+                "annotations",
+                "ARIA",
+                "displayTransformability",
+                "highContrastDisplay",
+                "longDescription",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "textual",
+                  "visual"
+                ],
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6cb64bca-7af6-4099-91de-7845a1fbc200/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a74d",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a74d.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-0d140145-15ed-4957-8778-1ea30f1ac19f-9781550599411-epub/loans_activation.opds2?_resource_id=684c8777733fdb2ce702a74d",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781550599411/54bdad03df8fccadff57af8cc4f2bac0_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Blue Hours",
+            "language": "en",
+            "identifier": "urn:isbn:9781990601903",
+            "modified": "2025-06-27T14:47:51.259Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "numberOfPages": 312,
+            "author": [
+              {
+                "name": "Alison Acheson",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alison+Acheson"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Freehand Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+                }
+              ]
+            },
+            "description": "<p><b>A novel about fatherhood, grief, unanswerable questions, and the small, magical moments that make up life.</b></p><p>Keith has always striven to break rules as he navigates full-time parenting and supports the career of his successful photographer wife. Her unexpected illness and death leaves both him and his son Charlie in bits. When they take a road trip, a journey begins that does not end when they return home.</p><p>Keith must deal with revelations that complicate his grief, even as Charlie's response is unsettling. Together, father and son connect with loved ones, strangers, and each other. Life's magical and mystical moments emerge. Is it enough to heal, though?</p><p><b>A novel about fatherhood, grief, unanswerable questions, and the small, magical moments that make up life.</b></p><p>Keith has always striven to break rules as he navigates full-time parenting and supports the career of his successful photographer wife. Her unexpected illness and death leaves both him and his son Charlie in bits. When they take a road trip, a journey begins that does not end when they return home.</p><p>Keith must deal with revelations that complicate his grief, even as Charlie's response is unsettling. Together, father and son connect with loved ones, strangers, and each other. Life's magical and mystical moments emerge. Is it enough to heal, though?</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC019000",
+                "name": "Literary",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e467205a-123c-4414-bc5e-ad36b0773a00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67ef01dd09b63e2e513af320",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67ef01dd09b63e2e513af320.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-aee06fd0-9a4c-40b4-b6ec-9672a6e676d5-9781990601903-epub/loans_activation.opds2?_resource_id=67ef01dd09b63e2e513af320",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781990601903/ee72ffa267029db8d4da20ad67add95c_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Hearts Locked in Time",
+            "language": "en",
+            "identifier": "urn:isbn:9780228634904",
+            "modified": "2025-07-07T14:33:21.372Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "numberOfPages": 344,
+            "author": [
+              {
+                "name": "Barbara Baldwin",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Barbara+Baldwin"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "JordanBarrister loves her grandfather, her unique candle creations, and the life she’s built in present day Chicago. Her latest hobby obsessions, however, are love locks from a section of grille purchased at auction from Paris’ famed Pont des Arts pedestrian bridge. She’s determined to createa lasting tribute to those who put a lock on the bridge to safeguard their love. While a lock is normally used to keep something in, one particular lock accidentally opens a time portal and Jordan finds herself in 1926 Chicago. In the beginning all Jordan wants is to return to her own ime, and she believes the now missing lock holds the key, but she needs Henry’s helpt o navigate this unknown period of history. By the time they discover the lock’s whereabouts and are in pursuit, she has fallen in love and wonders if she really wants to return to the present. How can she let go of the man who holds the key to her heart? When disaster strikes, they will need to usewhat they discovered to find the magic of the love lock that will keep their hearts together.JordanBarrister loves her grandfather, her unique candle creations, and the life she’s built in present day Chicago. Her latest hobby obsessions, however, are love locks from a section of grille purchased at auction from Paris’ famed Pont des Arts pedestrian bridge. She’s determined to createa lasting tribute to those who put a lock on the bridge to safeguard their love. While a lock is normally used to keep something in, one particular lock accidentally opens a time portal and Jordan finds herself in 1926 Chicago. In the beginning all Jordan wants is to return to her own ime, and she believes the now missing lock holds the key, but she needs Henry’s helpt o navigate this unknown period of history. By the time they discover the lock’s whereabouts and are in pursuit, she has fallen in love and wonders if she really wants to return to the present. How can she let go of the man who holds the key to her heart? When disaster strikes, they will need to usewhat they discovered to find the magic of the love lock that will keep their hearts together.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC027090",
+                "name": "Time Travel",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC027090&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7e4a8092-78fa-45c0-42ce-80d60ae52600/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c8d",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c8d.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-4005b691-6735-47bf-a267-e44e4f8c93b0-9780228634904-epub/loans_activation.opds2?_resource_id=6847799cf367b3bf0abf9c8d",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228634904/38d9bc8064f11bf6e9893c4c18b5daa5_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Secrets of Lakeluster House",
+            "language": "en",
+            "identifier": "urn:isbn:9780228635543",
+            "modified": "2025-07-07T14:33:21.792Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "numberOfPages": 201,
+            "author": [
+              {
+                "name": "Diane Scott Lewis",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Diane+Scott+Lewis"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "Sage, at fourteen,growsup inturmoil inNahant, Massachusetts.Her changing body,herparents’rocky marriage.When her cousin Patrickvisitsfor thesummer,his parents’divorce has given him a reckless anger. He insists they explore the creepy mansion inthe woods.Nate,Sage’s younger brother,is reluctant to approach themanor where abeloved teacherwas found hangedmonths earlier.The children’s great-greatgrandmother worked at Lakeluster Housein a previous centuryand was undersuspicion of shooting another servantSage, at fourteen,growsup inturmoil inNahant, Massachusetts.Her changing body,herparents’rocky marriage.When her cousin Patrickvisitsfor thesummer,his parents’divorce has given him a reckless anger. He insists they explore the creepy mansion inthe woods.Nate,Sage’s younger brother,is reluctant to approach themanor where abeloved teacherwas found hangedmonths earlier.The children’s great-greatgrandmother worked at Lakeluster Housein a previous centuryand was undersuspicion of shooting another servant",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8587eb18-260f-47c0-5500-67b024f15900/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ce5",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ce5.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-05a3bc05-0920-473a-852c-67898548d5ad-9780228635543-epub/loans_activation.opds2?_resource_id=6847799df367b3bf0abf9ce5",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228635543/edf7dbbca1b93cb9026f541a1a3c9438_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Python Love",
+            "language": "en",
+            "identifier": "urn:isbn:9781772128109",
+            "modified": "2025-07-23T22:16:54.317Z",
+            "published": "2025-05-08T00:00:00.000Z",
+            "numberOfPages": 80,
+            "author": [
+              {
+                "name": "Shannon Arntfield",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Shannon+Arntfield"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Alberta Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Alberta+Press"
+                }
+              ]
+            },
+            "description": "<p><em>Python Love</em> weaves together experiences of childhood abuse, birth trauma, and recovery from the perspective of a medical doctor who is also a mother. In her debut collection, Shannon Arntfield delves into the many ways in which the body recalls what has been done to it. Long, breathtaking sequences set within medical facilities during labour and delivery are juxtaposed with spare, lyrical reflections on ideas of memory, natural spaces, implicit love, and the relationships between parents and children. Full of precise observations, careful renderings, and visceral originality, <em>Python Love</em> is focused on how the body and mind are inextricably linked, how the past can overwhelm and inform the present, and how recovery is tied to love and connection.</p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBMED011000",
+                "name": "Caregiving",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBMED011000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBMED033000",
+                "name": "Gynecology & Obstetrics",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBMED033000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBPSY022040",
+                "name": "Post-Traumatic Stress Disorder (PTSD)",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPSY022040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6c5fe192-7418-4a13-e375-08bd12955500/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/681d3b601e6469a48505f148",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/681d3b601e6469a48505f148.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-4e95291c-fff5-4e53-9d61-9ecf73b16633-9781772128109-epub/loans_activation.opds2?_resource_id=681d3b601e6469a48505f148",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781772128109/424d16ba43549eb3134a4d4f17de68d0_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Police Officer’s Guide to K9 Searches",
+            "language": "en",
+            "identifier": "urn:isbn:9781550599251",
+            "modified": "2025-07-07T14:33:21.890Z",
+            "published": "2025-06-06T00:00:00.000Z",
+            "numberOfPages": 98,
+            "author": [
+              {
+                "name": "Stephen A. Mackenzie",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Stephen+A.+Mackenzie"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Dog Training Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Dog+Training+Press"
+                }
+              ]
+            },
+            "description": "<p><strong>Unlock the Power of Police Service Dogs in Law Enforcement</strong></p>\n<p>Modern police officers have an array of tools at their disposal, but few are as effective—or as misunderstood—as the police service dog. Whether tracking a fleeing suspect, locating hidden evidence, or detecting narcotics and explosives, these highly trained K9s are invaluable assets in the field. Yet many officers, both new and experienced, lack a clear understanding of how to work alongside them.</p>\n<p>This essential guide bridges that gap, providing officers with the knowledge they need to make informed decisions about K9 deployments. From understanding the capabilities of police service dogs to ensuring proper backup and scene containment, this book serves as an indispensable resource for any law enforcement professional.</p>\n<p><strong>Inside, you’ll discover:</strong></p>\n<ul>\n<li><strong>How police service dogs work</strong> – Their training, capabilities, and role in modern policing.</li>\n<li><strong>When and why to call for a K9 unit</strong> – The key scenarios where a dog’s unique skills can assist in investigations.</li>\n<li><strong>How to support a K9 team</strong> – Best practices for containment, safety, and increasing the effectiveness of K9 deployments.</li></ul>\n<p>Whether you're a recruit in the academy, an experienced officer, or an instructor, this book will enhance your ability to integrate police service dogs into your work—maximizing safety, efficiency, and success in the field.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBPET004020",
+                "name": "Training",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET004020&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This textbook was designed to be compatible with most assistive technologies and reading platforms on the market today and is Global Certified Accessible by Benetech. It conforms to EPUB Accessibility 1.1 and WCAG 2.2AA. Blank pages have been removed. Note that not all technologies and platforms support all accessibility features. To give feedback on this book’s accessibility, please email contact@brusheducation.ca.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "highContrastDisplay",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "textual",
+                  "visual"
+                ],
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d671a6db-af84-45ec-6b06-3b049fcdc800/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a753",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/684c8777733fdb2ce702a753.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-27eb2caa-ca2f-46e3-993a-071b3db76c58-9781550599251-epub/loans_activation.opds2?_resource_id=684c8777733fdb2ce702a753",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781550599251/8dcba3e5a06e5370365e7ef371cf70d9_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Last Band on Earth",
+            "language": "en",
+            "identifier": "urn:isbn:9781998489527",
+            "modified": "2025-06-27T14:47:52.317Z",
+            "published": "2025-06-04T00:00:00.000Z",
+            "numberOfPages": 240,
+            "author": [
+              {
+                "name": "Elaine Will",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Elaine+Will"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Renegade Arts Entertainment ",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Renegade+Arts+Entertainment+"
+                }
+              ]
+            },
+            "description": "<p>A dystopian horror story about music and mental illness. </p><p></p><p>Nat and her bandmates in The Dead Layaways want to go on tour, but the demonic entities who run their city have other idea, not to mention the dark cloud that hangs over everything stifles their creativity. This ruined place is not their home, and they have no idea how they ended up here, or where \"home\" even is. Is there really nothing but endless wasteland beyond the city limits, as the demons claim?</p><p></p><p>Much like the author's previous work, The Last Band On Earth draws on themes of mental illness and attempted recovery. It is about being in your 20s and still not feeling like a Real Adult, and the fear that time is running out.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBCGN004040",
+                "name": "Horror",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBCGN004040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/03e70289-a2c2-4127-acec-dd2c89190d00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/684884ae282904b3368f73f3",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/684884ae282904b3368f73f3.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-132a3669-bbc3-4f6f-83d3-59832cd4a7ce-9781998489527-pdf/loans_activation.opds2?_resource_id=684884ae282904b3368f73f3",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/pdf",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781998489527/c6bf082346d8dd5494bc3b3aeb9ed690_sample.pdf"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "To Be Worthy in Honor",
+            "language": "en",
+            "identifier": "urn:isbn:9780228635017",
+            "modified": "2025-07-07T14:33:21.661Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "numberOfPages": 240,
+            "author": [
+              {
+                "name": "Liz Schevtchuk Armstrong",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Liz+Schevtchuk+Armstrong"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "Nicknamed Hotspur for tirelessly thwarting threats to England, Sir Harry Percy should be riding easy. Deeply in love, he builds an idyllic life in Northumberland at TowerHouse, with his sweetheart, Ciarry. Trouble brews, though, under Henry IV, who became king—over Harry’s objections by inciting a mob to make Parliament oust the venal Richard II and enthrone Henry. Now the new monarch rules as despotically as his predecessor. Moreover, the Exchequer lacks mone yowed Harry for national defense.Yet, after unsuccessfully demanding Scottish fealty, Henry targets Wales, enacting brutal anti-Welsh laws that spark uprisings. Dispatched to quell the unrest, Harry uses battlefield victory and diplomacy to reach an accord with Welsh leader Owain Glyn Dwr.But the Crown rejects the settlement and orders Harry to commit political murder by duplicitously seizing and killing Glyn Dwr. Harry refuses. Meanwhile, up north, Scottish reivers attack rural properties, includingTower House. Can Harry confront danger on three fronts?Nicknamed Hotspur for tirelessly thwarting threats to England, Sir Harry Percy should be riding easy. Deeply in love, he builds an idyllic life in Northumberland at TowerHouse, with his sweetheart, Ciarry. Trouble brews, though, under Henry IV, who became king—over Harry’s objections by inciting a mob to make Parliament oust the venal Richard II and enthrone Henry. Now the new monarch rules as despotically as his predecessor. Moreover, the Exchequer lacks mone yowed Harry for national defense.Yet, after unsuccessfully demanding Scottish fealty, Henry targets Wales, enacting brutal anti-Welsh laws that spark uprisings. Dispatched to quell the unrest, Harry uses battlefield victory and diplomacy to reach an accord with Welsh leader Owain Glyn Dwr.But the Crown rejects the settlement and orders Harry to commit political murder by duplicitously seizing and killing Glyn Dwr. Harry refuses. Meanwhile, up north, Scottish reivers attack rural properties, includingTower House. Can Harry confront danger on three fronts?",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1cd9fcee-967b-47ab-837f-9fcc1536a900/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ccd",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799df367b3bf0abf9ccd.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-c2cf6df1-0375-4152-a4cb-a2f29932896b-9780228635017-epub/loans_activation.opds2?_resource_id=6847799df367b3bf0abf9ccd",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228635017/70c77f40a37fd1505119b16bc2c76f9a_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "This Sweet Rupture",
+            "language": "en",
+            "identifier": "urn:isbn:9781772128147",
+            "modified": "2025-07-24T22:47:17.539Z",
+            "published": "2025-05-07T00:00:00.000Z",
+            "numberOfPages": 64,
+            "author": [
+              {
+                "name": "Omar Ramadan",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Omar+Ramadan"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Alberta Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Alberta+Press"
+                }
+              ]
+            },
+            "description": "<p><em>This Sweet Rupture</em> unflinchingly explores interwoven themes of family secrets, diaspora, food culture, and the impact of war on personal stories. Rooted in Omar Ramadan’s experiences as a son of Lebanese immigrants, and set in Canada, Lebanon, and the United Arab Emirates, the collection brings together intergenerational exchanges and present-day realities, from sweetened tea preparations to conversations about conflict zones to investigations of Canadian blizzards. The book speaks to Arab father-son relationships and incorporates Arabic, reflecting the hybridity of its speakers and their shifting sense of place. Resonant and intricate, <em>This Sweet Rupture</em> thoughtfully navigates cultural identity, war, memory, and family.</p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBPOE000000",
+                "name": "Poetry",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPOE000000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c2a169ef-7f90-4ca0-85e8-70369a56cc00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/681bcdbfc5d556c95eb12174",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/681bcdbfc5d556c95eb12174.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-3a34b3e6-13fc-4717-a3ba-5385f20dd718-9781772128147-epub/loans_activation.opds2?_resource_id=681bcdbfc5d556c95eb12174",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781772128147/b2ba141e613d19463110e6fc5f80daca_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "A Bourbon to Die For",
+            "language": "en",
+            "identifier": "urn:isbn:9780228635710",
+            "modified": "2025-07-07T14:33:21.235Z",
+            "published": "2025-06-01T00:00:00.000Z",
+            "numberOfPages": 301,
+            "author": [
+              {
+                "name": "Dean L. Hovey",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Dean+L.+Hovey"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Books We Love Ltd.",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Books+We+Love+Ltd."
+                }
+              ]
+            },
+            "description": "The icon of a Scottish distilling family has opened a bourbon distillery near Elizabethtown, Kentucky. Only days before his much anticipated first release, he’s found dead inside Lincoln’s Birthplace National Historic Site. Becauseof the victim’s notoriety, Doug and Jill Fletcher are asked to assist the local policewith the investigation. The mystery becomes even more intriguing when a homelessman seems to know more about the victim and his business than the police.The icon of a Scottish distilling family has opened a bourbon distillery near Elizabethtown, Kentucky. Only days before his much anticipated first release, he’s found dead inside Lincoln’s Birthplace National Historic Site. Becauseof the victim’s notoriety, Doug and Jill Fletcher are asked to assist the local policewith the investigation. The mystery becomes even more intriguing when a homelessman seems to know more about the victim and his business than the police.",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC022040",
+                "name": "Women Sleuths",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC022040&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0e385dfe-d4d4-4b94-d495-93f2a3e2fd00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c6d",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6847799cf367b3bf0abf9c6d.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-2ba1ee97-4d15-4073-8f29-b0f33169f3f0-9780228635710-epub/loans_activation.opds2?_resource_id=6847799cf367b3bf0abf9c6d",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9780228635710/aadb3aed92d043aa65db759924692b95_sample.epub"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Top titles"
+      },
+      "links": [
+        {
+          "href": "https://epl.cantookstation.com/v1/top.opds2",
+          "rel": "self",
+          "type": "application/opds+json"
+        }
+      ],
+      "publications": [
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Introduction to Early Childhood Education and Care",
+            "language": "en",
+            "identifier": "urn:isbn:9781550598872",
+            "modified": "2025-07-07T14:32:05.434Z",
+            "published": "2021-07-06T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Carole Massing",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Carole+Massing"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Brush Education",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Brush+Education"
+                }
+              ]
+            },
+            "description": "<p><b>Ensure children of all backgrounds can thrive with an intercultural approach to early childhood education</b></p><p>In a multicultural society such as Canada’s, early childhood educators work with children and families from a diverse mix of ethnicities, religions, languages, abilities, and lifestyles. Diversity enriches the experience of children and educators alike in these environments, but it can also present challenges in supporting each child’s growth and learning.</p><p>In <i>Introduction to Early Childhood Learning and Care</i>, early learning specialists Carole Massing and Mary Lynne Matheson present an intercultural perspective as a foundation of equitable outcomes in early childhood education, but just what does that look like? An intercultural approach involves the respectful exchange of ideas between people from diverse backgrounds, leading to mutual trust and deeper relationships. Guided by a diverse team of reviewers, this book examines the concepts, approaches, and strategies that every early childhood educator needs to know to provide sensitive, culturally responsive care for children and their families.</p><p>Topics include:</p><ul><li>The theoretical bases for an intercultural approach to early childhood education and care</li><li>The factors that impact a child’s physical, cognitive, social, and emotional development</li><li>How to create environments that enhance children’s wellbeing and affirm their identity</li><li>How to support children’s creativity, literacy, and inquiry skills through an intercultural lens</li><li>The skills, responsibilities, and challenges of working as an early childhood educator</li></ul>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBEDU030000N",
+                "name": "Pedagogy",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBEDU030000N&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/449550a1-c62e-481b-d702-fedf96e5af00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6172ea762357943d2bf70cf7",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6172ea762357943d2bf70cf7.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/CANT5035304-9781550598872-epub/loans_activation.opds2?_resource_id=6172ea762357943d2bf70cf7",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Ethics in Action",
+            "language": "en",
+            "identifier": "urn:isbn:9781773855721",
+            "modified": "2025-07-07T14:33:18.765Z",
+            "published": "2024-05-23T00:00:00.000Z",
+            "numberOfPages": 536,
+            "publisher": {
+              "name": "University of Calgary Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Calgary+Press"
+                }
+              ]
+            },
+            "description": "<p>Psychologists face ethical and cultural intricacies in their work on a daily basis. Psychology graduate training and continuing education programs often focus mainly on common ethical issues and mainstream psychological services and settings. Although this provides a wealth of valuable information, it also necessary to look beyond the usual and mainstream. </p>\n<p><em>Ethics in Action</em> brings together thirty-four psychologists and eight collaborating professionals from allied disciplines, including nursing, social work, emergency services, and veterinary medicine, to share wisdom gained from facing ethical questions in real-world practice. These knowledgeable contributors share their experiences working with new Canadians, religious minorities, Indigenous communities, and more. They address issues of self-care, teamwork, collaboration, and interprofessional practice. They share the challenges that can arise when working within long-term care facilities, rural settings, equine-therapy settings, academia, and with people in unique circumstances.</p>\n<p>Structured around the four ethical principles that form the <em>Canadian Code of Ethics for Psychologists</em>, this book goes far beyond the basics, building awareness of the many complex and varied ethical issues practitioners may face. Each chapter includes reflection questions, challenging readers to better understand themselves and to prepare them to respond to complicated situations from an ethical perspective. </p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "accessibility": {
+              "summary": "This is a complex book with some images that aredescribed. Accessibility features such as structural navigation, table of contents, page list and reading order are included. Blank pages are omitted from the page list.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "index",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "textual",
+                  "visual"
+                ],
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/951d8b38-48e0-44d5-96d4-954f5e1b9e00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/664f812e854bf7a4b88d8653",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/664f812e854bf7a4b88d8653.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-657c00bf-a7bc-45b0-a838-c4833bec12cc-9781773855721-epub/loans_activation.opds2?_resource_id=664f812e854bf7a4b88d8653",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781773855721/bcbc78c93d900f4a64426832624e2a4a_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Laser Quit Smoking Massage",
+            "language": "en",
+            "identifier": "urn:isbn:9781774390917",
+            "modified": "2024-09-26T17:47:04.992Z",
+            "published": "2024-04-01T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Cole Nowicki",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Cole+Nowicki"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "NeWest Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=NeWest+Press"
+                }
+              ]
+            },
+            "description": "<p class=\"MsoNormal\"><span lang=\"EN-US\">From prairie towns to sprawling cities, Laser Quit Smoking Massage revels in the peculiarities of the Canadian West. A unique and exciting new voice in Canadian literature, Cole Nowicki’s witty, insightful, and ever-curious reportage explores the evolving states of community, family, and belonging.</span></p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBHUM003000",
+                "name": "Essays",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHUM003000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9d47883a-7e29-4d24-8013-bcc5225f3800/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/660c4ba50ada840001470b81",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/660c4ba50ada840001470b81.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-089238c0-f084-4fd0-a8c2-563ef2b704f7-9781774390917-epub/loans_activation.opds2?_resource_id=660c4ba50ada840001470b81",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781774390917/b97454999f25562004bd8c7318c245ee_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Juiceboxers",
+            "language": "en",
+            "identifier": "urn:isbn:9781990601729",
+            "modified": "2025-05-28T22:16:58.813Z",
+            "published": "2024-09-17T00:00:00.000Z",
+            "numberOfPages": 354,
+            "author": [
+              {
+                "name": "Benjamin Hertwig",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Benjamin+Hertwig"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Freehand Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+                }
+              ]
+            },
+            "description": "<p><b>A finalist for the 2025 Amazon Canada First Novel Award, a powerful debut novel about four young soldiers serving in Afghanistan, and the devastating aftermath of war. \"An unvarnished, intimately informed dissection of war's physical and emotional derangements.\" – Omar El Akkad, author of <i>What Strange Paradise</i> and <i>American War</i></b></p> <p>Sixteen-year-old Plinko is attending basic training before high school starts up again in the fall. Feeling adrift from his own family, he moves in with an older soldier, where he forges an unlikely group of friends in the military: the very tall Walsh, who moves in shortly after Plinko does; Abdi, whose Somali immigrant parents often welcome the group of young men over for dinner; and the unpredictable and gun-loving Krug, who is brash and exasperating yet magnetic.</p>\n<p>After 9/11, the military prepares to move into Afghanistan — to go to war. Plinko and his friends have no idea that the trajectory of their lives is about to be irrevocably altered.</p>\n<p>Drawn from the author's experiences as a soldier in Afghanistan, <i>Juiceboxers</i> tenderly traces the story of a young man's journey from basic training, to the battlefields of Kandahar, to the inner city of Edmonton, braiding together questions of masculinity and militarism, friendship and white supremacy, loss and trauma and hard-won recovery.</p><p><b>A finalist for the 2025 Amazon Canada First Novel Award, a powerful debut novel about four young soldiers serving in Afghanistan, and the devastating aftermath of war. \"An unvarnished, intimately informed dissection of war's physical and emotional derangements.\" – Omar El Akkad, author of <i>What Strange Paradise</i> and <i>American War</i></b></p> <p>Sixteen-year-old Plinko is attending basic training before high school starts up again in the fall. Feeling adrift from his own family, he moves in with an older soldier, where he forges an unlikely group of friends in the military: the very tall Walsh, who moves in shortly after Plinko does; Abdi, whose Somali immigrant parents often welcome the group of young men over for dinner; and the unpredictable and gun-loving Krug, who is brash and exasperating yet magnetic.</p>\n<p>After 9/11, the military prepares to move into Afghanistan — to go to war. Plinko and his friends have no idea that the trajectory of their lives is about to be irrevocably altered.</p>\n<p>Drawn from the author's experiences as a soldier in Afghanistan, <i>Juiceboxers</i> tenderly traces the story of a young man's journey from basic training, to the battlefields of Kandahar, to the inner city of Edmonton, braiding together questions of masculinity and militarism, friendship and white supremacy, loss and trauma and hard-won recovery.</p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC032000",
+                "name": "War & Military",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC032000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC019000",
+                "name": "Literary",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c74045f5-06a9-4555-ecfc-4b7765089500/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/66c8ee4547e59092e9f2638c",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/66c8ee4547e59092e9f2638c.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-824875c7-3f16-4d46-b1ce-4919c1e84fbb-9781990601729-epub/loans_activation.opds2?_resource_id=66c8ee4547e59092e9f2638c",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781990601729/060ac617c228a225e6b7e1586f132120_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/PublicationIssue",
+            "title": "The Prairie Journal, Issue 82",
+            "language": "en",
+            "identifier": "urn:uuid:67631fc14b8f36bb741cfab4",
+            "modified": "2024-12-18T19:17:21.723Z",
+            "published": "2024-12-15T00:00:00.000Z",
+            "author": [
+              {
+                "name": "The Prairie Journal",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=The+Prairie+Journal"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "The Prairie Journal",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=The+Prairie+Journal"
+                }
+              ]
+            },
+            "description": "An arts, literary and cultural magazine publishing creative writing, such as poems, short fiction, interviews, reviews, drama, by newcomers and established writers. Our annual fall winter issue is the Alberta Muse issue which features content for the Alberta Culture Days, primarily writing by local provincial authors, whether published in Alberta or outside the province. We have been in operation since 1983 and offer original artwork for every issue. Our publication model is pring, so the  e-magazine  for Alberta Public Libraries is a digital representation of the design and content of  print issues. ",
+            "belongsTo": {
+              "schema:Periodical": {
+                "name": "The Prairie Journal",
+                "identifier": "urn:issn:theprairiejournal",
+                "links": [
+                  {
+                    "rel": "related",
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?serial_name=The+Prairie+Journal&sort_by=issued_on_desc",
+                    "title": "Other issues"
+                  }
+                ]
+              }
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBLCO006000",
+                "name": "Canadian",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLCO006000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4c8de93f-dd55-4618-9378-64ead21df100/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67631fc14b8f36bb741cfab4",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67631fc14b8f36bb741cfab4.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-d574d75e-6ba3-4139-b6d9-a2a6465b634d-prairiejournal-issue82-pdf/loans_activation.opds2?_resource_id=67631fc14b8f36bb741cfab4",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/pdf",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/prairiejournal-issue82/b5299296849451c01d0b34788243abe1_sample.pdf"
+            },
+            {
+              "rel": "related",
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?serial_name=The+Prairie+Journal&sort_by=issued_on_desc",
+              "title": "Other issues"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Stories Left in Stone",
+            "language": "en",
+            "identifier": "urn:isbn:9781772127836",
+            "modified": "2025-07-23T22:16:53.847Z",
+            "published": "2024-10-22T00:00:00.000Z",
+            "numberOfPages": 368,
+            "author": [
+              {
+                "name": "Troy Nahumko",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Troy+Nahumko"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Alberta Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Alberta+Press"
+                }
+              ]
+            },
+            "description": "<p><em>Stories Left in Stone</em> explores the lives, histories, and artistic legacies of Cáceres and Extremadura. Author Troy Nahumko has lived in the old town of Cáceres, a UNESCO World Heritage Site, for over a decade. His journey starts at the Cave of Maltravieso, where prehistoric art stirs a profound curiosity about the city's rich tapestry of past and present. Amid the dazzle of cobbled medieval streets, 12th century Moorish walls, fortified palaces, and 60,000-year-old handprints, Nahumko asks how locals characterize their city and leave their own marks. Through personal narrative and interviews with locals, expats, and experts, he shares sociological, archaeological, and historical insights. Nahumko's storytelling paints a vivid and empathetic portrait of the people and heritage of this lesser-known province of Spain, as he surveys its history, cuisine, and stunning natural beauty.</p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBTRV009130",
+                "name": "Spain",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBTRV009130&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0f85039a-8b32-4cdd-7f0b-bbd675f32700/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6717ec1f900cb8de3d2e5147",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6717ec1f900cb8de3d2e5147.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-59b4782a-1d1c-4d5a-b94f-b73190114d5a-9781772127836-epub/loans_activation.opds2?_resource_id=6717ec1f900cb8de3d2e5147",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781772127836/594269bf4ed2a59b325e5dc184d85d63_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Graveyard Shift at the Lemonade Stand",
+            "language": "en",
+            "identifier": "urn:isbn:9781990601873",
+            "modified": "2025-07-07T14:33:20.575Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "numberOfPages": 240,
+            "author": [
+              {
+                "name": "Tim Bowling",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tim+Bowling"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Freehand Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+                }
+              ]
+            },
+            "description": "<p><b>The first collection of short stories from award-winning author Tim Bowling, exploring childhood, work, and aging.</b></p>\n<p>Set on the west coast of British Columbia and in Edmonton, the fifteen stories in this collection focus on moments of transformation: between parents and their children, between men and women, between humans and the natural world. In this collection that’s every bit as thoughtful and masterful as his past work, Tim Bowling explores the passing of time and the (sometimes desperate) desire for meaning to return, with depth and flashes of humour.</p><p><b>The first collection of short stories from award-winning author Tim Bowling, exploring childhood, work, and aging.</b></p>\n<p>Set on the west coast of British Columbia and in Edmonton, the fifteen stories in this collection focus on moments of transformation: between parents and their children, between men and women, between humans and the natural world. In this collection that’s every bit as thoughtful and masterful as his past work, Tim Bowling explores the passing of time and the (sometimes desperate) desire for meaning to return, with depth and flashes of humour.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC029000",
+                "name": "Short Stories",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC029000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC019000",
+                "name": "Literary",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This publication meets the EPUB accessibility requirements and it also meets the Web Content Accessibility Guidelines (WCAG) at the AA level. It is screen-reader friendly and is accessible to users of assistive technology. This book contains various accessibility features such as alternative text for complex images, page list, landmarks, reading order, structural navigation, and semantic structure. Additionally, blank pages have been removed from the ebook while their page break labels have been left in, for reasons of structural flow.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual"
+              ],
+              "accessModeSufficient": [
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a5e067e4-4438-4001-3490-7d88191ed500/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67ef01dd09b63e2e513af328",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67ef01dd09b63e2e513af328.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-26726af4-51c1-4845-aa9e-7411d694ba57-9781990601873-epub/loans_activation.opds2?_resource_id=67ef01dd09b63e2e513af328",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781990601873/617b27db7e23040af320e9fe205b7609_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/PublicationIssue",
+            "title": "Alberta Outdoorsmen, May 2025",
+            "language": "en",
+            "identifier": "urn:uuid:6814e90841301ad8e172bf33",
+            "modified": "2025-05-02T15:47:20.340Z",
+            "published": "2025-05-01T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Alberta Outdoorsmen",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alberta+Outdoorsmen"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Alberta Outdoorsmen",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Alberta+Outdoorsmen"
+                }
+              ]
+            },
+            "description": "Alberta Outdoorsmen is designed to keep the hunters, anglers and trappers of Alberta up-to-date on the news, issues and events that surround hunting, fishing and trapping. Dedicated to maintaining our great outdoor heritage, Alberta Outdoorsmen tackles all of the issues head-on, providing insights through a great collection of outdoor writers and authors. If you love hunting, fishing and trapping, Alberta Outdoorsmen is the magazine for you.",
+            "belongsTo": {
+              "schema:Periodical": {
+                "name": "Alberta Outdoorsmen",
+                "identifier": "urn:issn:albertaoutdoorsmen",
+                "links": [
+                  {
+                    "rel": "related",
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?serial_name=Alberta+Outdoorsmen&sort_by=issued_on_desc",
+                    "title": "Other issues"
+                  }
+                ]
+              }
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBSPO030000",
+                "name": "Outdoor Skills",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSPO030000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/acbe6dfa-1ab3-4c9a-9557-93d9ea2ced00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6814e90841301ad8e172bf33",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6814e90841301ad8e172bf33.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-e0facac2-14b8-48c9-b6db-deb861af8e45-albertaoutdoorsmen-may2025-pdf/loans_activation.opds2?_resource_id=6814e90841301ad8e172bf33",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/pdf",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/albertaoutdoorsmen-may2025/a5ceab1d66d88325bcc955e3c7f46989_sample.pdf"
+            },
+            {
+              "rel": "related",
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?serial_name=Alberta+Outdoorsmen&sort_by=issued_on_desc",
+              "title": "Other issues"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Five Stalks of Grain",
+            "language": "en",
+            "identifier": "urn:isbn:9781773853772",
+            "modified": "2025-07-07T14:32:49.927Z",
+            "published": "2022-11-15T00:00:00.000Z",
+            "numberOfPages": 152,
+            "author": [
+              {
+                "name": "Adrian Lysenko",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Adrian+Lysenko"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Calgary Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Calgary+Press"
+                }
+              ]
+            },
+            "description": "<p>In 1932, as famine rages across Ukraine, the Soviet government calls for the harshest punishment for those who keep for themselves even five stalks of grain. When their mother is accused of hoarding and summarily killed, Nadia and Taras must leave their home on a desperate quest for survival.</p>\n<p>Attempting to navigate a closed country, to stay together, and to stay alive, Nadia and Taras must face secret police, soldiers, and fellow citizens forced to abandon charity and sometimes even humanity in the face of impossible hunger. Unsure who to trust and unable to find refuge, they search for somewhere, anywhere, where they can be safe. </p>\n<p>Historical fiction at its finest, <em>Five Stalks of Grain</em> is powerfully written and beautifully illustrated, drawing on Ukrainian artistic traditions to tell a story of loss, grief, and hardship with delicate strength. It is a record of a time of profound suffering and a reckoning with the human cost of a tragedy shaped by politics and policy.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBCGN006000",
+                "name": "Literary",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBCGN006000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFIC014000",
+                "name": "Historical",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC014000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This is a fixed layout graphic novel without live text, the images and text are described.",
+              "feature": [
+                "printPageNumbers",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1c77f1a6-4884-49d9-07db-c202aea83a00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/637bc85e7cc87700010587e1",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/637bc85e7cc87700010587e1.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-aa4feeae-5ed6-4021-803d-062c40f134a6-9781773853772-epub/loans_activation.opds2?_resource_id=637bc85e7cc87700010587e1",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781773853772/abc83192832810f726c985c0779b1c69_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Educational Assistant’s Guide to Supporting Inclusion in a Diverse Society",
+            "language": "en",
+            "identifier": "urn:isbn:9781550598612",
+            "modified": "2025-07-07T14:32:05.286Z",
+            "published": "2020-08-03T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Carole Massing",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Carole+Massing"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Brush Education",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Brush+Education"
+                }
+              ]
+            },
+            "description": "<p>Canadian classrooms are a microcosm of Canada’s diverse society, and educational assistants play a vital role in helping all students feel valued, capable, and included. <i>The Educational Assistant’s Guide to Supporting Inclusion in a Diverse Society</i> uses case studies and examples to present an accessible, practical guide to acquiring the key skills and knowledge you need to be an effective, professional enhancement to the classroom.</p>\n<p>Topics include: \n</p><ul>\n<li>The many and varied roles and responsibilities of EAs</li>\n<li>Ethical duties of EAs</li>\n<li>Effective advocacy techniques</li>\n<li>The role of reflective practice in solving problems</li>\n<li>Building relationships and communicating with students, parents, teachers, and school administrators</li>\n<li>Recent research on the brain, self-esteem, resilience theory, and multiple intelligences</li>\n<li>The importance of an individualized, holistic approach to student learning</li>\n<li>Universal Design for Learning, and strategies for differentiating academic and social learning</li>\n<li>Techniques for observation and documentation</li>\n<li>Positive guidance strategies for challenging behaviours</li></ul>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8fe43202-e41c-4b5a-ebbb-d385abd9df00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/5f871ce323579403d94043aa",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/5f871ce323579403d94043aa.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/CANT3889378-9781550598612-epub/loans_activation.opds2?_resource_id=5f871ce323579403d94043aa",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Northerny",
+            "language": "en",
+            "identifier": "urn:isbn:9781772127546",
+            "modified": "2025-07-23T21:47:20.631Z",
+            "published": "2024-04-04T00:00:00.000Z",
+            "numberOfPages": 72,
+            "author": [
+              {
+                "name": "Dawn Macdonald",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Dawn+Macdonald"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Alberta Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Alberta+Press"
+                }
+              ]
+            },
+            "description": "<p><strong><em>Northerny</em>: winner of the 2025 Canadian First Book Prize, awarded by the Griffin Poetry Prize.</strong></p>\n<p>Fresh, funny, and imbued with infectious energy, <em>Northerny </em>tells a much-needed and compelling story of growing up and living in the North. Here are no tidy tales of aurora borealis and adventures in snow. For Dawn Macdonald, the North is not an escape, a pathway to enlightenment, or a lifestyle choice. It’s a messy, beautiful, and painful point of origin. People from the North see the North differently and want to tell their own stories in their own way, including about their experiences growing up on the land, getting an education, and struggling to find jobs and opportunities. Expertly balancing lyric reflection and ferocious realism, Macdonald busts up the cultural myths of self-interest and superiority that have long dominated conversations about both Northern spaces and working-class identities.</p>",
+            "subject": []
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/fb438b06-d6f4-4bd3-59e9-7c1e51968000/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/66107f96596eb50001d0de7b",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/66107f96596eb50001d0de7b.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-574dc2de-867f-4f5d-af94-77d098f21b86-9781772127546-epub/loans_activation.opds2?_resource_id=66107f96596eb50001d0de7b",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781772127546/b3a17ef1979ea95cbe2278404e9b24d4_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Lily",
+            "language": "en",
+            "identifier": "urn:isbn:9781998489558",
+            "modified": "2025-06-17T17:18:56.469Z",
+            "published": "2025-03-19T00:00:00.000Z",
+            "numberOfPages": 208,
+            "author": [
+              {
+                "name": "Kat Simmers",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Kat+Simmers"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Renegade Arts Entertainment ",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Renegade+Arts+Entertainment+"
+                }
+              ]
+            },
+            "description": "<p>Pass Me By feels like something David Bowie would have created if he made comics instead of music: original. Ahead of its time. Utterly addictive.” - The Comics Journal</p><p></p><p>Exploring family, loss, tragedy, identity, and self-discovery, the third book in the award winning Pass Me By series, Lily, is a heartfelt tale about how our stories carry through time, and how we come to terms with change.</p><p></p><p>17 year old trans girl Lily, visits her estranged grandfather Ed, as he struggles with his rapidly developing Alzheimers. Lily too, faces struggles of her own. </p>",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBCGN009000",
+                "name": "Gay & Lesbian",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBCGN009000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d2c86cac-db52-40fd-0670-a3ec84eb9a00/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67dc70b9db3bf2120b01c362",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67dc70b9db3bf2120b01c362.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-63014503-727a-4faa-8588-3c8d32658be8-9781998489558-pdf/loans_activation.opds2?_resource_id=67dc70b9db3bf2120b01c362",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/pdf",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781998489558/48601bfcfb2d2c2184bd677e11912921_sample.pdf"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Ethics for the Practice of Psychology in Canada, Third Edition",
+            "language": "en",
+            "identifier": "urn:isbn:9781772125597",
+            "modified": "2025-07-22T17:47:20.102Z",
+            "published": "2021-09-29T00:00:00.000Z",
+            "numberOfPages": 264,
+            "author": [
+              {
+                "name": "Derek Truscott",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Derek+Truscott"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Pica Pica Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Pica+Pica+Press"
+                }
+              ]
+            },
+            "description": "Since its initial release in 2004, Ethics for the Practice of Psychology in Canada has filled a vital need for a single source on professional ethics and law relevant to Canadian psychologists. This important new edition reflects the fourth edition of the Canadian Code of Ethics for Psychologists and highlights discussions in the areas of diversity and social justice. An essential resource, it focusses on the most pertinent ethical and legal issues for Canadian psychologists, including decision making, consent, confidentiality, helping without harming, professional boundaries, diversity, social responsibility, and conducting research. An appendix includes discussion questions and reflective journal exercises to facilitate awareness of personal motives and biases relevant to making ethical choices.\nThe EPUB edition is accessible.",
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBPSY003000",
+                "name": "Applied Psychology",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPSY003000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a820f84e-37e5-46c4-fb29-ca23199fa300/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/6172ea772357943d2bf70d31",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/6172ea772357943d2bf70d31.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/CANT4185217-9781772125597-epub/loans_activation.opds2?_resource_id=6172ea772357943d2bf70d31",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "The Definition of Beautiful",
+            "language": "en",
+            "identifier": "urn:isbn:9781990601477",
+            "modified": "2025-07-07T14:33:17.145Z",
+            "published": "2023-09-01T00:00:00.000Z",
+            "numberOfPages": 256,
+            "author": [
+              {
+                "name": "Charlotte Bellows",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Charlotte+Bellows"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Freehand Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+                }
+              ]
+            },
+            "description": "<p><b>Shortlisted for the Rakuten Kobo Emerging Writer Prize</b></p><p><b>A stunning memoir of coming of age and recovering from anorexia in the 2020s</b></p>\n<p>Charlotte Bellows wrote <i>The Definition of Beautiful</i> between the ages of fifteen and seventeen, in the wake of lockdown and in recovery from anorexia. In the tradition of Sylvia Plath in <i>The Bell Jar</i> and Françoise Sagan in <i>Bonjour Tristesse</i>, Bellows writes with deceptively straightforward urgency, pushing through society's constraints on the bodies and minds of girls and women to offer a story both achingly familiar and devastatingly new.</p><p>In 2020, fourteen-year-old Charlotte's lifelong drive to achieve 'perfection' distorts into an all-encompassing obsession. Living between the suffocating world of lockdown and an uncanny dreamscape inhabited by competing avatars, Charlotte faces a parade of masked faces in hospital rooms, the aftermath of first love, the erosion of lifelong friendship, and the agony of seeing her illness devastate her family as it threatens to destroy her; as the world reopens, she finds new connections and mentors, new joy, new ways of thinking, new ways to be.</p><p>Charlotte Bellows offers a potent fusion of insight and innocence -- a story for those who suffer or have suffered from eating disorders, but, more, a vital coming of age story of a young gay and artistic woman, tugged and throttled by a myriad of pressures, not least from the dark gravity that is the underside of her own creative drive.</p><p><b>A stunning memoir of coming of age and recovering from anorexia in the 2020s</b></p>\n<p>Charlotte Bellows wrote <i>The Definition of Beautiful</i> between the ages of fifteen and seventeen, in the wake of lockdown and in recovery from anorexia. In the tradition of Sylvia Plath in <i>The Bell Jar</i> and Françoise Sagan in <i>Bonjour Tristesse</i>, Bellows writes with deceptively straightforward urgency, pushing through society's constraints on the bodies and minds of girls and women to offer a story both achingly familiar and devastatingly new.</p><p>In 2020, fourteen-year-old Charlotte's lifelong drive to achieve 'perfection' distorts into an all-encompassing obsession. Living between the suffocating world of lockdown and an uncanny dreamscape inhabited by competing avatars, Charlotte faces a parade of masked faces in hospital rooms, the aftermath of first love, the erosion of lifelong friendship, and the agony of seeing her illness devastate her family as it threatens to destroy her; as the world reopens, she finds new connections and mentors, new joy, new ways of thinking, new ways to be.</p><p>Charlotte Bellows offers a potent fusion of insight and innocence -- a story for those who suffer or have suffered from eating disorders, but, more, a vital coming of age story of a young gay and artistic woman, tugged and throttled by a myriad of pressures, not least from the dark gravity that is the underside of her own creative drive.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBSEL036000",
+                "name": "Anxieties and stress",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSEL036000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This publication meets the EPUB accessibility requirements and it also meets the Web Content Accessibility Guidelines (WCAG) at the AA level. It is screen-reader friendly and is accessible to users of assistive technology. This book contains various accessibility features such as alternative text for images, table of contents, page list, landmarks, reading order, structural navigation, and semantic structure. Additionally, blank pages have been removed from the ebook while their page break labels have been left in, for reasons of structural flow.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual"
+              ],
+              "accessModeSufficient": [
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/159d2061-3503-4abd-1506-8ec32bfe7200/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/64ee3dcdc067610001ef102d",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/64ee3dcdc067610001ef102d.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-07e0a89a-2c12-40b7-84d8-08c9b09ede26-9781990601477-epub/loans_activation.opds2?_resource_id=64ee3dcdc067610001ef102d",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781990601477/b52c79424a75f9f96a8b40861b8cf331_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "A History of Public Health in Alberta, 1919-2019",
+            "language": "en",
+            "identifier": "urn:isbn:9781773855486",
+            "modified": "2025-07-07T14:33:20.876Z",
+            "published": "2024-10-20T00:00:00.000Z",
+            "numberOfPages": 496,
+            "author": [
+              {
+                "name": "Lindsay McLaren",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lindsay+McLaren"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "University of Calgary Press",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=University+of+Calgary+Press"
+                }
+              ]
+            },
+            "description": "<p>Public health is diffuse, divided, and poorly understood. As a policy and practice, public health promotes and protects people and communities. As a field of academic inquiry it provides deep insights into the ways individuals and collectives can work within societies to prevent disease and promote health and health equity. Public health is a broad, intersectoral, and interdisciplinary field of scholarship, activism, policy, and practice with the potential to create and support immense change. </p>\n<p>This is a story of one hundred years of public health in Alberta. Drawing on extensive research, including interviews with members of Alberta’s public health communities, <em>A History of Public Health in Alberta, 1919-2019</em> considers institutions, sectors, populations, and activities that constitute the study and practice of public health. It offers a consolidated narrative from a contemporary perspective, paying particular attention to significant and entrenched social inequities of health and their determinants, the emergence of new public health concerns, and communities of public health, including activists, practitioners, scholars, and the public itself. </p>\n<p><em>A History of Public Health in Alberta, 1919-2019</em> draws together the threads of public health policy, practice, and research, mapping its contours and presenting a holistic view of public health in the province over time. Prompted by the concern, and the experience, that public health is frequently deeply misunderstood, this book articulates a history of the field and practice essential to understanding how we may best mobilize to support well-being and health equity across populations.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBMED039000",
+                "name": "History",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBMED039000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBFAM023000",
+                "name": "Health",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFAM023000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This is a complex book with some images that are described. Accessibility features such as structural navigation, table of contents, page list and reading order are included. Blank pages are omitted from the page list.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "index",
+                "longDescription",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "textual",
+                  "visual"
+                ],
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d6510b62-8751-427c-a094-e7c448195100/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67fe7f8bf54ba05c64583e7b",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67fe7f8bf54ba05c64583e7b.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-0fdfb1b1-fe5b-42ac-968f-479ce0d7b9c1-9781773855486-epub/loans_activation.opds2?_resource_id=67fe7f8bf54ba05c64583e7b",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781773855486/c0fc9d323179df699cb214c288e44f72_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Elements of Indigenous Style",
+            "language": "en",
+            "identifier": "urn:isbn:9781550599473",
+            "modified": "2025-07-07T14:33:20.327Z",
+            "published": "2025-01-13T00:00:00.000Z",
+            "numberOfPages": 256,
+            "author": [
+              {
+                "name": "Gregory Younging",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Gregory+Younging"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Brush Education",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Brush+Education"
+                }
+              ]
+            },
+            "description": "<p><strong>Cited in the <em>Chicago Manual of Style</em></strong></p>\n<p><strong>The groundbreaking Indigenous style guide every writer needs</strong></p>\n<p>A new editorial team continues the paradigm-shifting conversation started by the late Gregory Younging in his foundational <em>Elements of Indigenous Style</em>. Trusted by writers, editors, publishers, researchers, scholars, journalists, and communications professionals around the world, the second edition of <em>Elements</em> continues to offer crucial guidance to everyone who works with words on how to accurately, collaboratively, and ethically participate in projects involving Indigenous Peoples. </p>\n<p>This second conversation updates and annotates Younging’s twenty-two succinct style principles and recommendations to reflect up-to-date, Indigenous-led best practices. The new edition also includes: </p>\n<ul>\n<li>Advice on culturally appropriate writing and publishing practices, and guidance on specific editorial issues such as spelling and terminology. </li>\n<li>Five new chapters covering author–editor relationships, identity and community affiliation, Two-Spirit and Indigiqueer identities, Indigenous citation practices, sensitivity reading, the representation of Indigenous languages and oral narratives in print, emerging issues in the digital world, and more. </li>\n<li>Examples of projects and institutions that demonstrate best practices.</li>\n<li>An expanded table of contents and full index for easy navigation.</li></ul>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBLAN005000",
+                "name": "Composition & Creative Writing",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLAN005000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBLAN022000",
+                "name": "Editing & Proofreading",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLAN022000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBLAN028000",
+                "name": "Style Manuals",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLAN028000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBSOC026000",
+                "name": "Sociology",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSOC026000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This book was designed to be compatible with most assistive technologies and reading platforms on the market today. Blank pages have not been included in the page list. Note that the book contains words in Indigenous languages that may not be properly pronounced by text-to-speech software and screen readers. To give feedback on this book’s accessibility, please email contact@brusheducation.ca.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "highContrastDisplay",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual",
+                "visual"
+              ],
+              "accessModeSufficient": [
+                [
+                  "visual",
+                  "textual"
+                ],
+                "textual"
+              ],
+              "certification": {
+                "certifiedBy": "Benetech via eBOUND Canada",
+                "credential": "https://bornaccessible.org/certification/gca-credential/"
+              }
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/827bf1fe-8690-433a-c38c-5e98402dd400/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/67d49cc47e27b63cc0c71034",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/67d49cc47e27b63cc0c71034.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-18b64f3b-b772-416e-84b0-8c61f9d306f0-9781550599473-epub/loans_activation.opds2?_resource_id=67d49cc47e27b63cc0c71034",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781550599473/68147119b796d5660328fdd0d4231046_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Homing",
+            "language": "en",
+            "identifier": "urn:isbn:9781990601750",
+            "modified": "2025-07-07T14:33:18.041Z",
+            "published": "2024-09-01T00:00:00.000Z",
+            "numberOfPages": 352,
+            "author": [
+              {
+                "name": "Alice Irene Whittaker",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alice+Irene+Whittaker"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "Freehand Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+                }
+              ]
+            },
+            "description": "<p><b>A memoir about abandoning an exhausting commuter lifestyle to move to a cabin in the woods, embracing imperfection while cultivating a life of care for self and nature.</b></p><p>Alice Irene Whittaker was addicted to productivity, perfectionism, and discipline, making sure that every single moment of the day was accounted for. Then she finds herself as a new mother, commuting four hours a day into the city, exhausted by the state of the world, paralyzed by climate guilt and anxiety. Overnight, Alice Irene and her family decide to retreat to a cabin in the woods, in search of a new kind of life.</p>\n<p>Surrounded by creek, meadow, and forest, Alice Irene begins a new lifelong journey of repairing her fractured relationship with both herself and the natural world. Her quest takes her to meet a renowned economist-rancher in Colorado, to stand at the side of a runway at a sustainable fashion show in Portland, and to witness firsthand rewilding of wolves in Yellowstone. She interviews and learns from dozens of people who are building homes, growing food, making clothes, raising families, and living their lives in regenerative ways.</p>\n<p>Searching for the spaces between the sorrow of wildfires and the beauty of wildflowers, <i>Homing</i> is a lyrical memoir about moving from a life of despair to a life of care.</p><p><b>A memoir about abandoning an exhausting commuter lifestyle to move to a cabin in the woods, embracing imperfection while cultivating a life of care for self and nature.</b></p><p>Alice Irene Whittaker was addicted to productivity, perfectionism, and discipline, making sure that every single moment of the day was accounted for. Then she finds herself as a new mother, commuting four hours a day into the city, exhausted by the state of the world, paralyzed by climate guilt and anxiety. Overnight, Alice Irene and her family decide to retreat to a cabin in the woods, in search of a new kind of life.</p>\n<p>Surrounded by creek, meadow, and forest, Alice Irene begins a new lifelong journey of repairing her fractured relationship with both herself and the natural world. Her quest takes her to meet a renowned economist-rancher in Colorado, to stand at the side of a runway at a sustainable fashion show in Portland, and to witness firsthand rewilding of wolves in Yellowstone. She interviews and learns from dozens of people who are building homes, growing food, making clothes, raising families, and living their lives in regenerative ways.</p>\n<p>Searching for the spaces between the sorrow of wildfires and the beauty of wildflowers, <i>Homing</i> is a lyrical memoir about moving from a life of despair to a life of care.</p>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBNAT010000",
+                "name": "Ecology",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBNAT010000&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBOCC000000",
+                "name": "Esotericism, Occult",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBOCC000000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "summary": "This publication meets the EPUB accessibility requirements and it also meets the Web Content Accessibility Guidelines (WCAG) at the AA level. It is screen-reader friendly and is accessible to users of assistive technology. This book contains various accessibility features such as alternative text for images, table of contents, page list, landmarks, reading order, structural navigation, and semantic structure. Additionally, blank pages have been removed from the ebook while their page break labels have been left in, for reasons of structural flow.",
+              "feature": [
+                "alternativeText",
+                "ARIA",
+                "displayTransformability",
+                "pageBreakMarkers",
+                "printPageNumbers",
+                "readingOrder",
+                "structuralNavigation",
+                "tableOfContents"
+              ],
+              "hazard": [
+                "none"
+              ],
+              "accessMode": [
+                "textual"
+              ],
+              "accessModeSufficient": [
+                "textual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0dddac4f-91b6-4ac4-49fa-b0feaadf1800/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/66c8ee4447e59092e9f26382",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/66c8ee4447e59092e9f26382.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-18dcde48-3b6d-4f90-809d-411df10f1d9d-9781990601750-epub/loans_activation.opds2?_resource_id=66c8ee4447e59092e9f26382",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            },
+            {
+              "rel": "http://opds-spec.org/acquisition/sample",
+              "type": "application/epub+zip",
+              "href": "https://storage.googleapis.com/warehouse-europe-west3-prod-assets/772e12ca-0e7d-4d09-aa48-144e6b2562f8/9781990601750/7a2d65b13a061516c6915c91f4e1706f_sample.epub"
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "@type": "http://schema.org/Book",
+            "title": "Family Walks and Hikes in the Canadian Rockies - Volume 1",
+            "language": "en",
+            "identifier": "urn:isbn:9781771602259",
+            "modified": "2025-07-07T14:32:41.817Z",
+            "published": "2019-05-21T00:00:00.000Z",
+            "author": [
+              {
+                "name": "Andrew Nugara",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Andrew+Nugara"
+                  }
+                ]
+              }
+            ],
+            "publisher": {
+              "name": "RMB | Rocky Mountain Books",
+              "links": [
+                {
+                  "type": "application/opds+json",
+                  "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=RMB+%7C+Rocky+Mountain+Books"
+                }
+              ]
+            },
+            "description": "<p><b><i>Family Walks and Hikes</i> is an exciting new series of books written specifically for outdoor enthusiasts of all ages and abilities. These accurate, attractive guides feature expertly curated routes, informative maps, and colour photographs.</b></p><p>The first book for the Canadian Rockies in the series brings together an inspiring collection of comfortable walks and spectacular hikes for visitors and locals looking for unique, guided wanderings in a number of diverse locations in the Rockies, including:</p>\n<ul>\n<li>Elbow Falls</li>\n<li>Powderface Ridge</li>\n<li>Troll Falls</li>\n<li>Elbow Lake</li>\n<li>Grotto Canyon</li>\n<li>Grassi Lakes</li>\n<li>Tunnel Mountain</li>\n<li>Johnston Canyon</li>\n<li>Stanley Glacier</li>\n<li>Plain Of Six Glaciers</li>\n<li>Bow Summit</li></ul>\n<p>Ranging from charmingly easy to moderately challenging, these hikes are all accessible from reliable roads and popular staging areas. In addition, each hike is accompanied by a clear, colourful map, step by step directions, and full-colour photographs. Each route includes:</p>\n<ul>\n<li>detailed directions to trailheads</li>\n<li>colour maps and photographs</li>\n<li>seasonal information</li>\n<li>round-trip distances</li>\n<li>trail commentary</li>\n<li>difficulty ratings</li></ul>",
+            "belongsTo": {
+              "collection": "Read Alberta"
+            },
+            "subject": [
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBTRV006050",
+                "name": "Western Provinces (AB, BC)",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBTRV006050&category_standard=feedbooks"
+                  }
+                ]
+              },
+              {
+                "scheme": "http://www.feedbooks.com/categories",
+                "code": "FBTRV034000",
+                "name": "Hikes & Walks",
+                "links": [
+                  {
+                    "type": "application/opds+json",
+                    "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBTRV034000&category_standard=feedbooks"
+                  }
+                ]
+              }
+            ],
+            "accessibility": {
+              "feature": [
+                "tableOfContents"
+              ],
+              "accessMode": [
+                "visual"
+              ]
+            }
+          },
+          "images": [
+            {
+              "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4511866c-9523-4f7c-c3fb-60179face900/default",
+              "type": "image/jpeg"
+            }
+          ],
+          "links": [
+            {
+              "rel": "alternate",
+              "href": "https://epl.cantookstation.com/v1/resources/5d1500912357941e6a2e8a53",
+              "type": "text/html"
+            },
+            {
+              "rel": "self",
+              "href": "https://epl.cantookstation.com/v1/resources/5d1500912357941e6a2e8a53.opds2",
+              "type": "application/opds-publication+json",
+              "properties": {
+                "authenticate": {
+                  "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+                  "type": "application/opds-authentication+json"
+                }
+              }
+            },
+            {
+              "type": "application/opds-publication+json",
+              "rel": "http://opds-spec.org/acquisition/borrow",
+              "href": "https://epl.cantookstation.com/v1/media/CANT2385602-9781771602259-epub/loans_activation.opds2?_resource_id=5d1500912357941e6a2e8a53",
+              "properties": {
+                "availability": {
+                  "state": "available"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
