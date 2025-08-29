@@ -806,6 +806,7 @@ class WPMParseTest {
     "aldiko/canada/alberta.json",
     "aldiko/canada/britishcolumbia.json",
     "aldiko/canada/epl_cantook_home.json",
+    "aldiko/canada/epl_cantook_resources.json",
     "aldiko/canada/manitoba.json",
     "aldiko/canada/novascotia.json",
     "aldiko/canada/ontario.json",

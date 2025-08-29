@@ -1,0 +1,4197 @@
+{
+  "metadata": {
+    "title": "Audiobooks",
+    "numberOfItems": 160,
+    "itemsPerPage": 40,
+    "currentPage": 1
+  },
+  "links": [
+    {
+      "type": "application/opds+json",
+      "rel": "self",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=audio"
+    },
+    {
+      "type": "application/opds+json",
+      "rel": "next",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=audio&page=2&sort_by=issued_on_desc"
+    },
+    {
+      "type": "application/opds+json",
+      "rel": "last",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2?available_now_for_opds=1&nature=audio&page=4&sort_by=issued_on_desc"
+    },
+    {
+      "type": "application/opds+json",
+      "rel": "search",
+      "href": "https://epl.cantookstation.com/v1/resources.opds2{?query}",
+      "templated": true
+    },
+    {
+      "type": "application/opds-profile+json",
+      "rel": "profile",
+      "href": "https://epl.cantookstation.com/v1/my_profile.opds2"
+    },
+    {
+      "title": "History",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/history",
+      "href": "https://epl.cantookstation.com/v1/my_profile/history.opds2"
+    },
+    {
+      "title": "Loans and holds",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/shelf",
+      "href": "https://epl.cantookstation.com/v1/my_profile/activity.opds2"
+    },
+    {
+      "title": "Reading list",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/wishlist",
+      "href": "https://epl.cantookstation.com/v1/my_profile/wishlist.opds2"
+    }
+  ],
+  "facets": [
+    {
+      "metadata": {
+        "title": "Sort"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Recent acquisitions",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=audio&sort_by=created_at_desc",
+          "rel": "http://opds-spec.org/sort/new"
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Recent releases",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "rel": "self"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Availability"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Available",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "rel": "self"
+        },
+        {
+          "type": "application/opds+json",
+          "title": "All",
+          "href": "/v1/resources.opds2?nature=audio&sort_by=issued_on_desc"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Language"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "English",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&language=eng&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 160
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Media type"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Ebooks",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=ebook&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2597
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Audiobooks",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "rel": "self",
+          "properties": {
+            "numberOfItems": 160
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Magazines",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&nature=magazine&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 57
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Collection"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Prairie Indigenous",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&collection_title_keyword=Prairie+Indigenous&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 40
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Read Alberta",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&collection_title_keyword=Read+Alberta&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 109
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Category"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Non-Fiction",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBNFC000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 74
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "History",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBHIS000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 17
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Biography & autobiography",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBBIO000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 14
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Social science",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBSOC000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 14
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Nature, recreation and sports",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBNLS000000N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 11
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Pets",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBPET000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 8
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Juvenile",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJNF000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 6
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Esotericism, Occult",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBOCC000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 6
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Law",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBLAW000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 5
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Arts",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBART000000N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 4
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Health & fitness",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBHEA000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 4
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Political science",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBPOL000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 4
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Humor",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJNF028000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "People & Places",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJNF038000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "International",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBLAW051000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "News and investigations",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBSACT000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Human Science",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FSHUM000000N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Humor",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBHUM000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Canada",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJNF038040&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Medical",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBMED000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Performing arts",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBPER000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Reference",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBREF000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Travel",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBTRV000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "North America",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBTRV017000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Cooking",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBCKB000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Daily Living",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFAM000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Family Relationships",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFAM019000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Languages study",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFOR000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Fiction",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 59
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Horror",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC015000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 15
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Mystery & Detective",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC022000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 15
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Classics",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC004000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 13
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Literary",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC019000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 13
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Occult & Supernatural",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC024000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 8
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Juvenile & Young Adult",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 8
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Fantasy",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC009000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 6
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Themes",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV000000N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 6
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Science Fiction",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC028000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 4
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Contemporary Women",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC044000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 4
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Short Stories",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC029000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "People & Places",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV030000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Canada",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV030030&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 3
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Historical",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC014000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Animals",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV002000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Dogs",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBJUV002070&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Poetry",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBPOE000000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 2
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Fairy Tales, Folk Tales & Mythology",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC010000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Supernatural Creatures",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC024020N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Humorous",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC016000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "LGBTQ+",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC060000N&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Romance",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC027000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Westerns",
+          "href": "/v1/resources.opds2?available_now_for_opds=1&category=FBFIC033000&category_standard=feedbooks&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 1
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Audience"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Adult",
+          "href": "/v1/resources.opds2?audience=adult&available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 119
+          }
+        },
+        {
+          "type": "application/opds+json",
+          "title": "Youth",
+          "href": "/v1/resources.opds2?audience=youth&available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 21
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Accessibility"
+      },
+      "links": [
+        {
+          "type": "application/opds+json",
+          "title": "Full audio",
+          "href": "/v1/resources.opds2?accessibility=auditory_access&available_now_for_opds=1&nature=audio&sort_by=issued_on_desc",
+          "properties": {
+            "numberOfItems": 134
+          }
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "The Moon the Sun Forgot",
+        "language": "en",
+        "identifier": "urn:isbn:9781738125470",
+        "modified": "2025-04-14T13:16:39.662Z",
+        "published": "2025-03-04T00:00:00.000Z",
+        "author": [
+          {
+            "name": "B.J. Wagner",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=B.J.+Wagner"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Mythic Roads Press",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Mythic+Roads+Press"
+            }
+          ]
+        },
+        "description": "<p>In the vast, lawless ocean beneath the thick surface ice of Jupiter’s moon Europa, independent undersea miners compete against megacorporations for natural resources, and pirates hunt for unwary prey.</p>\n<p>Kassia McCullough will stop at nothing to enact revenge on Pretorious Grant, the man she holds responsible for her father’s suicide. When Grant's half-brother escapes from prison, Kassia may just have her chance to capture her elusive and powerful enemy.</p>\n<p>Earth Detective Max Danzig has his own reasons for pursuing the nefarious siblings. The newly escaped convict, Somerled Rhone, murdered his partner, and Max is determined to bring him in alive.</p>\n<p>Brought together by their mutual quest for vengeance, Kassia, Max, and an outlawed AI named Alex embark on a perilous journey, dodging bounty hunters, corporate mercenaries, and dangerous undersea creatures along the way.</p>\n<p><strong>Perfect for fans of expansive sci-fi adventures, <em>The Moon the Sun Forgot</em> is an immersive tale of love and retribution, set in the mysterious and gorgeously imagined depths of Europa’s subsurface ocean. </strong></p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC028030",
+            "name": "Space opera and planet opera",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC028030&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d59acca3-16e0-4015-a7ab-898329317500/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/67fd0ab79113cb6384760816",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/67fd0ab79113cb6384760816.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-2e59401c-cdc8-4ef6-84c9-3e44cd582e47-9781738125470-audio/loans_activation.opds2?_resource_id=67fd0ab79113cb6384760816",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Moon Dust in My Hairnet",
+        "language": "en",
+        "identifier": "urn:isbn:9781738125418",
+        "modified": "2024-12-17T23:16:37.027Z",
+        "published": "2024-04-20T00:00:00.000Z",
+        "author": [
+          {
+            "name": "JR Creaden",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=JR+Creaden"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Mythic Roads Press",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Mythic+Roads+Press"
+            }
+          ]
+        },
+        "description": "<p><strong><em>Moon Dust in My Hairnet</em> is a fresh, hopeful, and diverse sci-fi romp following an autistic lunar lunch lady as she juggles relationships and threatening corporate overlords, all while adjusting to life on Lunar Trust One.</strong></p>\n<p>20-year-old Lane was perfectly happy living in her big sister's shadow. The great Faraday Tanner, who invented the gravdrive and inspired the movement to found the moon's first independent colony, was the unequaled voice of the post-melt generation. That is, until an unimaginable tragedy cut Faraday’s legacy short.</p>\n<p>Wracked with survivor's guilt, Lane embraces her job on the moon: lunch lady—which is more than her parents think she can handle. Her boyfriend's supportive at least, when he's not drooling over one of the new recruits. Lane tries to put the past behind her, committed to enjoying her kitchen work and dating her boyfriend and their new crushes. She even participates in planning Faraday's memorial, forcing herself to grapple with monumental loss.</p>\n<p>But when colony goods go missing and vital equipment gets tampered with, Lane must band together with new and old friends to find the culprit and save her sister's dream.</p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": []
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/83840a65-80f8-4267-dc03-43104f12bc00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/676206558c05042fe8e75887",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/676206558c05042fe8e75887.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-4e9cdbb7-efc6-4eda-b46e-c76eec605e0a-9781738125418-audio/loans_activation.opds2?_resource_id=676206558c05042fe8e75887",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "My Life in Propaganda",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735356",
+        "modified": "2025-01-14T16:16:46.783Z",
+        "published": "2023-11-05T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Magda Stroińska",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Magda+Stroi%C5%84ska"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile"
+            }
+          ]
+        },
+        "description": "<i>My Life in Propaganda</i> is Magda Stroińska’s personal account of growing up with communist propaganda in Eastern Europe. She looks at the influence of her family history that contradicted what she was taught at school; the cognitive and emotional effects of compulsory school readings; socialist realist art and film; and Radio Free Europe and Voice of America and their role in shaping her generation’s collective view of the world. Through her chosen field of linguistics, she analyzes ways in which propagandistic language, such as ‘doubletalk,’ Orwellian ‘Newspeak,’ ‘weasel words,’ and, more colloquially, ‘bullshit,’ is used to distort reality. The book demonstrates that democracy can never be taken for granted. ",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBLAN009010",
+            "name": "Historical & Comparative",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLAN009010&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8f1e2f58-89fd-4f2f-e62e-21bf6dd31000/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f56a",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f56a.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-bed8e041-b1e1-4ed6-bb6f-556d6c3259a9-9781990735356-audio/loans_activation.opds2?_resource_id=65fc9cd0c5788f0001b7f56a",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "This Strange Visible Air: Essays on Aging and the Writing Life",
+        "language": "en",
+        "identifier": "urn:isbn:9781990601705",
+        "modified": "2023-12-18T22:46:46.994Z",
+        "published": "2023-10-30T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Sharon Butala",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Sharon+Butala"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Freehand Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+            }
+          ]
+        },
+        "description": "<p><b>A collection of essays on women and aging from Canadian legend Sharon Butala</b></p>\n<p>\"What I didn't have a clue about was that I was soon to be old, or what being old would mean to my dreams and desires. While dreading old age with every fibre, I was at the same time in full denial that it would ever happen to me, and so, was shocked down to the soles of my feet when it did.\"</p> \n<p>In this incisive collection, Sharon Butala reflects on the ways her life has changed as she's grown old. She knows that society fails the elderly massively, and so she tackles ageism and loneliness, friendship and companionship. She writes with pointed wit and acerbic humour about dinner parties and health challenges and forgetfulness and complicated family relationships and the pandemic -- and lettuce. And she tells her story with the tremendous skill and beauty of a writer who has masterfully honed her craft over the course of her storied four-decade career.</p> \n<p>Butala gives us a book to be cherished -- an elegant and expansive look at the complexities and desires of aging and the aged, standing in stark contrast to the stereotyped, simplistic portrayals of the elderly in our culture. <i>This Strange Visible Air</i> is a true gift.</p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBLCO010000",
+            "name": "Essays",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLCO010000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBSOC025000",
+            "name": "Social Work",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSOC025000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO007000",
+            "name": "Literary",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO007000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4f4c28ab-0ad2-4e48-0b10-25b79113ac00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/6580c4d1e95cc40001934c25",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/6580c4d1e95cc40001934c25.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-0a5223d8-df85-48df-af20-d70eb4263efc-9781990601705-audio/loans_activation.opds2?_resource_id=6580c4d1e95cc40001934c25",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Whistle at Night and They Will Come",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735318",
+        "modified": "2024-03-21T20:47:12.173Z",
+        "published": "2023-10-09T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Alex Soop",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alex+Soop"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "UpRoute Books and Media",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=UpRoute+Books+and+Media"
+            }
+          ]
+        },
+        "description": "Following the immense success of his debut collection of horror stories,<i> Midnight Storm, Moonless Sky, </i>Blackfoot storyteller Alex Soop once again scares the wits out of readers while uncovering overlooked social anxieties and racism affecting Indigenous Peoples across North America. <i>Whistle at Night and They Will Come: Indigenous Horror Stories Volume 2 </i>delivers stories ranging from supernatural mythology and the  paranormal to post-apocalyptic scenarios, and zombie lockdown—12 tales in all in short story and novella formats. <i>Whistle at Night</i> coincides with the launch of Durvile &amp; UpRoute Books’ new horror series, “Dark Tales.”",
+        "belongsTo": {
+          "collection": "Prairie Indigenous"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC015000",
+            "name": "Horror",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC015000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/664ffba7-5998-4c21-73b6-1be57a212000/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f562",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f562.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-406df46e-7bda-47b8-9fcf-c86502ee58e3-9781990735318-audio/loans_activation.opds2?_resource_id=65fc9cd0c5788f0001b7f562",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Indigenous Justice",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735271",
+        "modified": "2024-03-21T20:47:12.098Z",
+        "published": "2023-06-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Honourable Thomas R. Berger",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Honourable+Thomas+R.+Berger"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile"
+            }
+          ]
+        },
+        "description": "Indigenous Justice is Book 10 in the Durvile True Cases series. In the spirit of truth and reconciliation and respectful of Indigenous cultural integrity, judges, lawyers, and law enforcement officers write about working with First Nations, Métis, and Inuit Peoples through their trials and tribulations with the criminal justice system. The stories are a mix of previously published essays from the True Cases anthologies with an equal number of new chapters by legal and law enforcement professionals.  ",
+        "belongsTo": {
+          "collection": "Prairie Indigenous"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBLAW052000N",
+            "name": "Public",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBLAW052000N&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBSOC004000",
+            "name": "Criminology",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSOC004000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/91fb0fb2-f3dc-4453-e244-9fa1f1758600/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f557",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9cd0c5788f0001b7f557.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-53059ef2-4e0d-425a-a13e-7328847dac17-9781990735271-audio/loans_activation.opds2?_resource_id=65fc9cd0c5788f0001b7f557",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "The Rainbow, the Midwife & The Birds",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735370",
+        "modified": "2024-03-21T20:47:11.950Z",
+        "published": "2023-04-27T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Raymond Yakeleya",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Raymond+Yakeleya"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "UpRoute Books and Media",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=UpRoute+Books+and+Media"
+            }
+          ]
+        },
+        "description": "The Rainbow, the Midwife &amp; the Birds contains seven Dene stories, as told by Raymond Yakeleya. \"Flight Through the Rainbow\" is about flying through a rainbow in a small plane and experiencing multi-sensations of colour. It also tells the legend of the spider and how its web catches raindrops that create the rainbow. \"The Midwife and the Spirit of Life,\" dedicated to Raymond's Granny Harriet Gladue, is about the birth of babies and bringing their spirits into the world. \"The Slingshot and the Songbird\" is about a boy's sadness over killing a friendly songbird. \"The Medicine Brothers and the Giant Birds\" is a tale told to Raymond by his uncle George Blondin about the hazards of giant animals when the world was new. There are also three stories included from Raymond's book The Tree By the Woodpile, The Tree, The Wolf, and the Mountain.",
+        "belongsTo": {
+          "collection": "Prairie Indigenous"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBJNF038120",
+            "name": "Native Canadian",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBJNF038120&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/30fec5c2-cb8f-410a-0719-27cf6f66a300/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9ccfc5788f0001b7f549",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/65fc9ccfc5788f0001b7f549.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-4eb7d62d-1302-4e1a-b0bd-a0e4a1cf9057-9781990735370-audio/loans_activation.opds2?_resource_id=65fc9ccfc5788f0001b7f549",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Season of Fury and Wonder",
+        "language": "en",
+        "identifier": "urn:isbn:9781990601552",
+        "modified": "2023-10-16T21:55:42.839Z",
+        "published": "2023-04-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Sharon Butala",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Sharon+Butala"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Freehand Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+            }
+          ]
+        },
+        "description": "Writing at the top of her game, Sharon Butala returns to the short story in this astounding new collection. In Butala’s world, the season of fury and wonder is the season of old age. The stories in this book are the stories of women who have had experiences; women who have seen much of life and have felt the joy of success and the sting of shortcomings; women who hold opinions and come to conclusions about the lives they’ve lived.\n\nBut Sharon Butala gives us more — not only is each story an observation on aging, each story in Season of Fury and Wonder pays tribute to a classic work of literature that has had an impact on Butala’s writing. Among these writers are Raymond Carver, Willa Cather, Flannery O’Connor, John Cheever, James Joyce, Shirley Jackson, Anton Chekhov, Alan Sillitoe, Ernest Hemingway and Edgar Allan Poe. The result of Butala’s effort is a series of deeply felt tributes to these writers, to the creativity and their power to inspire.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC029000",
+            "name": "Short Stories",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC029000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC019000",
+            "name": "Literary",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d23245d2-f29f-4924-d7e3-0fc27ec08100/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/652db15e2cace10001f71dd3",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/652db15e2cace10001f71dd3.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-bdeef7b3-4751-4e1b-9349-8a62035faff8-9781990601552-audio/loans_activation.opds2?_resource_id=652db15e2cace10001f71dd3",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "UFO Sightings",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110400",
+        "modified": "2023-06-26T21:19:12.568Z",
+        "published": "2022-12-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Lisa Wojna",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lisa+Wojna"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "Shrouded in mystery, unidentified flying objects have been reported in every corner of Canada. Surprisingly, some of these seemingly far-fetched stories may be based in fact, while others will never be explained.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBOCC025000",
+            "name": "UFOs and Unexplained Phenomena",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBOCC025000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/87f3c294-ff29-4c20-2711-9b6f472b9100/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f27328",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f27328.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-36eb2c63-fbd8-4463-b340-e81bcef8788f-9781773110400-audio/loans_activation.opds2?_resource_id=649a00d0b2724c0001f27328",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Kiss the Cod",
+        "language": "en",
+        "identifier": "urn:isbn:9781989209363",
+        "modified": "2023-06-26T21:19:12.684Z",
+        "published": "2022-12-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Vernon Oickle",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Vernon+Oickle"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Blue Bike Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Blue+Bike+Books"
+            }
+          ]
+        },
+        "description": "If a fisherman pees in the ocean, a bad storm will come. Good luck will come to your household if you own a three-coloured cat. Ancient, entertaining and sometimes-quirky folklore enrich all cultures, but many superstitions and traditions of Atlantic Canada are truly unique",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBSOC005000",
+            "name": "Customs & Traditions",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSOC005000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7d63efc9-17a0-4048-aa28-cb45e9205e00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f27332",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f27332.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-8e9ef833-ac9d-414a-b7a0-ad482c704d2c-9781989209363-audio/loans_activation.opds2?_resource_id=649a00d0b2724c0001f27332",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Canadians in the Battle of the Atlantic",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110394",
+        "modified": "2023-06-26T21:19:12.269Z",
+        "published": "2022-12-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Larry Gray",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Larry+Gray"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "The Battle of the Atlantic was the longest sustained conflict of the Second World War, a critical fight for the Allies to stop Nazi U-boats and other warships from sinking supply ships to Europe. Canadians played a vital role in that war. Author and Canadian Forces veteran Larry Gray revisits the battle from the Canadian perspective.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS006000",
+            "name": "Canada",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS006000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7e487f0b-9f64-4374-de09-bfeb1cfd2900/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f2731e",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f2731e.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-c3c26385-e071-459f-90f6-aca91f8bd2bc-9781773110394-audio/loans_activation.opds2?_resource_id=649a00d0b2724c0001f2731e",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Disasters of Western Canada",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110363",
+        "modified": "2023-06-26T21:19:12.816Z",
+        "published": "2022-12-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Tony Hollihan",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tony+Hollihan"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "The history of western Canada has its share of disasters, both natural and man-made. The devastation, the loss of life and the courage in the face of adversity make for powerful and poignant stories that are well told in this collection by bestselling author Tony Hollihan. ",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS006000",
+            "name": "Canada",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS006000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1ea9a23a-2542-467f-2df7-041c90239200/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f2733c",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/649a00d0b2724c0001f2733c.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-94500c8e-4dcb-43d6-99c0-47cdc7d11d8c-9781773110363-audio/loans_activation.opds2?_resource_id=649a00d0b2724c0001f2733c",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Why Are You Still Here?",
+        "language": "en",
+        "identifier": "urn:isbn:9781988824932",
+        "modified": "2022-12-21T17:48:38.690Z",
+        "published": "2022-11-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Lynda Partridge",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lynda+Partridge"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<p class=\"p1\"><i>Why Are You Still Here? </i>is from the author of the award-winning<i> Lillian &amp; Kokomis</i>. In this new book in the Lillian mystery series, Lillian discovers her connection with a surprising spirit that returns her to traditional ways, legends, and Indigenous ways of knowledge. She and her buddies also uncover the mystery of ghosts and spirits that live behind a window at the family farm.</p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/deb7db87-ae5d-4219-bbe7-889984929d00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a346f6a8f5e20001b0215d",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a346f6a8f5e20001b0215d.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-b62ab7fd-433f-4068-a23b-26fc639a03c4-9781988824932-audio/loans_activation.opds2?_resource_id=63a346f6a8f5e20001b0215d",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Child of Morning Star",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735226",
+        "modified": "2022-12-22T20:49:39.899Z",
+        "published": "2022-11-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Antoine Mountain",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Antoine+Mountain"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<span>Antoine Mountain follows up his previous memoir </span><em>From Bear Rock Mountain </em><span>with the book </span><em>Child of Morning Star: Embers of an Ancient Dawn. </em><em>Child of Morning Star</em><span> is</span><em> </em><span>a poetic collection of stories that draws on Antoine Mountain's travels and knowledge as a Dene artist and a lifelong student of history. In it, he weaves stories about people and art and the moments when our world manages to pause just briefly enough that we can see the roots of our communal humanity. Each part of this book corresponds to the four directions of the Medicine Wheel and offers insight into history, social conditions, community, and the spiritual. </span><em>Child of Morning Star</em><span> looks towards the future and the promise of tomorrow.</span>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO028000",
+            "name": "Native Americans",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO028000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8af7f219-1209-47fa-5486-5bdb11f6de00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a34df2e7aac10001240209",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a34df2e7aac10001240209.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-7a1fd954-e8e8-4f17-95ed-afb48bf9e6bc-9781990735226-audio/loans_activation.opds2?_resource_id=63a34df2e7aac10001240209",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Nahganne",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735202",
+        "modified": "2022-12-21T19:18:45.100Z",
+        "published": "2022-11-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Red Grossinger",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Red+Grossinger"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<span>Nahganne: Tales of the Northern Sasquatch presents over 80 reports and stories about giant bipedal, forest dwelling, hirsute hominoid entities. For as long as humans have been around the North, the activities of these giants have been observed in many places, but only a few people have taken the time to share their stories of coming in contact with these forest giants. In the North they have been given many regional names; although they are commonly known as Nahganne or Sasquatch. The book presents activities occurring in the North such as sightings, strange vocals, discovery of large human-liked footprints, strange animal reaction, and weird tree events. It also contains bits of history about northern North America plus details about the First Nation Peoples and their history. The majority of these unique and often hair-raising experiences were reported by Indigenous Peoples of the North including Dene, Dena, Gwich’in, Tlingit, Tutchone, Tagish, Champagne and Aishihik, Tahltan, Métis, Kwanlin Dün, and Tr’ondëk Hwëch’in.</span>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBOCC025000",
+            "name": "UFOs and Unexplained Phenomena",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBOCC025000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/61af57c5-4f79-4ea9-cb0a-17cb5daac400/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a35c15fd94bc0001a39867",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a35c15fd94bc0001a39867.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-8b774062-3fba-4a2e-bb4c-fe748639b8a6-9781990735202-audio/loans_activation.opds2?_resource_id=63a35c15fd94bc0001a39867",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Midnight Storm Moonless Sky",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735189",
+        "modified": "2022-12-21T18:48:39.299Z",
+        "published": "2022-10-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Alex Soop",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Alex+Soop"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<span>Blackfoot storyteller Alexander Soop plunges us into a shocking well of imagination in his debut collection of short stories, </span><em>Midnight Storm Moonless Sky.</em><span> From hauntings on the Highway of Tears to fearful gatherings of ghosts and the sorrows of racism, Soop combines the social anxieties of Indigenous life with spellbinding flights and frights of speculative fiction. Through these enthralling stories of reality mixed with terror, readers get a wicked glimpse into the genre of Indigenous Horror – a combination of First Nations legends, dark fantasy, apocalyptic and paranormal enchantment, and monstrous secrets. In addition to his hungering to scare the wits out of readers, Alexander Soop also examines the overlooked matters affecting First Nations across the diverse world of Turtle Island. </span><em>Midnight Storm Moonless Sky</em><span> is Volume One in the Indigenous Horror series, a spinoff of the UpRoute Indigenous Spirit of Nature imprint.</span>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC015000",
+            "name": "Horror",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC015000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0c0aa885-b046-44f8-0f79-a4c0eb277c00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a3550759fee40001a3b3ad",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a3550759fee40001a3b3ad.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-641e0141-2900-4574-be93-a728e7877309-9781990735189-audio/loans_activation.opds2?_resource_id=63a3550759fee40001a3b3ad",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "The Musician Healer",
+        "language": "en",
+        "identifier": "urn:isbn:9781988824994",
+        "modified": "2022-12-21T17:48:38.539Z",
+        "published": "2022-10-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Islene Runningdeer",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Islene+Runningdeer"
+              }
+            ]
+          },
+          {
+            "name": "Islene Runningdeer",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Islene+Runningdeer"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "The Musician Healer resurrects a long-forgotten role for musicians and provides clear guidance for preparation and self-development as a musician healer in order to reactivate this role for the modern world. It begins with the author’s personal musical story that draws upon her Mi’kmaq/Abenaki First Nation and French roots, followed by a section on the history of musician healers from ancient Egypt and India. Runningdeer then explores the energetic aspects of music healing, especially the quality of personal energies that a musician channels through her music, and how to elevate and emanate those vibrations for positive healing outcomes.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBMUS001000",
+            "name": "Appreciation",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBMUS001000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBMED004000",
+            "name": "Alternative Medicine",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBMED004000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6d6ccfdd-24db-4064-3f39-3d824fadd900/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a346f6a8f5e20001b02155",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a346f6a8f5e20001b02155.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-3f3a6f09-73d2-430b-b5db-2693b5cbffd8-9781988824994-audio/loans_activation.opds2?_resource_id=63a346f6a8f5e20001b02155",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Canada, Weird Strange and True",
+        "language": "en",
+        "identifier": "urn:isbn:9781989209097",
+        "modified": "2022-12-20T21:48:41.588Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Lisa Wojna",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lisa+Wojna"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Blue Bike Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Blue+Bike+Books"
+            }
+          ]
+        },
+        "description": "This book takes you deep inside the weirdest and most peculiar aspects of our country:*Yes, there is a lighthouse in Saskatchewan!! Climb 153 steps to the top.*The Diefenbunker is a relic of the Cold War that was built just outside Ottawa to house essential government and military personnel in the event of a nuclear attack; it is now a museum.*The Brussel Sprouts Festival is held yearly in the village of Rogersville, NB.*Lake Okanagan’s Ogopogo is one of Canada’s most well known monsters, but the weird thing is that at least 14 other unknown, cryptid lake creatures are said to swim this country’s waters.*The Old Sow tidal whirlpool, located in Passamaquoddy Bay, is the largest in the Western Hemisphere at 75 metres in diameter with a current speed of 28 kilometres an hour.*Over seven years 14 severed feet have washed up on the Pacific Coastline; some have been identified through DNA testing but the identity of most, and the reason for their find, remains a mystery.*The largest beaver dam in the world is 850 metres wide and is located in a remote corner of Wood Buffalo National Park in Alberta.*The Hôtel de Glace in Québec City is sculpted from 500 tonnes of ice and 15,000 tonnes of snow.*Now, that’s just weird!*And there are hundreds more strange things about our country that you will learn about in Canada Weird, Strange and True!",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBREF023000",
+            "name": "Trivia",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBREF023000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/08e7efe5-3859-42cb-58e9-7bbd05f4cc00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a22db9253bb90001582fc1",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a22db9253bb90001582fc1.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-2a5b8503-f2e4-4187-8ace-4bf92c146de9-9781989209097-audio/loans_activation.opds2?_resource_id=63a22db9253bb90001582fc1",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "In the Shadow of Our Ancestors",
+        "language": "en",
+        "identifier": "urn:isbn:9781990321023",
+        "modified": "2022-12-20T22:20:08.848Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Wayne Arthurson",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Wayne+Arthurson"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Eschia Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Eschia+Books"
+            }
+          ]
+        },
+        "description": "Searching through the annals of North American history uncovers the diverse and astounding contributions by the Natives of the Americas who formed the world we know today.*In the Shadow of Our Ancestors explores the rich history of the indigenous peoples of North America and leaves us in awe of their stunning achievements and inventions:*The Great Law of Peace — The ideals, words and symbols of the Iroquois Confederacy inspired the governments of the New World to form democracies that recognized, in their constitutions, the rights of all people.*Potatoes — The lowly potato, a staple food of Natives for almost 15,000 years, was unknown outside the Americas until Europeans arrived; now, with almost 4000 varieties, it is the fourth most-consumed agricultural product in the world.*Sacagawea — The settlement of western North America was inspired and influenced by the results of the Lewis and Clark expedition in the early 1800s, with the journey’s success made possible because of a Native woman named Sacagawea, whose presence paved the way for the explorers to be seen as a peaceful party.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS028000",
+            "name": "Native American",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS028000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/45d8849a-a206-4ef5-6c77-8d563f433300/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4d01",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4d01.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-5ae66a2f-000c-4f7a-9343-c786daefb153-9781990321023-audio/loans_activation.opds2?_resource_id=63a23518ae361e00010d4d01",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "The Legend of Pierre Bottineau & the Red River Trail",
+        "language": "en",
+        "identifier": "urn:isbn:9781990321061",
+        "modified": "2022-12-20T22:20:09.069Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Ted Stone",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Ted+Stone"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Eschia Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Eschia+Books"
+            }
+          ]
+        },
+        "description": "The Red River Trail, used approximately between 1820 and 1880 to take supplies and settlers to the West, stimulated commerce in the region and played an important part in the growth of Manitoba and Minnesota.*It highlights the role of the Metis in the development of the area and follows the life of Pierre Bottineau a Metis guide and well-known frontiersman and military scout.*He traveled the route regularly and was known as the Kit Carson of the North.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS036000",
+            "name": "United States",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS036000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/193d1bb1-fc4b-4c88-a712-bcbe7d9dab00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23519ae361e00010d4d15",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23519ae361e00010d4d15.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-a62020c3-7dc9-4d3e-ba2f-b5962be80d07-9781990321061-audio/loans_activation.opds2?_resource_id=63a23519ae361e00010d4d15",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Dogs with Jobs",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110226",
+        "modified": "2022-12-20T22:49:09.771Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Tyler Mudrey (Editor)",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tyler+Mudrey+%28Editor%29"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "Most pets’ main job is to provide companionship to their human companions. But many dogs have other, very important jobs as well. Dogs’ keen sense of smell, their intelligence and willingness to learn and their strong dispositions make them irreplaceable as K-9 police officers, as seeing eye dogs for the blind, therapy and companion dogs for seniors and as soldiers’’ helpers in times of war. A few even work with politicians or as mascots on television! Here are over fifty, easy-to-read stories about these hardworking dogs.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPET004000",
+            "name": "Dogs",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET004000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/2dab1be5-0868-426e-4414-529e7cc5a100/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae47a8",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae47a8.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-2ab405bf-71d4-46b0-a554-96d1365e35ec-9781773110226-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae47a8",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Their Bark & Their Bite",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110233",
+        "modified": "2022-12-20T22:49:09.983Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Tyler Mudrey (Editor)",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tyler+Mudrey+%28Editor%29"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "What do you know about your dog? Or dogs in general? Learn more from over 300 facts, trivia bits, factoids (and even some jokes) all about humans’ most loyal companion: the dog. Sit down, read up and be informed.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPET004000",
+            "name": "Dogs",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET004000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b337f4c1-3276-4aca-64ee-5c95d6a17800/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae47b3",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae47b3.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-cedc895b-6a6c-4a1e-9526-2dbca343b018-9781773110233-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae47b3",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Cats with Character",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110257",
+        "modified": "2022-12-20T22:49:10.395Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Tyler Mudrey (Editor)",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tyler+Mudrey+%28Editor%29"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "“Authors like cats because they are such quiet, lovable, wise creatures, and cats like authors for the same reasons.” -Robertson Davies. So many of our greatest authors have had cats that it seems a cat is next to the pen in importance to writers. Similarly cats have appeared all through great literature and all through more mainstream modern entertainment. This book tells the stories of these cats in story, and of their writers.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPET003000",
+            "name": "Cats",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET003000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d4c4775b-9771-41b1-7097-4c5deceaa300/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47c9",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47c9.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-9723852b-8bd9-4977-8ca6-8191c4520982-9781773110257-audio/loans_activation.opds2?_resource_id=63a23be66e7f430001ae47c9",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Pet Heroes",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110158",
+        "modified": "2022-12-20T22:49:10.546Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Lisa Wojna",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Lisa+Wojna"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "People often form strong attachments to the animals in their lives, and sometimes the connection is so deep that pets put their lives on the line for the ones they love: * Angel, a golden retriever belonging to 11-year-old Austin Forman of Boston Bar, BC, intercepted a cougar as it leapt at her owner *Ning Nong, a four-year-old pet elephant in Phuket, Thailand, knew instinctively when a tsunami was about to crest in 2004; she led many to higher ground, saving them from drowning in the Indian Ocean * Effie, a 15-year-old German shorthair from Pine City, Minnesota, and her owner were out for a walk when she began pulling on her leash to get her master to take an alternate route; they wound up rescuing a 94-year-old man * Lulu, a pot-bellied pig, halted traffic on the shores of Lake Erie and led a rescuer to her owner, who was suffering from a heart attack * A parakeet named Willie helped save two-year-old Hannah Kuusk from choking by alerting his owner * The persistent yowling of an orange cat named Gepetto saved his owner, Phyllis Birch, from deadly carbon monoxide poisoning * When Fiona Boyd got between a cow and its calf, she might have been killed or severely injured if not for the actions of Kerry, her 15-year-old chestnut mare. * And more…",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPET000000",
+            "name": "Pets",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET000000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a9ed8b96-710e-4ee0-ca6d-5007d5cd5b00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47d4",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47d4.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-62d177f4-4527-4b9a-a107-9d6064f9d729-9781773110158-audio/loans_activation.opds2?_resource_id=63a23be66e7f430001ae47d4",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "From the Corner of Bad and Ass",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735011",
+        "modified": "2022-12-21T17:18:21.802Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Carrie Schiffler",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Carrie+Schiffler"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<span>From the Corner of Bad and Ass is a collection of Carrie Schiffler’s memories about growing up in welfare housing to absentee and alcoholic parents. Throughout these heart-wrenching and often-hilarious stories we cheer her on as she fights to survive domestic violence, sexual abuse, and cycles of poverty and addiction — all before her 18th birthday. Prepare to laugh at her attempts to earn the attention she craves and prepare to cry over the inappropriate attention she receives.</span>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO026000",
+            "name": "Personal Memoirs",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO026000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7d6b4548-02ac-4ca2-db51-00298b462200/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a33fdddbb26d0001f36083",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a33fdddbb26d0001f36083.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-b1dbe6c5-d275-4fa4-ad36-ae22b4a67d5f-9781990735011-audio/loans_activation.opds2?_resource_id=63a33fdddbb26d0001f36083",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Worldly Cats",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110240",
+        "modified": "2022-12-20T22:49:10.148Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Tyler Mudrey (Editor)",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Tyler+Mudrey+%28Editor%29"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "There are more than 220 million cats in the world, and this book has stories about the world’s favourite pet from all across the globe. From an owner with 96 cats in Calgary, Alberta, Canada to a daring cat-escape from Lebanon to the Middle East, the book tells many fine feline tales. We4 also list over 20 different breeds from around the world, where they’re from and a short description. Truly a global cat reference for any cat-lover.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPET003000",
+            "name": "Cats",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPET003000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5d1eff62-c4f7-4229-66d7-6b33e905ee00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47be",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be66e7f430001ae47be.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-fc632f21-3d9d-491c-94fb-a2b7c46a596d-9781773110240-audio/loans_activation.opds2?_resource_id=63a23be66e7f430001ae47be",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Tom Longboat",
+        "language": "en",
+        "identifier": "urn:isbn:9781990321054",
+        "modified": "2022-12-20T22:20:08.953Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Will Cardinal",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Will+Cardinal"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Eschia Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Eschia+Books"
+            }
+          ]
+        },
+        "description": "One of the greatest marathon runners of all time, Tom Longboat was one of the best-known athletes of the western world in the early 20th century.*Longboat was an astonishing long-distance runner who grew up on the Six Nations reserve near Brantford, Ontario.*He won the Boston Marathon in record time, 2:24.24, almost five minutes faster than the 10 previous winners.*Longboat then raced in the Olympic Marathon in 1908, but he collapsed on the course amid rumours that his manager had drugged him with strychnine.*At a rematch the following year in New York City, Longboat won the race handily, beating his nearest competitor.*In 1916, Longboat enlisted in the Canadian Armed Forces and worked as a dispatch carrier for the 107th Pioneer Battalion in France.*He was left for dead on the battlefield, but somehow survived and returned to Canada only to discover that his wife, Lauretta, thinking he was dead, had remarried.*Longboat’s independent spirit and passion for running carried him through the many difficulties he faced as an Aboriginal person.*His enduring legacy has been honoured with the Tom Longboat Awards, established in 1951 to celebrate outstanding First Nations athletes in Canada.*He is a member of the Canadian Sports Hall of Fame and the Indian Hall of Fame.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO016000",
+            "name": "Sports",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO016000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/3d08dd3d-2071-413d-f0b9-fff961007600/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4d0b",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4d0b.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-f08d7517-47b4-4b07-aef5-ff41f6ad9d9b-9781990321054-audio/loans_activation.opds2?_resource_id=63a23518ae361e00010d4d0b",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "1001 Weird Facts for Canadian Gardeners",
+        "language": "en",
+        "identifier": "urn:isbn:9781551056166",
+        "modified": "2022-12-20T22:49:09.484Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "A.H. Jackson",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=A.H.+Jackson"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Lone Pine Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Lone+Pine+Publishing"
+            }
+          ]
+        },
+        "description": "This delightful compendium presents all that is weird and wonderful about Canadian gardens. <br/>Did you know we used to think tomatoes were poisonous? Did you know radishes are related to cabbage, broccoli and mustard? Discover all sorts of odd gardening facts.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBGAR000000",
+            "name": "Gardening",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBGAR000000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0a364566-dcea-4618-348e-c6285eb8cd00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae478a",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae478a.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-55d1b9de-f901-43a1-87c4-9690e2281c29-9781551056166-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae478a",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Weird Canadian Animals",
+        "language": "en",
+        "identifier": "urn:isbn:9781989209110",
+        "modified": "2022-12-20T21:48:41.825Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Wendy Pirk",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Wendy+Pirk"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Blue Bike Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Blue+Bike+Books"
+            }
+          ]
+        },
+        "description": "From strange behaviour to interesting prey-vs.-predator relationships to fantastical creatures, the animal world is full of fascinating facts about our furry, feathered and scaly friends:*The wood frog burrows into the leaf litter in winter; its heart, brain and eyeballs freeze, and they defrost again in the spring.*In 2006, a hunter shot and killed a hybrid of a grizzly and a polar bear, dubbed a grolar or pizzly bear, the first to be found in the wild.*The bombardier beetle protects itself by expelling a boiling hot chemical spray from its rear end.*A woodpecker’s tongue is so long that it rolls up in the bird’s skull like a tape measure in its case.*Rabbits produce two kinds of stool: one that the animal eats, which is rich in vitamins and nutrients, and another that is waste matter.*Some clever crows drop nuts onto roadways so that passing vehicles drive over them and break the shells open.*The horned lizard defends itself by squirting blood from its eyes.*Canada was home to 2.5-metre-long giant sea scorpions 400 million years ago.*And so much more…",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBREF023000",
+            "name": "Trivia",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBREF023000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0f165e13-15e0-49e4-1e96-565c10082c00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a22db9253bb90001582fcb",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a22db9253bb90001582fcb.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-1772272e-87f7-41d0-8192-ef6a4cebb30d-9781989209110-audio/loans_activation.opds2?_resource_id=63a22db9253bb90001582fcb",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Muskoka",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110165",
+        "modified": "2022-12-20T22:49:09.585Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Andrew Hind",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Andrew+Hind"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "Muskoka is a beloved region for summertime frivolity—a popular destination for tourists and cottagers. The region is also home to a remarkably varied and interesting history. This book explores stories that most people, residents included, likely know little about. Meet Dangerous Dan, a two-fisted brawler who fought his way into legend though countless lumber camps and booze-soaked taverns. Learn how one man’s vision and hard work transformed Bala into the “Cranberry Capital of Ontario.” Explore the history of Bigwin Inn, a lavish resort that was once the most luxurious hotel in Canada and that experienced a tragic and sad demise. Venture aboard steamships, into logging camps and elegant resorts, and through dense forests to the remains of ghost towns to unearth tales so much a part of the Muskoka experience…but overshadowed by the beautiful lakes and the endless opportunities for carefree enjoyment.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBTRV006020",
+            "name": "Ontario (ON)",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBTRV006020&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/38890028-5430-4010-e0f0-5cf0d0452800/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae4794",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae4794.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-0cc3ae5d-cfd2-490a-af39-0fd462e5ce3b-9781773110165-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae4794",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Niagara",
+        "language": "en",
+        "identifier": "urn:isbn:9781773110172",
+        "modified": "2022-12-20T22:49:09.678Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Andrew Hind",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Andrew+Hind"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Folklore Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Folklore+Publishing"
+            }
+          ]
+        },
+        "description": "Niagara is rich with fascinating stories, from daredevils to heroics. From the horrors during the War of 1812, to murder, to technological innovation and the birth of the modern tourist industry, Niagara has seen it all: In 1901, Annie Taylor was the first person to go over the falls in a barrel…and survive. It is said that the former Houdini Hall of Fame was cursed by the dead escape artist himself, and that he was responsible for its demise. For two weeks in 1952, Niagara Falls shared the spotlight with another attraction, Hollywood starlet Marilyn Monroe. Maria Spelterini was the first and only woman to cross Niagara on a tightrope…and then she disappears from history. Adulterer Arthur Hoyt Day decided to rid himself of one wife by throwing her into the Niagara gorge; he paid the ultimate price for his crime. Nikola Tesla, an eccentric but brilliant inventor, tamed the falls and revolutionized electricity forever. In 1913, a barge ran aground at the precipice of the falls, creating a landmark and a tale of heroic rescue that endures to this day. And so much more…",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS006000",
+            "name": "Canada",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS006000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5df1e1eb-869b-4f35-a9d0-7eaec17d7900/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae479e",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae479e.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-e39a69fa-f306-402a-b254-1e8be09379e3-9781773110172-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae479e",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Pine Box Parole",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735035",
+        "modified": "2022-12-21T16:48:30.290Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "John L. Hill",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=John+L.+Hill"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<p>Pine Box Parole begins with convicted murderer Terry Fitzsimmons hanging himself in Kingston Penitentiary. Subsequent chapters delve into the killer’s background and describe the senseless killings upon which he embarks after spending years in solitary confinement. Prison lawyer John L Hill, attempts to defend Fitzsimmons by putting the blame on the prison system for creating a monster. Part II of the book contains searing stories of five of Hill’s imprisoned clients, including the, ‘natural-born killer’ Clifford Olson, and Inderjit Sigh Reyat, the only person to be convicted of the bombing Air India 182.</p><p>The foreword is by Raphael Rowe, whose career as an investigative journalist and television host was born as a result of spending 12 years in prison for crimes he did not commit. The afterword is by Keramet Reiter a professor in the Department of Criminology, Law and Society and at the School of Law at the University of California, Irvine.</p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBTRU000000",
+            "name": "True crime",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBTRU000000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBSOC004000",
+            "name": "Criminology",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBSOC004000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9b0f9ac5-2282-41bd-5bb3-3107979ebd00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338de90aa4300010e0d12",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338de90aa4300010e0d12.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-1078090b-57ea-45a8-9fed-29282ad8d82d-9781990735035-audio/loans_activation.opds2?_resource_id=63a338de90aa4300010e0d12",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Canadian Ghost Stories",
+        "language": "en",
+        "identifier": "urn:isbn:9781551053028",
+        "modified": "2022-12-20T22:49:09.382Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Barbara Smith",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Barbara+Smith"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Lone Pine Publishing",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Lone+Pine+Publishing"
+            }
+          ]
+        },
+        "description": "It’s not true that dead men tell no tales. You can hear their haunting stories on the fog-shrouded banks of Newfoundland, in the aging brick manses of Upper and Lower Canada, on the wind-beaten flatlands of the prairies and among the misty mountains of the far west. This entertaining collection features tales of ghosts and other unexplained phenomena that have found their way into Canadian folklore.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBOCC025000",
+            "name": "UFOs and Unexplained Phenomena",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBOCC025000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ee6b93bc-091d-4524-ee05-febe1e57d200/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae4780",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23be56e7f430001ae4780.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-5e49796e-0e06-46e2-8fc4-146bda6539aa-9781551053028-audio/loans_activation.opds2?_resource_id=63a23be56e7f430001ae4780",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Victoria Calihoo, Buffalo Hunter: An Amazing Life",
+        "language": "en",
+        "identifier": "urn:isbn:9781990321009",
+        "modified": "2022-12-20T22:20:08.693Z",
+        "published": "2022-09-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Cora Taylor",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Cora+Taylor"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Eschia Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Eschia+Books"
+            }
+          ]
+        },
+        "description": "Victoria Callihoo was born before Canada was a nation, and was a grandmother by the time Alberta became a province.*She traveled with her family on the buffalo hunt on a Red River cart when the herds were so numerous they resembled a moving brown sea.*She embraced her Metis heritage and shared her stories with her children and her friends.*Through her stories, she inspires us with the perspective of a strong woman in the early days of our country.*She gives us a window onto the world of the Metis and provides us with an image of what it was like to be a woman during the time of the buffalo hunt.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBJNF038120",
+            "name": "Native Canadian",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBJNF038120&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/817e0074-545a-4802-68d0-df9fe0473e00/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4cf7",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a23518ae361e00010d4cf7.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-938641cd-ca3b-443e-b84e-3ca76433a9e6-9781990321009-audio/loans_activation.opds2?_resource_id=63a23518ae361e00010d4cf7",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Olya and Olena Escape the Invaders",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735172",
+        "modified": "2022-12-21T16:48:30.098Z",
+        "published": "2022-08-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Olya Illichov",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Olya+Illichov"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "Olya and Olena Escape the Invaders is about two young Ukrainian ballet students who escape the Russian invasion of Mariupol and embark on a difficult journey to safety. Along the way, they encounter helpers who aid them on their way, including an angelic Baba grandma and a dog named Rinnie. Although they know they will miss their homeland, they eventually make their way to Canada where they too become important helpers.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBJUV001010",
+            "name": "Survival Stories",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBJUV001010&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPOL035000",
+            "name": "Political Freedom & Security",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPOL035000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b7c8a15d-14fe-4973-0c03-cf900e972500/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338de90aa4300010e0cfc",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338de90aa4300010e0cfc.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-c9105c75-0412-4d4a-b0d1-8964a3bb7467-9781990735172-audio/loans_activation.opds2?_resource_id=63a338de90aa4300010e0cfc",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Watershed",
+        "language": "en",
+        "identifier": "urn:isbn:9781990601408",
+        "modified": "2022-09-19T19:51:01.239Z",
+        "published": "2022-06-21T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Doreen Vanderstoop",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Doreen+Vanderstoop"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Freehand Books",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Freehand+Books"
+            }
+          ]
+        },
+        "description": "It is 2058, and the glaciers are gone. A catastrophic drought has hit the prairies. Willa Van Bruggen is desperately trying to keep her family goat farm afloat, hoping against hope that the new water pipeline arrives before the bill collectors do.\n\nWilla's son, Daniel, goes to work for the pipeline corporation instead of returning to help the family business. When Daniel reveals long-concealed secrets about his grandfather's death, Willa's world truly shatters. She's losing everything she values most: her farm, her son, her understanding of the past — and even her grip on reality itself. Vividly illustrating the human cost of climate change, Watershed is a page-turner of a novel about forgiveness, adaptation, and family bonds.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBFIC019000",
+            "name": "Literary",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBFIC019000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cf6fa104-2496-45f7-8fd9-a229217a8500/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/62d041c297a3b80001d436f6",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/62d041c297a3b80001d436f6.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-219bdbb0-e494-42be-9238-dec11aeb6888-9781990601408-audio/loans_activation.opds2?_resource_id=62d041c297a3b80001d436f6",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Spíləx̣m: A Weaving of Recovery, Resilience, and Resurgence",
+        "language": "en",
+        "identifier": "urn:isbn:9781774920503",
+        "modified": "2022-10-05T14:47:56.160Z",
+        "published": "2022-06-15T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Nicola I. Campbell",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Nicola+I.+Campbell"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "HighWater Press",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=HighWater+Press"
+            }
+          ]
+        },
+        "description": "In this exceptional memoir, bestselling author Nicola I. Campbell deftly weaves together rich poetry and vivid prose to illustrate what it means to be an intergenerational survivor of Indian Residential Schools.",
+        "belongsTo": {
+          "collection": "Prairie Indigenous"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO028000",
+            "name": "Native Americans",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO028000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO026000",
+            "name": "Personal Memoirs",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO026000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO007000",
+            "name": "Literary",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO007000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5af3252e-1598-4067-ca24-90dce35b9700/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/633c94d864ee600001822584",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/633c94d864ee600001822584.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-8dd53acf-b63e-4e9b-9885-7bf61ebf5d71-9781774920503-audio/loans_activation.opds2?_resource_id=633c94d864ee600001822584",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "The Little Book: Story Reader for a Free Ukraine",
+        "language": "en",
+        "identifier": "urn:isbn:9781990735066",
+        "modified": "2022-12-21T16:48:29.960Z",
+        "published": "2022-06-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Mykola Matwijszuk",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Mykola+Matwijszuk"
+              }
+            ]
+          },
+          {
+            "name": "Mykola Matwijszuk",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Mykola+Matwijszuk"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "Publisher proceeds from the book go to humanitarian aid for  Ukrainian people  displaced by Russian aggression. \n\nThe Little Book was originally published in 1932 and made a vital contribution to the curriculum for Canadian-Ukrainian children in prairie schools. The book features charming parables and poems to help children from kindergarten to grade 9 to understand Ukrainian language and culture. This audiobook features Ukrainian narrative with English translations of these lovely rhymes and verses, along with musical accompaniment on guitar of traditional Ukrainian folk songs. Slava Ukraini.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBJNF038000",
+            "name": "People & Places",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBJNF038000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPOL035000",
+            "name": "Political Freedom & Security",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPOL035000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6e199ae0-7f4f-4401-3e37-88b2ed5ef200/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338dd90aa4300010e0cf3",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a338dd90aa4300010e0cf3.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-aa80a772-60b2-4b03-b087-f17f429f6158-9781990735066-audio/loans_activation.opds2?_resource_id=63a338dd90aa4300010e0cf3",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "You Still Look the Same",
+        "language": "en",
+        "identifier": "urn:isbn:9781778520648",
+        "modified": "2024-06-05T21:17:07.662Z",
+        "published": "2022-05-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "Farzana Doctor",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=Farzana+Doctor"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Farzana Doctor",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Farzana+Doctor"
+            }
+          ]
+        },
+        "description": "A moving collection of poetry about navigating mid-life, full of humour and wit, from acclaimed novelist Farzana Doctor.\n\nThis debut poetry collection from acclaimed novelist Farzana Doctor is both an intimate deep dive and a humorous glance at the tumultuous decade of her forties. Through crisp and vivid language, Doctor explores mid-life breakups and dating, female genital cutting, imprints of racism and misogyny, and the oddness of sex and love, and urges us to take a second look at the ways in which human relationships are never what we expect them to be.",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBPOE000000",
+            "name": "Poetry",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBPOE000000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/63698b36-b2a1-4be6-04ac-d034ab663600/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/6660d5d36df7ac43423c7015",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/6660d5d36df7ac43423c7015.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-8f1e9c70-8d8b-48f8-b1a7-768cd95c3215-9781778520648-audio/loans_activation.opds2?_resource_id=6660d5d36df7ac43423c7015",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Know It All",
+        "language": "en",
+        "identifier": "urn:isbn:9781988824918",
+        "modified": "2023-01-12T20:49:38.442Z",
+        "published": "2022-04-01T00:00:00.000Z",
+        "author": [
+          {
+            "name": "James H. Marsh",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?author_keyword=James+H.+Marsh"
+              }
+            ]
+          }
+        ],
+        "publisher": {
+          "name": "Durvile Publications",
+          "links": [
+            {
+              "type": "application/opds+json",
+              "href": "https://epl.cantookstation.com/v1/resources.opds2?publisher_keyword=Durvile+Publications"
+            }
+          ]
+        },
+        "description": "<p class=\"p1\">In <i>Know It All: Finding the Impossible Country</i> James Marsh tells of his evolution from a troubled childhood to a long career in Canadian publishing that culminated in the creation of The Canadian Encyclopedia — what one reviewer called “the intellectual equivalent of the building of the CPR.” Through friendships, curiosity, the insights of a charismatic psychiatrist, his passion for books, and the intimate encounters with the authors he met, he championed a diverse and inclusive view of Canada, which was used to draw the great minds of an impossible nation together in a common national enterprise. While exploring how memory works and how we learn to think of ourselves, <i>Know It All</i> offers insights into the intricacies of Canadian identity, the profession of book editors, and is the most comprehensive first-hand story about the creation of The Canadian Encyclopedia.</p>",
+        "belongsTo": {
+          "collection": "Read Alberta"
+        },
+        "subject": [
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBBIO025000",
+            "name": "Editors, Journalists, Publishers",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBBIO025000&category_standard=feedbooks"
+              }
+            ]
+          },
+          {
+            "scheme": "http://www.feedbooks.com/categories",
+            "code": "FBHIS006000",
+            "name": "Canada",
+            "links": [
+              {
+                "type": "application/opds+json",
+                "href": "https://epl.cantookstation.com/v1/resources.opds2?category=FBHIS006000&category_standard=feedbooks"
+              }
+            ]
+          }
+        ],
+        "accessibility": {
+          "accessMode": [
+            "auditory"
+          ],
+          "accessModeSufficient": [
+            "auditory"
+          ]
+        }
+      },
+      "images": [
+        {
+          "href": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8bb1e1ac-0532-4af6-297b-73973b01a300/default",
+          "type": "image/jpeg"
+        }
+      ],
+      "links": [
+        {
+          "rel": "alternate",
+          "href": "https://epl.cantookstation.com/v1/resources/63a33fdedbb26d0001f3608b",
+          "type": "text/html"
+        },
+        {
+          "rel": "self",
+          "href": "https://epl.cantookstation.com/v1/resources/63a33fdedbb26d0001f3608b.opds2",
+          "type": "application/opds-publication+json",
+          "properties": {
+            "authenticate": {
+              "href": "https://epl.cantookstation.com/v1/sign_in.opds2",
+              "type": "application/opds-authentication+json"
+            }
+          }
+        },
+        {
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "href": "https://epl.cantookstation.com/v1/media/4181c77b-745d-4e75-b932-1f8ffd0692b5https-warehouse-demarque-dev-publications-3d75188a-7b74-4b04-8028-2a4461b5377f-9781988824918-audio/loans_activation.opds2?_resource_id=63a33fdedbb26d0001f3608b",
+          "properties": {
+            "availability": {
+              "state": "available"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
