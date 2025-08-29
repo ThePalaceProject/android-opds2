@@ -25,3 +25,28 @@ and [OPDS 2.0](https://drafts.opds.io/opds-2.0.html) feeds.
 ```
 $ mvn clean verify
 ```
+
+## Standards Compliance
+
+The type declarations were derived from the WebPub manifest specification and
+the OPDS 2.0 specification, along with some extensions to the standards that
+have not been integrated at the time of writing.
+
+The resulting parser is somewhat permissive, and somewhat strict. We are
+aiming for maximum compatibility with real-world feeds and manifests as opposed
+to strict adherence to specifications (many of which are currently in _draft_
+status anwyay).
+
+Specifically:
+
+* If a particular JSON property is marked as `required` by the spec, then
+  the property _will_ be required by this parser unless there is at least one
+  real-world feed or manifest that does not conform to the specification.
+  Therefore, the parser can be somewhat more permissive than the specifications
+  allow in this regard.
+
+* If a particular property is defined in the schema as having a particular
+  type, then we do strictly adhere to the types. If a real-world feed or
+  manifest fails to follow the declared type, then we reject the feed or
+  manifest as invalid. Therefore, the parser is strict in its adherence to
+  the specification in this regard.
