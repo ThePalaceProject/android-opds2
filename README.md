@@ -50,3 +50,9 @@ Specifically:
   manifest fails to follow the declared type, then we reject the feed or
   manifest as invalid. Therefore, the parser is strict in its adherence to
   the specification in this regard.
+
+Our observation seems to be that, if feed/manifest authors declare a
+property, they tend to get the types right. However, feed/manifest authors
+do occasionally make mistakes and leave out required properties. Presumably,
+leaving out a property is an easier mistake to make, and nobody is doing
+schema validation.
